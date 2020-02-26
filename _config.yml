@@ -16,7 +16,7 @@
 
 title: Robot Components Documentation
 description: The Documentation of Robot Components and it´s compatible Addons.
-baseurl: "/RobotComponentsDoc" # the subpath of your site, e.g. /blog
+# baseurl: "/RobotComponentsDoc" # the subpath of your site, e.g. /blog
 url: "https://infar-buw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
