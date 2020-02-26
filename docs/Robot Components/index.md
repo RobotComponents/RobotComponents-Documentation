@@ -2,7 +2,7 @@
 layout: default
 title: Robot Components
 nav_order: 0
-has_toc: true
+has_toc: false
 ---
 
 Robot Components is a Plugin for intuitive Robot Programming for ABB robots inside of Rhinos Grasshopper.

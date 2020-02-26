@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Get Controller
-nav_order: 1
+title: Set Digital Output
+nav_order: 5
 ---
 
 ## Description

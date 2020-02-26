@@ -2,15 +2,15 @@
 layout: default
 title: Categories
 nav_order: 2
-has_toc: true
+has_toc: false
 ---
 
-## Description
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): These components are used to generate the RAPID main and base code for an ABB IRC5 robot controller which can be copied manually or uploaded and run by using Controller Utility components. Furthermore, movement instructions can be simulated visually in Rhino by using Simulation components.
 
-Code Generation components are used to generate the RAPID main and base Code for a virtual or real ABB IRC5 robot controller.
+[Controller Utility]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/index.md %}): These components are used to build up a real-time connection to an ABB IRC5 robot controller.
 
-## Functionality
+**Simulation**: These components are used to visually approximate the movement behavior of the robot before running the RAPID main and base code on an ABB IRC5 robot controller.
 
-All Action components can be plugged into the Code Generator component which generates the RAPID main and base code for the ABB IRC5 robot controller. The RAPID main and base code can be copied manually to the controller or uploaded and run by using the Remote Connection component from Category: Controller Utility.
+**Definitions**: These components are used to define robots and robot tools which are needed for Code Generation and Simulation.
 
-## Usage
+**Utility**: These components support other component categories with extra functionality.

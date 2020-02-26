@@ -40,7 +40,7 @@ heading_anchors: true
 #     - "//github.com/infar-buw/ips-catalogue"
 
 # Color scheme currently only supports "dark" or nil (default)
-color_scheme: dark
+color_scheme: nil
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
