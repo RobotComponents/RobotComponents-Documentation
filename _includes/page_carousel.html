@@ -1,0 +1,46 @@
+{% assign count = include.count | times: 1.0 %}
+{% assign loops = include.pages | size | divided_by: count | ceil %}
+{% assign id = carousel %}
+{% if include.id %}
+    {% assign id = include.id %}
+{% endif %}
+
+{% if loops > 1 %}
+<ul class="pagination pagination-sm">
+  <li class="page-item">
+    <a class="page-link" href="#{{ id }}" data-slide="prev">
+      <span aria-hidden="true">&laquo;</span>
+    </a>
+  </li>
+  {% for i in (1..loops) %}
+  <li class="page-item">
+      <a data-target="#{{ id }}" href="#" data-slide-to="{{ forloop.index0 }}" class="page-link">
+            {{ forloop.index }}
+        </a>
+    </li>
+  {% endfor %}
+  <li class="page-item">
+    <a class="page-link"  href="#{{ id }}" data-slide="next">
+      <span aria-hidden="true">&raquo;</span>
+    </a>
+  </li>
+</ul>
+{% endif %}
+
+<div id="{{ id }}" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div class="carousel-inner">
+        {% for i in (1..loops) %}
+        {% assign offset = forloop.index0 | times: include.count %}
+        <div class="carousel-item {% if forloop.first %}active{% endif %}">
+            <div class="card-deck">
+            {% assign limit = offset | plus: include.count | minus: 1 %}
+            
+            {% for j in (offset..limit) %}
+                {% assign p = include.pages[j] %}
+                {% include card.html title=p.title url=p.url image=p.image  %}
+            {% endfor %}
+            </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>

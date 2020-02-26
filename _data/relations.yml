@@ -1,0 +1,121 @@
+# - id: unique_key
+#   title:
+#   using: [related_unique_key_1, related_unique_key_2]
+#
+# make sure key is always a unique identifier.
+# if a new module is added, give it a key that is not yet in this list.
+# if a key needs to be changed, change directly all instances within using, too! -> Find and replace all!
+# 
+# keys relate through their title to the according sites. Make sure the site title and the title in here match.
+#
+- id: luadm
+  title: Administration Land Use
+  using: [forcedist, ludist, evalscore, slpe, pubsqr, cntrcty, censub]
+- id: luagr
+  title: Agricultural Land Use
+  using: [ludist, evalscore, winddir]
+- id: bound
+  title: Boundary
+  using: [evalscore]
+- id: cntrcty
+  title: City Center
+  using: [clsnss, ludist, evalscore, forcedist, distto]
+- id: lucom
+  title: Commercial Land Use
+  using: [ludist, movped, evalscore, slpe, pubspc, pubsqr, cntrcty, censub]
+- id: movcyc
+  title: Cyclist Movement
+  using: [btwnnss, clsnss, slpe, wtrflwdir]
+- id: distto
+  title: Distance To
+  using: []
+- id: divbysqm
+  title: Divide By Area
+  using: [bound, slicetree]
+- id: evalscore
+  title: Evaluation Score
+  using: [valatpt, distto, score]
+- id: fieldpaths
+  title: Field-based Paths
+  using: []
+- id: fltr
+  title: Filtering
+  using: []
+- id: flwlns
+  title: Flowlines
+  using: []
+- id: forcedist
+  title: Force-based Distribution
+  using: []
+- id: growthsim
+  title: Growth Simulation
+  using: [evalscore, bound]
+- id: luind
+  title: Industrial Land Use
+  using: [ludist, evalscore, winddir, movvehicle, slpe, pubsqr, cntrcty, censub]
+- id: ludist
+  title: Land Use Distribution
+  using: [growthsim, evalscore, distto, valatpt, fltr]
+- id: seganaly
+  title: Line Segment Network Analysis
+  using: []
+- id: seggen
+  title: Line Segment Network Generator
+  using: []
+- id: movped
+  title: Pedestrian Movement
+  using: [btwnnss, clsnss, slpe, wtrflwdir]
+- id: pubspc
+  title: Public Space
+  using: [cntrcty, censub, btwnnss, clsnss, movped, movcyc]
+- id: pubsqr
+  title: Public Square
+  using: [pubspc]
+- id: quadtion
+  title: Quadrangulation
+  using: [forcedist]
+- id: lurec
+  title: Recreational Land Use
+  using: [ludist, evalscore, slpe]
+- id: lures
+  title: Residential Land Use
+  using: [ludist, evalscore, movped, censub]
+- id: score
+  title: Scoring
+  using: []
+- id: luserv
+  title: Service Land Use
+  using: [ludist]
+- id: shortpath
+  title: Shortest Path
+  using: [seganaly]
+- id: slicetree
+  title: Slicing Tree
+  using: [bound]
+- id: slpe
+  title: Slope
+  using: [valatpt]
+- id: btwnnss
+  title: Street - Through Movement (Betweenness)
+  using: [seganaly]
+- id: clsnss
+  title: Street - To Movement (Closeness)
+  using: [seganaly]
+- id: censub
+  title: Sub Center
+  using: [clsnss, ludist, evalscore, forcedist, distto, score, movped]
+- id: valatpt
+  title: Value At Point
+  using: []
+- id: movvehicle
+  title: Vehicular Movement
+  using: [btwnnss, clsnss, slpe, wtrflwdir]
+- id: wtrflwdir
+  title: Water Flow Direction
+  using: [slpe, flwlns]
+- id: wtrnetanaly
+  title: Pressurised Water Network Analysis
+  using: []
+- id: winddir
+  title: Wind Direction
+  using: [score]

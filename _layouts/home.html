@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<ul>
+{% for page in site.pages %}
+    {% if page.layout == "module" %}
+        <li>{{ page.title }}</li>
+    {% endif %}
+{% endfor %}
+</ul>

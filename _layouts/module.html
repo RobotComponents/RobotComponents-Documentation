@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% assign module = site.data.relations | where:"title", page.title | first %}
+{% assign used_modules = site.data.relations | where_exp:"item", "module.using contains item.id" | map: "title" %}
+{% assign used_by_modules = site.data.relations | where_exp:"item","item.using contains module.id" | map: "title" %}
+       
+{% assign used_pages = site.pages | where_exp: "item", "used_modules contains item.title" %}
+{% assign used_by_pages = site.pages | where_exp: "item", "used_by_modules contains item.title" %}
+
+{% assign used_size = used_pages | size %}
+{% assign used_by_size = used_by_pages | size %}
+
+<div class="row">
+    <div class="col-6">
+        <h1>{{ page.title }}</h1>
+        {% if used_size > 0 or used_by_size > 0 %}
+
+        <h2 class="no_toc text-delta" id="table-of-contents"> 
+            <a href="#table-of-contents" class="anchor-heading">
+                <svg viewBox="0 0 16 16" aria-hidden="true">
+                <use xlink:href="#link"></use></svg></a> Table of contents</h2>
+                <ol id="markdown-toc">
+                    <li><a href="#description" id="markdown-toc-site-logo">Description</a></li>
+                    <li><a href="#useable" id="markdown-toc-search">Useable Modules</a></li>
+                    <li><a href="#dependent" id="markdown-toc-aux-links">Used by Modules</a></li>
+                </ol>    
+        {% endif %}
+        {{ page.summary }}
+    </div>
+    {% if page.image %}
+    <div class="col-3">
+        <img src="{{ site.url }}{{ site.baseurl }}/img/{{ page.image }}" class="card-img-top" />
+    </div>
+    {% endif %}
+</div> 
+
+<h2 id="description">Description</h2>
+{{ content }}
+
+
+{% if used_size > 0 %}
+    <hr>
+    <h2 id="useable">Useable Modules</h2>
+    {% include page_carousel.html pages=used_pages count="4" id="pagecarouseluseable" %}
+{% endif %}
+{% if used_by_size > 0 %}
+    <hr>
+    <h2 id="dependent">Used by Modules</h2>
+    {% include page_carousel.html pages=used_by_pages count="4" id="pagecarouseldependent" %}
+{% endif %}

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="col">
+        <h1>{{ page.title }}</h1>
+        <h3>by {{ page.team }}</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        {% if page.video contains "vimeo"%}
+        {% assign video-id = page.video | split: "/" | last | split: "?" | first %}
+        <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/{{video-id}}?portrait=0" 
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+            frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div><script src="https://player.vimeo.com/api/player.js"></script>
+        {% else if page.video contains "youtube" %}
+        {% assign video-id = page.video | split: "v=" | last | split: "&" | first %}
+        <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://www.youtube-nocookie.com/embed/{{video-id}}" 
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+        {% endif %}
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <h2 id="description">Description</h2>
+        {{ content }}
+    </div>
+</div>
+
+
