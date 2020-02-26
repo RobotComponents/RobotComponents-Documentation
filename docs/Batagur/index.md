@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Syn City
+title: Batagur
 nav_order: 0
 has_toc: true
 ---
