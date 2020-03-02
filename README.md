@@ -11,23 +11,6 @@
 
 ![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
 
-## Installation Bene Notes
-install rubyinstaller-devkit with ridk install at the end
-open cmd:
-```
-gem install jekyll bundler
-```
-(might need internet connection?)
-
-in project folder:
-
-```
-gem install bundler --version '2.0.1'
-bundler
-bundler exec jekyll serve
-```
-open localhost:4000/
-
 ## Installation
 
 Add this line to your Jekyll site's Gemfile:

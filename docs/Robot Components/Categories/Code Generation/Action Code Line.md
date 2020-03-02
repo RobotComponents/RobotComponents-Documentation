@@ -2,12 +2,14 @@
 layout: default
 title: Action Code Line
 nav_order: 9
+parent: Code Generation
+grand_parent: RC Categories
 has_toc: false
 ---
 
 ## Description
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): This component defines manually an instruction for RAPID main code generation.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): This component defines manually an instruction for RAPID main code generation.
 
 ## Input Parameter
 
@@ -19,4 +21,4 @@ has_toc: false
 
 ## Usage
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Plug the Code Line Output of this component into the Action Input of the RAPID Generator component to generate a single code line in the RAPID main code. The RAPID main code contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): Plug the Code Line Output of this component into the Action Input of the RAPID Generator component to generate a single code line in the RAPID main code. The RAPID main code contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.

@@ -2,11 +2,13 @@
 layout: default
 title: Set Digital Output
 nav_order: 5
+parent: Controller Utility
+grand_parent: RC Categories
 ---
 
 ## Description
 
-[Controller Utility]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/index.md %}): This component is used to connect to a virtual or real ABB IRC5 robot controller and extract data from it.
+[Controller Utility]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/Controller Utility.md %}): This component is used to connect to a virtual or real ABB IRC5 robot controller and extract data from it.
 
 ## Input Parameter
 

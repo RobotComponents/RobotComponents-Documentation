@@ -32,7 +32,6 @@ $logo: "{{ site.logo | absolute_url }}";
 @import "./content";
 @import "./navigation";
 @import "./typography";
-@import "./bootstrap/bootstrap";
 @import "./labels";
 @import "./buttons";
 @import "./search";

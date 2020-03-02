@@ -22,7 +22,7 @@ layout: table_wrappers
       </div>
 
       <div class="navigation main-nav js-main-nav">
-                {% include nav.html pages=site.pages hierarchy=1%}
+        {% include nav.html %}
       </div>
       <footer class="site-footer">
         <p class="text-small text-grey-dk-000 mb-4">This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.</p>
@@ -71,19 +71,13 @@ layout: table_wrappers
               {{ content }}
             {% endif %}
 
-          {% if page.has_toc == true %}
+          {% if page.has_children == true and page.has_toc != false %}
             <hr>
             <h2 class="text-delta">Table of contents</h2>
-
-            {% assign url_parts = page.url | split: '/' %}
-            {% assign url_parts_size = url_parts | size | minus: 1 %}
-            {% assign child_pages = site.pages | where_exp: "item", "item.url contains page.url" | sort:"nav_order"%}
+            {% assign children_list = site.pages | sort:"nav_order" %}
             <ul>
-              {% for child in child_pages %}
-              {% assign child_url_parts = child.url | split: '/' %}
-              {% assign child_url_parts_size = child_url_parts | size | minus: 2 %}
-  
-                {% if child_url_parts_size <= url_parts_size and child.title != page.title %}
+              {% for child in children_list %}
+                {% if child.parent == page.title and child.title != page.title %}
                 <li>
                   <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
                 </li>

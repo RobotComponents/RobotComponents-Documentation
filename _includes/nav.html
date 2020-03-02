@@ -1,38 +1,40 @@
-{% assign url_parts = page.url | split: '/' %}
-{% assign url_parts_size = url_parts | size | minus: 1 %}
-{% assign base_url = url_parts[0] %}
-{% for i in (1..include.hierarchy) %}
-  {% assign base_url = base_url | append: '/' | append: url_parts[i] %}
-{% endfor %}
-{% assign child_pages = include.pages | where_exp: "item", "item.url contains base_url" | sort:"nav_order"%}
-{% assign current_hierarchy = include.hierarchy | plus: 1 %}
-{% if current_hierarchy <= url_parts_size %}
-  {% assign base_url_children = base_url | append: '/' | append: url_parts[current_hierarchy] %}
-{% endif %}
-<ul class="navigation-list">
-{% for node in child_pages %}
-  {% assign node_url_parts = node.url | split: '/' %}
-  {% assign node_url_parts_size = node_url_parts | size | minus: 1 %}
-  {% if node_url_parts_size == current_hierarchy %}
-    {% assign active_path = false %}
-    {% assign show_children = false %}
-    {% if page.url == node.url %} 
-      {% assign active_path = true %}
-    {% endif %}
-    {% if current_hierarchy <= url_parts_size %}
-      {% if node.url contains base_url_children %}
-        {% assign active_path = true %}
-        {% assign show_children = true %}
-      {% endif %}
-    {% endif %}
-    <li class="navigation-list-item {% if active_path == true %}active{% endif %}">
-      <a href='{{node.url | absolute_url }}' class="navigation-list-link {% if active_path == true %}active{% endif %}">{{node.title}}</a>
-      {% if show_children == true %}
-        {% include nav.html pages=child_pages hierarchy=current_hierarchy %}
-        {% assign current_hierarchy = current_hierarchy | minus: 1 %}
-      {% endif %}
-    </li>
-  {% endif %}
-{% endfor %}
-</ul>
- 
+<nav role="navigation" aria-label="Main navigation">
+  <ul class="navigation-list">
+    {%- assign pages_list = site.html_pages | sort:"nav_order" -%}
+    {%- for node in pages_list -%}
+      {%- unless node.nav_exclude -%}
+        {%- if node.parent == nil -%}
+          <li class="navigation-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
+            {%- if page.parent == node.title or page.grand_parent == node.title -%}
+              {%- assign first_level_url = node.url | absolute_url -%}
+            {%- endif -%}
+            <a href="{{ node.url | absolute_url }}" class="navigation-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
+            {%- if node.has_children -%}
+              {%- assign children_list = site.html_pages | where: "parent", node.title | sort:"nav_order" -%}
+              <ul class="navigation-list-child-list ">
+                {%- for child in children_list -%}
+                  <li class="navigation-list-item {% if page.url == child.url or page.parent == child.title %} active{% endif %}">
+                    {%- if page.url == child.url or page.parent == child.title -%}
+                      {%- assign second_level_url = child.url | absolute_url -%}
+                    {%- endif -%}
+                    <a href="{{ child.url | absolute_url }}" class="navigation-list-link{% if page.url == child.url %} active{% endif %}">{{ child.title }}</a>
+                    {%- if child.has_children -%}
+                        {%- assign grand_children_list = site.html_pages | where: "parent", child.title | sort:"nav_order" -%}
+                        <ul class="navigation-list-child-list">
+                        {%- for grand_child in grand_children_list -%}
+                          <li class="navigation-list-item {% if page.url == grand_child.url %} active{% endif %}">
+                            <a href="{{ grand_child.url | absolute_url }}" class="navigation-list-link{% if page.url == grand_child.url %} active{% endif %}">{{ grand_child.title }}</a>
+                          </li>
+                        {%- endfor -%}
+                      </ul>
+                    {%- endif -%}
+                  </li>
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+          </li>
+        {%- endif -%}
+      {%- endunless -%}
+    {%- endfor -%}
+  </ul>
+</nav>

@@ -2,12 +2,14 @@
 layout: default
 title: Action Wait for Digital Input
 nav_order: 7
+parent: Code Generation
+grand_parent: RC Categories
 has_toc: false
 ---
 
 ## Description
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): This component defines an instruction to wait for the signal of a Digital Input from the robot controller in RAPID main code generation.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): This component defines an instruction to wait for the signal of a Digital Input from the robot controller in RAPID main code generation.
 
 ## Input Parameter
 
@@ -21,4 +23,4 @@ has_toc: false
 
 ## Usage
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Plug the Digital Output output of this component into the Actions input of a RAPID Generator component to add a single instruction that waits for the signal of a defined digital input from the robot controller in the RAPID main code.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): Plug the Digital Output output of this component into the Actions input of a RAPID Generator component to add a single instruction that waits for the signal of a defined digital input from the robot controller in the RAPID main code.

@@ -2,11 +2,13 @@
 layout: default
 title: Get Digital Output
 nav_order: 6
+parent: Controller Utility
+grand_parent: RC Categories
 ---
 
 ## Description
 
-[Controller Utility]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/index.md %}): This component gets the signal of a defined digital output from an ABB IRC5 robot controller.
+[Controller Utility]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/Controller Utility.md %}): This component gets the signal of a defined digital output from an ABB IRC5 robot controller.
 
 ## Input Parameter
 

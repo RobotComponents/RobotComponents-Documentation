@@ -14,6 +14,58 @@
     white-space: nowrap;
   }
 
+  ul,
+  ol {
+    padding-left: 1.5em;
+  }
+
+  ol {
+    list-style-type: none;
+    counter-reset: step-counter;
+
+    > li {
+      position: relative;
+
+      &::before {
+        position: absolute;
+        top: 0.2em;
+        left: -1.6em;
+        color: $grey-dk-000;
+        content: counter(step-counter);
+        counter-increment: step-counter;
+        @include fs-3;
+
+        @include mq(sm) {
+          top: 0.11em;
+        }
+      }
+
+      ol {
+        counter-reset: sub-counter;
+
+        li {
+          &::before {
+            content: counter(sub-counter, lower-alpha);
+            counter-increment: sub-counter;
+          }
+        }
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    > li {
+      &::before {
+        position: absolute;
+        margin-left: -1.4em;
+        color: $grey-dk-000;
+        content: "•";
+      }
+    }
+  }
+
   .task-list {
     padding-left: 0;
   }

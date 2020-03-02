@@ -31,7 +31,7 @@
   {% assign nodes = include.html | split: '<h' %}
 
   {% capture edited_headings %}{% endcapture %}
-  {{ nodes | size }}
+
   {% for _node in nodes %}
     {% capture node %}{{ _node | strip }}{% endcapture %}
 
@@ -41,6 +41,7 @@
 
     {% assign nextChar = node | replace: '"', '' | strip | slice: 0, 1 %}
     {% assign headerLevel = nextChar | times: 1 %}
+
     <!-- If the level is cast to 0, it means it's not a h1-h6 tag, so let's try to fix it -->
     {% if headerLevel == 0 %}
       {% if nextChar != '<' and nextChar != '' %}
