@@ -9,10 +9,11 @@ has_toc: false
 
 ## Description
 
-Code Generation components are used to generate the RAPID main and base Code for a virtual or real ABB IRC5 robot controller.
+The MoveIt-Utilities components are used to generate fast and without unnesseary components, Service and Action calls for MoveIt.
 
 ## Functionality
 
+All MoveIt-Utilities components can generate 
 All Action components can be plugged into the Code Generator component which generates the RAPID main and base code for the ABB IRC5 robot controller. The RAPID main and base code can be copied manually to the controller or uploaded and run by using the Remote Connection component from Category: Controller Utility.
 
 ## Usage

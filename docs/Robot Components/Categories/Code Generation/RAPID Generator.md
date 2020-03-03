@@ -3,7 +3,7 @@ layout: default
 title: RAPID Generator
 nav_order: 11
 parent: Code Generation
-grand_parent: RC Categories
+grand_parent: Robot Components Categories
 has_toc: false
 ---
 
@@ -31,4 +31,4 @@ Creates the RAPID Main and Base Code for the robot controller from a given list 
 
 ## Usage
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): The generated RAPID main and base code can be sent to a virtual or real ABB IRC5 robot controller manually or by using the Remote Connection component.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): The generated RAPID main and base code can be sent to a virtual or real ABB IRC5 robot controller manually or by using the Remote Connection component.

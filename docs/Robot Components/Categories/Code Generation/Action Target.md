@@ -3,13 +3,13 @@ layout: default
 title: Action Target
 nav_order: 2
 parent: Code Generation
-grand_parent: RC Categories
+grand_parent: Robot Components Categories
 has_toc: false
 ---
 
 ## Description
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): This component defines an instruction to change the current robot tool of the ABB robot for RAPID base code generation.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): This component defines an instruction to change the current robot tool of the ABB robot for RAPID base code generation.
 
 ## Input Parameter
 
@@ -27,4 +27,4 @@ has_toc: false
 
 Simulation: Plug the Target output of this component into the Target input of the Inverse Kinematics component to get the robots axis values for the defined target.
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): Plug the Target output of this component into the Target input of the Action: Movement component to define a robot movement.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Plug the Target output of this component into the Target input of the Action: Movement component to define a robot movement.

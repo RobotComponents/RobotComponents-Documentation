@@ -3,13 +3,13 @@ layout: default
 title: Action Speed Data
 nav_order: 4
 parent: Code Generation
-grand_parent: RC Categories
+grand_parent: Robot Components Categories
 has_toc: false
 ---
 
 ## Description
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): Defines a speed data for a Action: Movement instruction.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Defines a speed data for a Action: Movement instruction.
 
 ## Input Parameter
 
@@ -29,4 +29,4 @@ has_toc: false
 
 ## Usage
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): Plug the Speed Data output of this component into the Speed Data input of the Action: Movement component to set the speed behavior of a robot movement instruction in the RAPID Main Code. This will also add a speeddata variable to the RAPID Main Code.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Plug the Speed Data output of this component into the Speed Data input of the Action: Movement component to set the speed behavior of a robot movement instruction in the RAPID Main Code. This will also add a speeddata variable to the RAPID Main Code.

@@ -2,7 +2,7 @@
 layout: default
 title: Controller Utility
 nav_order: 3
-parent: RC Categories
+parent: Robot Components Categories
 has_children: true
 # permalink: docs/utilities
 has_toc: false

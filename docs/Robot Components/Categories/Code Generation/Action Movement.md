@@ -3,13 +3,13 @@ layout: default
 title: Action Movement
 nav_order: 3
 parent: Code Generation
-grand_parent: RC Categories
+grand_parent: Robot Components Categories
 has_toc: false
 ---
 
 ## Description
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): Defines a linear or nonlinear movement instruction for simulation and RAPID main code generation.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Defines a linear or nonlinear movement instruction for simulation and RAPID main code generation.
 
 ## Input Parameter
 
@@ -29,4 +29,4 @@ Note: If this value equals “-1” the precision is interpreted as “fine”.
 
 ## Usage
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): Plug the Movement output of this component into the Actions input of the RAPID Generator component to generate a single robot movement instruction in the RAPID Main Code.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Plug the Movement output of this component into the Actions input of the RAPID Generator component to generate a single robot movement instruction in the RAPID Main Code.

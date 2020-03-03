@@ -2,7 +2,7 @@
 layout: default
 title: Code Generation
 nav_order: 3
-parent: RC Categories
+parent: Robot Components Categories
 has_children: true
 has_toc: false
 ---

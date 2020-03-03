@@ -3,7 +3,7 @@ layout: default
 title: Get Axis Values
 nav_order: 3
 parent: Controller Utility
-grand_parent: RC Categories
+grand_parent: Robot Components Categories
 ---
 
 ## Description

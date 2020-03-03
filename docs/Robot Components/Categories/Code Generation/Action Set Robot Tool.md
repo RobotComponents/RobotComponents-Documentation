@@ -3,13 +3,13 @@ layout: default
 title: Action Set Robot Tool
 nav_order: 1
 parent: Code Generation
-grand_parent: RC Categories
+grand_parent: Robot Components Categories
 has_toc: false
 ---
 
 ## Description
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): This component defines an instruction to change the current robot tool of the ABB robot for RAPID base code generation.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): This component defines an instruction to change the current robot tool of the ABB robot for RAPID base code generation.
 
 ## Input Parameter
 
@@ -21,4 +21,4 @@ has_toc: false
 
 ## Usage
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Code Generation.md %}): Plug the Set Robot Tool output of this component into the RAPID Generator component to generate a single code line in the RAPID main code that sets the currently used robot tool. The currently used robot tool should be defined in RAPID base code. This is done automatically when creating a Robot Tool From Planes or Robot Tools From Data component. Each robot tool name needs to be unique.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Plug the Set Robot Tool output of this component into the RAPID Generator component to generate a single code line in the RAPID main code that sets the currently used robot tool. The currently used robot tool should be defined in RAPID base code. This is done automatically when creating a Robot Tool From Planes or Robot Tools From Data component. Each robot tool name needs to be unique.

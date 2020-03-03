@@ -3,7 +3,7 @@ layout: default
 title: Remote Connection
 nav_order: 2
 parent: Controller Utility
-grand_parent: RC Categories
+grand_parent: Robot Components Categories
 ---
 
 ## Description
