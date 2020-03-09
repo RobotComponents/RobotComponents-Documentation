@@ -21,6 +21,6 @@ has_toc: false
 
 ## Output Parameter
 
-**CollisionObject**: A [moveit_msgs/CollisionObject](http://docs.ros.org/api/moveit_msgs/html/message) to Add to the Planning Scene.
+**CollisionObject**: A [moveit_msgs/CollisionObject](http://docs.ros.org/api/moveit_msgs/html/message) to add to the Planning Scene.
 
 ## Usage

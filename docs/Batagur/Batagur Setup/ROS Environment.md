@@ -15,7 +15,7 @@ If you have Ubuntu running and not confident in using the terminal it is highly 
 For the installation, follow [these](http://wiki.ros.org/melodic/Installation/Ubuntu){:target="_blank"} instructions. It is recommended to install the Desktop-Full configuration which comes with useful tools for our desired setup.<br/>
 You can check if ROS workes, when you type in <br/>
 `roscore`<br/>
-and there is no error message appearing.<br/>
+and there is no error message appearing.
 It should look more like this.<br/>
 ![roscore]({{ site.baseurl }}/assets/images/Batagur/roscore_01.png){:class="img-responsive"}
 
