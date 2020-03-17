@@ -2,14 +2,14 @@
 layout: default
 title: Collision Object From Geometry
 nav_order: 0
-parent: Rhino Utility
+parent: MoveIt Utilities
 grand_parent: Batagur Categories
 has_toc: false
 ---
 
 ## Description
 
-[Rhino Utility]({{ site.baseurl }}{% link docs/Batagur/Categories/Rhino Utility/Rhino Utility.md %}): Generates a [moveit_msgs/CollisionObject](http://docs.ros.org/api/moveit_msgs/html/msg/CollisionObject.html) message from Rhino Geometry.
+[MoveIt Utilities]({{ site.baseurl }}{% link docs/Batagur/Categories/MoveIt Utilities/MoveIt Utilities.md %}): Generates a [moveit_msgs/CollisionObject](http://docs.ros.org/api/moveit_msgs/html/msg/CollisionObject.html) message from Rhino Geometry.
 
 ## Input Parameter
 

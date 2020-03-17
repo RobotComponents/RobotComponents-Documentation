@@ -6,4 +6,4 @@ has_children: true
 has_toc: false
 ---
 
-[Rhino Utility]({{ site.baseurl }}{% link docs/Batagur/Categories/Rhino Utility/Rhino Utility.md %}): 
+[Rhino Utility]({{ site.baseurl }}{% link docs/Batagur/Categories/MoveIt Utilities/MoveIt Utilities.md %}): 

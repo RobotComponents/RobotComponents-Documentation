@@ -15,4 +15,4 @@ This tutorial will suggest one specific way of setting up these software package
 
 
 ![GH-ROS-workflow]({{ site.baseurl }}/assets/images/Batagur/GH-ROS-workflow_01.png){:class="img-responsive"}
-This is a schematic sommunication workflow between ROS and Grasshopper.
+This is a schematic communication workflow between ROS and Grasshopper.
