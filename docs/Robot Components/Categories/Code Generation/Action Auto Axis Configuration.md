@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Action Auto Axis Configuration
-nav_order: 8
+nav_order: 1
 parent: Code Generation
 grand_parent: Robot Components Categories
 has_toc: false

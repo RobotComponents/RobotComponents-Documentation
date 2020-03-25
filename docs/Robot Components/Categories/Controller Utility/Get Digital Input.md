@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Get Digital Input
-nav_order: 4
+nav_order: 3
 parent: Controller Utility
 grand_parent: Robot Components Categories
 ---
 
 ## Description
 
-[Controller Utility]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/Controller Utility.md %}): This component gets the signal of a defined digital input from an ABB IRC5 robot controller.
+[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/index.md %}): This component gets the signal of a defined digital input from an ABB IRC5 robot controller.
 
 Note: The Access Levels of the defined digital input needs to be set to “all” in the robot controller for this component to work.
 

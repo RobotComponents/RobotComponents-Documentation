@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Action Speed Data
-nav_order: 4
+nav_order: 1
 parent: Code Generation
 grand_parent: Robot Components Categories
 has_toc: false

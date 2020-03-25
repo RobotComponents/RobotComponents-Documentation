@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Action Comment
-nav_order: 10
+nav_order: 1
 parent: Code Generation
 grand_parent: Robot Components Categories
 has_toc: false

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Action Timer
-nav_order: 5
+nav_order: 1
 parent: Code Generation
 grand_parent: Robot Components Categories
 has_toc: false

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: RAPID Generator
-nav_order: 11
+nav_order: 2
 parent: Code Generation
 grand_parent: Robot Components Categories
 has_toc: false
