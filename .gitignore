@@ -4,5 +4,4 @@
 _site
 Gemfile.lock
 node_modules
-/.vs/slnx.sqlite
-/.vs/RobotComponents-Documentation/v16/.suo
+/.vs
