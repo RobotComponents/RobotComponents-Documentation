@@ -7,18 +7,20 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
-## Description
+# **Code Line**
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): This component defines manually an instruction for RAPID main code generation.
+## **Description**
 
-## Input Parameter
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** This component defines manually an instruction for RAPID code generation.
 
-**Code**: Defines the content of the code line based on a string value. An introduction to RAPID Programming can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
+## **Input Parameters**
 
-## Output Parameter
+**Code (C):** Defines the content of the code line based on a string value. An introduction to RAPID Programming can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
 
-**Code Line**: Contains the defined RAPID code robot instructions as an Action for code generation.
+## **Output Parameters**
 
-## Usage
+**Code Line (CL):** Contains the defined RAPID code robot instructions as an Action for code generation.
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Plug the Code Line Output of this component into the Action Input of the RAPID Generator component to generate a single code line in the RAPID main code. The RAPID main code contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
+## **Usage**
+
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Code Line Output of this component into the Action Input of the [RAPID generator component]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) to generate a single code line in the RAPID main code. The RAPID code contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.

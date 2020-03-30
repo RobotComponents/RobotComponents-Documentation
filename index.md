@@ -6,7 +6,9 @@ description: "Department of Experimental and Digital Design and Construction (ED
 permalink: /
 ---
 
-## This is the documentation page for RobotComponents and it´s extensions
+# **Robot Components Documentation**
+
+## **This is the documentation page for Robot Components and it´s extensions**
 
 Robot Components is a Plugin for intuitive Robot Programming for ABB robots inside of Rhinos Grasshopper.
 

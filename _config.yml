@@ -35,11 +35,11 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "RobotComponents Documentation on GitHub":
+  "Robot Components Documentation on GitHub":
     - "//github.com/EDEK-UniKassel/RobotComponents-Documentation"
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2020 EDEK."
+footer_content: "Copyright &copy; 2020 EDEK Uni Kassel."
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil

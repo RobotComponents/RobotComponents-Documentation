@@ -7,20 +7,22 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
-## Description
+# **Wait for Digital Input**
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): This component defines an instruction to wait for the signal of a Digital Input from the robot controller in RAPID main code generation.
+## **Description**
 
-## Input Parameter
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** This component defines an instruction to wait for the signal of a Digital Input from the robot controller in RAPID main code generation.
 
-**DI Name**: Defines the name of the digital input based on a string value.
+## **Input Parameters**
 
-**State**: Defines the state of the digital input that should be waited for.
+**DI Name (N):** Defines the name of the digital input based on a string value.
 
-## Output Parameter
+**State (S):** Defines the state of the digital input that should be waited for.
 
-**Wait DI**: Contains the instruction to wait for the signal of a defined digital input from the robot controller as an Action for RAPID main code generation.
+## **Output Parameters**
 
-## Usage
+**Wait DI (WDI):** Contains the instruction to wait for the signal of a defined digital input from the robot controller as an Action for RAPID main code generation.
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Plug the Digital Output output of this component into the Actions input of a RAPID Generator component to add a single instruction that waits for the signal of a defined digital input from the robot controller in the RAPID main code.
+## **Usage**
+
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Digital Output output of this component into the Actions input of a RAPID Generator component to add a single instruction that waits for the signal of a defined digital input from the robot controller in the RAPID main code.

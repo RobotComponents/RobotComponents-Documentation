@@ -7,18 +7,20 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
-## Description
+# **Auto Axis Configuration**
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Defines an instruction to set the axis configuration of the robot automatically in RAPID main code generation.
+## **Description**
 
-## Input Parameter
+[**Code Generation:**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Defines an instruction to set the axis configuration of the robot automatically in RAPID code generation.
 
-**is Active**: Defines if the axis configuration of the robot is set automatically based on a boolean value.
+## **Input Parameters**
 
-## Output Parameter
+**is Active (A):** Defines if the axis configuration of the robot is set automatically based on a boolean value.
 
-**Auto Axis Config**: Contains an instruction to sets or unset the auto axis configuration for the robot as an Action for RAPID main code generation.
+## **Output Parameters**
 
-## Usage
+**Auto Axis Config (AAC):** Contains an instruction to sets or unset the auto axis configuration for the robot as an action for RAPID code generation.
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Plug the Auto Axis Config output of this component into the Actions input of the RAPID Generator component to define an instruction that sets or unsets the auto axis configuration for the robot in RAPID main code.
+## **Usage**
+
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Auto Axis Config output of this component into the actions input of the [RAPID generator component]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) to define an instruction that sets or unsets the auto axis configuration for the robot in RAPID main code.

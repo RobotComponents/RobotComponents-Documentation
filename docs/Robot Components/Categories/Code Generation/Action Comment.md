@@ -7,18 +7,20 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
+# **Comment**
+
 ## Description
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Defines a single comment line in RAPID Main Code.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Defines a single comment line in the RAPID program.
 
-## Input Parameter
+## **Input Parameters**
 
-**Text**: Defines the content of the comment based on a string value.
+**Text (T):** Defines the content of the comment based on a string value.
 
-## Output Parameter
+## **Output Parameters**
 
-**Comment**: Contains the defined comment text based on the Text input of this component as an Action for code generation.
+**Comment (C):** Contains the defined comment text based on the Text input of this component as an Action for code generation.
 
-## Usage
+## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Plug the Comment output of this component into the Actions input of the RAPID Generator component to generate a single comment line in the RAPID main code. The RAPID main code contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): Plug the Comment output of this component into the actions input of the [RAPID generator component]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) to generate a single comment line in the RAPID code. The RAPID code contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.

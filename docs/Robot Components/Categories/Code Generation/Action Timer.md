@@ -7,18 +7,20 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
-## Description
+# **Timer**
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): This component defines an instruction to wait a given amount of time between two other robot instructions in RAPID main code generation.
+## **Description**
 
-## Input Parameter
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** This component defines an instruction to wait a given amount of time between two other robot instructions in RAPID main code generation.
 
-**Duration**: Defines the duration in seconds based on a double value.
+## **Input Parameters**
 
-## Output Parameter
+**Duration (D):** Defines the duration in seconds based on a number value.
 
-**Timer**: Contains the wait instruction as an Action for RAPID main code generation.
+## **Output Parameters**
 
-## Usage
+**Timer (T):** Contains the wait instruction as an Action for RAPID code generation.
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %}): The Timer output of this component can be plugged into the Actions input of the RAPID Generator component to add a wait instruction in the RAPID main code that defines an amount of time until the next instruction is executed.
+## **Usage**
+
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** The Timer output of this component can be plugged into the Actions input of the RAPID Generator component to add a wait instruction in the RAPID main code that defines an amount of time until the next instruction is executed.
