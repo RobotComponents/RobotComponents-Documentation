@@ -7,7 +7,7 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
-# **Digital Output**
+# **{{page.title}}**
 
 ## **Description**
 

@@ -6,18 +6,20 @@ parent: Controller Utility
 grand_parent: Robot Components Categories
 ---
 
-## Description
+# **{{page.title}}**
 
-Work in progess....
+## **Description**
 
-## Input Parameter
+Work in progress....
 
-...
-
-## Output Parameter
+## **Input Parameters**
 
 ...
 
-## Usage
+## **Output Parameters**
+
+...
+
+## **Usage**
 
 ...

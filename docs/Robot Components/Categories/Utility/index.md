@@ -7,9 +7,11 @@ has_children: true
 has_toc: false
 ---
 
-## Description
+# **{{page.title}}**
 
-Work in progess....
+## **Description**
+
+Work in progress....
 
 Utility components support other component categories with extra functionality.
 
@@ -17,7 +19,7 @@ Utility components support other component categories with extra functionality.
 
 The Target Visualizer can be used to display various information on all targets inside of Rhino. Deconstruction Components can be used to extract data from already existing components. The Flip Plane X and Flip Plane Y components can be used to easily reorientate Planes for Target definition.
 
-## Usage
+## **Usage**
 
 Target Visualizer: Displays various information on Action: Targets inside of Rhino.
 

@@ -6,13 +6,15 @@ parent: Definitions
 grand_parent: Robot Components Categories
 ---
 
-## Description
+# **{{page.title}}**
 
-Work in progess....
+## **Description**
+
+Work in progress....
 
 Definitions: This component defines a robot tool based on attachment and end-effector planes. It will be automatically registered in the RAPID base code of any RAPID Generator component.
 
-## Input Parameter
+## **Input Parameters**
 
 Name: Defines the robot tool name base on a Panel or any other string value. This name must be unique and shouldn’t start with a number or use special characters.
 
@@ -22,13 +24,13 @@ Attachment Plane: Defines the attachment plane for the robot tool based on a pla
 
 Effector Plane: Defines the effector plane for the robot tool based on a plane input.
 
-## Output Parameter
+## **Output Parameters**
 
 Robot Tool: Contains the robot tool information.
 
 Robot Tool Code: Contains the robot tool information as a string for the RAPID base code. More information on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
 
-## Usage
+## **Usage**
 
 Definitions: Plug the Robot Tool output of this component into the Robot Tool input of a ABB_IRB-1200-7-0.7 or any other Robot Info component. The robot tool will be mounted to the mounting frame of the robot.
 

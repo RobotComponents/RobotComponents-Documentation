@@ -7,7 +7,7 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
-# **RAPID Generator**
+# **{{page.title}}**
 
 ## **Description**
 
@@ -33,7 +33,7 @@ Creates the RAPID Main and Base Code for the robot controller from a given list 
 
 **System Code:** The RAPID system code contains basic defined system data in RAPID code such as tool information. More on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
 
-## Additional functions
+## **Menu Items**
 
 Through the right-click menu item the RAPID program and system code can de be saved to a file. Right-click on the component logo and select from the menu “Save Program module to file” or “Save System module to file”.
 

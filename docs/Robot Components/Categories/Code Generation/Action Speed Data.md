@@ -7,7 +7,7 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
-# **Speed Data**
+# **{{page.title}}**
 
 ## **Description**
 

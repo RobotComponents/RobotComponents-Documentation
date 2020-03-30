@@ -7,7 +7,7 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
-# **Movement**
+# **{{page.title}}**
 
 ## **Description**
 
@@ -32,6 +32,10 @@ has_toc: false
 ## **Output Parameters**
 
 **Movement:** Contains the movement instructions as Action for simulation and RAPID main code generation.
+
+## **Menu Items**
+
+TODO
 
 ## **Usage**
 

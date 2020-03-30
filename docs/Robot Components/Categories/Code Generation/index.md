@@ -7,7 +7,7 @@ has_children: true
 has_toc: false
 ---
 
-# **Code Generation**
+# **{{page.title}}**
 
 ## **Description**
 

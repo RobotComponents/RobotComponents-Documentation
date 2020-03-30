@@ -7,7 +7,7 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
-# **Wait for Digital Input**
+# **{{page.title}}**
 
 ## **Description**
 

@@ -7,7 +7,7 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
-# **Target**
+# **{{page.title}}**
 
 ## **Description**
 
@@ -21,7 +21,7 @@ has_toc: false
 
 **Reference Plane (RP):**
 
-**Axis Configuration (AC)**: Defines the axis configuration of the robot to reach the defined target plane based on an integer value. The range is 0 to 7. Read more on that topic here: Robot Configuration Data.
+**Axis Configuration (AC):** Defines the axis configuration of the robot to reach the defined target plane based on an integer value. The range is 0 to 7. Read more on that topic here: Robot Configuration Data.
 
 **External Axis Value A (EAa):**
 
@@ -38,6 +38,10 @@ has_toc: false
 ## **Output Parameters**
 
 **Target (T):** Contains the defined target information as an Action for RAPID main code generation.
+
+## **Menu Items**
+
+TODO
 
 ## **Usage**
 

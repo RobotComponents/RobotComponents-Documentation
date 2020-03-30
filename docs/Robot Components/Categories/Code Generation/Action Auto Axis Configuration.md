@@ -7,7 +7,7 @@ grand_parent: Robot Components Categories
 has_toc: false
 ---
 
-# **Auto Axis Configuration**
+# **{{page.title}}**
 
 ## **Description**
 

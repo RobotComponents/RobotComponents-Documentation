@@ -7,15 +7,17 @@ has_children: true
 has_toc: false
 ---
 
-## Description
+# **{{page.title}}**
 
-Work in progess....
+## **Description**
+
+Work in progress....
 
 ## Functionality
 
 ...
 
-## Usage
+## **Usage**
 
 Deconstruct Robot Info: Deconstructs an existing robot info definition. A robot can be defined by using a Robot Info or ABB_IRB 1200 7 0.7 component.
 
