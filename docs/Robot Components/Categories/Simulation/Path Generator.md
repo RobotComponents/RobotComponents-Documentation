@@ -42,6 +42,10 @@ External Axis Values: Contains the current robot external axis values as a list 
 
 Movement Path: Contains the robot movement path as a curve.
 
+## **Menu Items**
+
+TODO
+
 ## **Usage**
 
 Simulation: Plug the Axis Values output of this component into the Axis Values input of the Forward Kinematics component. Visualize the robot movement as animation in Rhino by using a slider with range 0.0 to 1.0 for the Animation Slider input of this component.

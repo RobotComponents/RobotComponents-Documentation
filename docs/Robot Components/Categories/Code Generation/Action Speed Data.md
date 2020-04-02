@@ -11,23 +11,23 @@ has_toc: false
 
 ## **Description**
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Defines a speed data for a Movement or Absolute Joint Movement instruction.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Defines a speed data for a [Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Movement.md %}) or [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Absolute Joint Movement.md %}) instruction. Speed data is used to specify the velocity at which both the robot and the external axes move. 
 
 ## **Input Parameters**
 
 **Name (N):** Defines the name of the speed data based on a string value. Each speed data name needs to be unique. The first letter shouldn’t be a number. Don’t use special characters.
 
-**TCP Velocity (vTCP):** Defines the TCP moving velocity in mm/s as an integer value.
+**TCP Velocity (vTCP):** Defines the velocity velocity of the tool center point (TCP) in mm/s as a number value.
 
-**ORI Velocity (vORI):** Defines the reorientation speed of the robot tool in degrees/s as an integer value.
+**ORI Velocity (vORI):** Defines the reorientation velocity of the robot tool in degrees/s as a number value.
 
-**LEAX Velocity (vLEAX):** Defines the linear external axes moving velocity in mm/s as an integer value.
+**LEAX Velocity (vLEAX):** Defines the linear external axes velocity in mm/s as a number value.
 
-**REAX Velocity (vREAX):** Defines the external axes reorientation speed in degrees/s as an integer value.
+**REAX Velocity (vREAX):** Defines the external axes reorientation velocity in degrees/s as a number value.
 
 ## **Output Parameters**
 
-**Speed Data (SD):** Contains the Speed Data instructions as Action for a Action: Movement.
+**Speed Data (SD):** Contains the Speed Data instructions as action for a [Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Movement.md %}) or [Absolute Joint Movement]({{ site.baseurl }}{link docs/Robot Components/Categories/Code Generation/Action Absolute Joint Movement.md %}) instruction.
 
 ## **Usage**
 

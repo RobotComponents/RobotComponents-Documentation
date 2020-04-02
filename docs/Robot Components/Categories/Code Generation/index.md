@@ -19,7 +19,7 @@ All Action components can be plugged into the Code Generator component which gen
 
 ## **Usage**
 
-[**Action: Set Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Set Robot Tool.md %})**:** Defines an instruction to change the current robot tool of the ABB robot for RAPID base code generation.
+[**Action: Overwrite Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Set Robot Tool.md %})**:** Defines an instruction to change the current robot tool of the ABB robot for RAPID base code generation.
 
 [**Action: Target**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Target.md %})**:** Defines a target for an Action: Movement or Inverse Kinematics component.
 

@@ -11,7 +11,7 @@ has_toc: false
 
 ## **Description**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** This component defines an instruction to wait a given amount of time between two other robot instructions in RAPID main code generation.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** This component defines an instruction to wait a given amount of time between two other robot instructions.
 
 ## **Input Parameters**
 
@@ -19,8 +19,8 @@ has_toc: false
 
 ## **Output Parameters**
 
-**Timer (T):** Contains the wait instruction as an Action for RAPID code generation.
+**Timer (T):** Contains the wait instruction as an action for RAPID code generation.
 
 ## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** The Timer output of this component can be plugged into the Actions input of the RAPID Generator component to add a wait instruction in the RAPID main code that defines an amount of time until the next instruction is executed.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** The Timer output of this component can be plugged into the actions input of the RAPID Generator component to add a wait instruction in the RAPID main code that defines an amount of time until the next instruction is executed.

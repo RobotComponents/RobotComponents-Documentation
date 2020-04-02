@@ -10,17 +10,17 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-[Controller Utility]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/index.md %})**:** This component gets the current robot axis values from an ABB IRC5 robot controller.
+[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/index.md %})**:** This component gets the current robot axis values from an ABB IRC5 robot controller.
 
 ## **Input Parameters**
 
-**Robot Controller:** Defines the ABB IRC5 robot controller. A virtual or real ABB IRC5 robot controller can be defined by using the [Get Controller]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/Get Controller.md %}) component.
+**Robot Controller (RC):** Defines the ABB IRC5 robot controller. A virtual or real ABB IRC5 robot controller can be defined by using the [Get Controller]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/Get Controller.md %}) component.
 
 ## **Output Parameters**
 
-**Internal Axis Values:** Contains a list of doubles with the current robot internal axis values.
+**Internal Axis Values (IAV):** Contains a list of doubles with the current robot internal axis values.
 
-**External Axis Values:** Contains a list of doubles with the current robot external axis values.
+**External Axis Values (EAV):** Contains a list of doubles with the current robot external axis values.
 
 ## **Usage**
 

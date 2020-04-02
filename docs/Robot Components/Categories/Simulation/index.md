@@ -15,7 +15,7 @@ Work in progress....
 
 Simulation components are used to visually approximate the movement behavior of the robot before running the RAPID main and base code on the robot controller.
 
-## Functionality
+## **Functionality**
 
 To simulate the robot movement path all Actions from Category: Code Generation can be simply plugged into the Path Generator component which also generates corresponding axis values for every path position. Note that every Action except Movement Actions will be ignored. The Inverse Kinematics component can be used additionally to calculate the axis values for a specific Target. To visualize the robot geometry inside of Rhino the Forward Kinematics component can be used by feeding in any axis values.
 

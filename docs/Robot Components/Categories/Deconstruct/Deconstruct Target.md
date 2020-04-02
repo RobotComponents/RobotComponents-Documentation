@@ -16,15 +16,17 @@ Utility: This component deconstructs a Target into its parameters. A target can 
 
 ## **Input Parameters**
 
-Target: Defines the Target to be deconstructed.
+**Target (T):** Defines the Target to be deconstructed.
 
 ## **Output Parameters**
 
-Name: Contains the name of the deconstructed Target.
+**Name (N):** Contains the name of the deconstructed Target.
 
-Plane: Contains the target plane of the deconstructed Target.
+**Plane (P):** Contains the target plane of the deconstructed Target.
 
-Axis Configuration: Contains the axis configuration of the deconstructed Target.
+**Axis Configuration (AC):** Contains the axis configuration of the deconstructed Target.
+
+**External Axis Values (EAV):**
 
 ## **Usage**
 

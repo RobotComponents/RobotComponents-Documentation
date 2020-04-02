@@ -16,19 +16,20 @@ Utility: This component deconstructs a Speed Data into its parameters. A Speed D
 
 ## **Input Parameters**
 
-Speed Data: Defines the speed data to be deconstructed.
+**Speed Data (SD):** Defines the speed data to be deconstructed.
 
 ## **Output Parameters**
 
-Name: Outputs the name of the deconstructed speed data.
+**Name (N):** Outputs the name of the deconstructed speed data.
 
-vTCP: Outputs the TCP moving velocity of the deconstructed speed data.
+**TCP Velocity (vTCP):** Outputs the TCP moving velocity of the deconstructed speed data.
 
-vORI: Outputs the reorientation speed of the robot tool of the deconstructed speed data.
+**ORI Velocity (vORI):** Outputs the reorientation velocity of the robot tool of the deconstructed speed data.
 
-vLEAX: Outputs the linear external axes moving velocity of the deconstructed speed data.
+**LEAX Velocity (vLEAX):** Outputs the linear external axes moving velocity of the deconstructed speed data.
 
-vREAX: Outputs the external axes reorientation speed of the deconstructed speed data.
+**REAX Velocity (vREAX):** Outputs the external axes reorientation velocity of the deconstructed speed data.
+
 
 ## **Usage**
 

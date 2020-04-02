@@ -10,12 +10,18 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-[Controller Utility]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/index.md %})**:** This component is used to connect to a virtual or real ABB IRC5 robot controller and extract data from it.
+[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/index.md %})**:** This component gets the signal of a defined digital output from an ABB IRC5 robot controller.
 
 ## **Input Parameters**
 
-**Update:** Defines if the connection to the ABB IRC5 robot controller will be constantly updated based on a boolean value. This is needed for real-time communication.
+**Robot Controller (RC):** Defines the ABB IRC5 robot controller that is connected to. A virtual or real ABB IRC5 robot controller can be defined by using the Get Controller component.
+
+**DI Name (N):** Defines the name of the digital output based on a string value. This needs to be the same name that is defined in the ABB IRC5 robot controller for the digital output.
 
 ## **Output Parameters**
 
-**Robot Controller:** Contains information about the connected ABB IRC5 Controller.
+**Signal (S):** Contains information on the signal of the defined digital output. The signal value can be casted to a boolean and integer parameter.
+
+## **Menu Items**
+
+TODO...

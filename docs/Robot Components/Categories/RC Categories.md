@@ -12,7 +12,7 @@ has_toc: false
 
 [**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/index.md %})**:** These components are used to build up a real-time connection to an ABB IRC5 robot controller.
 
-[**Deconstruct**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Deconstruct/index.md %})**:**
+[**Deconstruct**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Deconstruct/index.md %})**:** ...
 
 [**Definitions**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Definitions/index.md %})**:** These components are used to define robots and robot tools which are needed for Code Generation and Simulation.
 

@@ -26,6 +26,8 @@ The Get Controller component can be used to easily build up and define a connect
 
 [**Get Axis Values**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/Get Axis Values.md %})**:** Get the current robot axis values from the ABB IRC5 robot controller.
 
+[**Get Plane**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/Get Plane.md %})**:** ...
+
 [**Get Digital Input**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/Get Digital Input.md %})**:** Get the state of a defined digital input from the ABB IRC5 robot controller.
 
 [**Get Digital Output**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/Get Digital Output.md %})**:** Get the state of a defined digital output from an ABB IRC5 robot controller.

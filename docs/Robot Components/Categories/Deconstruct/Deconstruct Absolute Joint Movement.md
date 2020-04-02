@@ -14,11 +14,23 @@ Work in progress....
 
 ## **Input Parameters**
 
-...
+**Absolute Joint Movement (AJM):**
 
 ## **Output Parameters**
 
-...
+**Name (N):**
+
+**Internal Axis Values (IAV):**
+
+**External Axis Values (EAV):**
+
+**Speed Data (SD):**
+
+**Movement Type (MT:**
+
+**Zone Data (Z):**
+
+**Overwrite Robot Tool (RT):**
 
 ## **Usage**
 

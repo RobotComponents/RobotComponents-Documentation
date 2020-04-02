@@ -40,4 +40,4 @@ Note: The Forward Kinematics component can be used for debugging this component 
 
 Simulation: Plug the Robot Info output of this component into the Robot Info input of the Inverse Kinematics or Forward Kinematics component.
 
-Code Generation: Plug the Robot Info output of this component into the Robot Info input of the RAPID Generator component for Code Generation.
+Code Generation: Plug the Robot Info output of this component into the Robot Info input of the [RAPID generator component]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) for Code Generation.
