@@ -16,17 +16,19 @@ Simulation: This component computes the position of the end-effector of a define
 
 ## **Input Parameters**
 
-Robot Info: Defines the robot based on a Robot Info component.
+**Robot Info (RI):** Defines the robot based on a Robot Info component.
 
-Internal Axis Values: Defines the current robot internal axis values based on a list of doubles.
+**Internal Axis Values (IAV):** Defines the current robot internal axis values based on a list of doubles.
 
-External Axis Values: Defines the current robot external axis values based on a list of doubles.
+**External Axis Values (EAV):** Defines the current robot external axis values based on a list of doubles.
 
 ## **Output Parameters**
 
-Robot Mesh: Contains the robot mesh information which is displayed inside of Rhino. Note: Display errors can be fixed by creating a rectangle around and above the robot inside of Rhino like shown here.
+**Posed Meshes (PM):** Contains the robot mesh information which is displayed inside of Rhino. Note: Display errors can be fixed by creating a rectangle around and above the robot inside of Rhino like shown here.
 
-End Plane: Contains the plane information about the robot’s end-effector.
+**End Plane (EP):** Contains the plane information about the robot’s end-effector.
+
+**External Axis Planes (EAP):** ...
 
 ## **Usage**
 

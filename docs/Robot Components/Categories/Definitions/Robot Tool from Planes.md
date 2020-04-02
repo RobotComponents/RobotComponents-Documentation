@@ -16,19 +16,19 @@ Definitions: This component defines a robot tool based on attachment and end-eff
 
 ## **Input Parameters**
 
-Name: Defines the robot tool name base on a Panel or any other string value. This name must be unique and shouldn’t start with a number or use special characters.
+**Name (N):** Defines the robot tool name base on a Panel or any other string value. This name must be unique and shouldn’t start with a number or use special characters.
 
-Mesh: Defines the robot tool mesh based on a mesh.
+**Mesh (M):** Defines the robot tool mesh based on a mesh.
 
-Attachment Plane: Defines the attachment plane for the robot tool based on a plane input.
+**Attachment Plane (AP):** Defines the attachment plane for the robot tool based on a plane input.
 
-Effector Plane: Defines the effector plane for the robot tool based on a plane input.
+**Tool Plane (TP):** Defines the effector plane for the robot tool based on a plane input.
 
 ## **Output Parameters**
 
-Robot Tool: Contains the robot tool information.
+**Robot Tool (RT):** Contains the robot tool information.
 
-Robot Tool Code: Contains the robot tool information as a string for the RAPID base code. More information on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
+**Robot Tool Code (RTC):** Contains the robot tool information as a string for the RAPID base code. More information on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
 
 ## **Usage**
 

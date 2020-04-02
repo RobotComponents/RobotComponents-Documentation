@@ -16,27 +16,27 @@ Definitions: This component defines a robot tool based on translation and rotati
 
 ## **Input Parameters**
 
-Name: Defines the robot tool name base on a Panel or any other string value. This name must be unique and shouldn’t start with a number or use special characters.
+**Name (N):** Defines the robot tool name base on a Panel or any other string value. This name must be unique and shouldn’t start with a number or use special characters.
 
-Mesh: Defines the robot tool mesh based on a mesh.
+**Mesh (M):** Defines the robot tool mesh based on a mesh.
 
-Translation X: Defines the X Translation of the robot tool effector based on a double value.
+**Translation X (TX):** Defines the X Translation of the robot tool effector based on a double value.
 
-Translation Y: Defines the Y Translation of the robot tool effector based on a double value.
+**Translation Y (TY):** Defines the Y Translation of the robot tool effector based on a double value.
 
-Translation Z: Defines the Z Translation of the robot tool effector based on a double value.
+**Translation Z (TZ):** Defines the Z Translation of the robot tool effector based on a double value.
 
-Rotation X: Defines the X Rotation of the robot tool effector based on a double value.
+**Rotation X (RX):** Defines the X Rotation of the robot tool effector based on a double value.
 
-Rotation Y: Defines the Y Rotation of the robot tool effector based on a double value.
+**Rotation Y (RY):** Defines the Y Rotation of the robot tool effector based on a double value.
 
-Rotation Z: Defines the Z Rotation of the robot tool effector based on a double value.
+**Rotation Z (RZ):** Defines the Z Rotation of the robot tool effector based on a double value.
 
 ## **Output Parameters**
 
-Robot Tool: Contains the robot tool information.
+**Robot Tool (RT):** Contains the robot tool information.
 
-Robot Tool String: Contains the robot tool information as a string for the RAPID base code. More information on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
+**Robot Tool Code (RTC):** Contains the robot tool information as a string for the RAPID base code. More information on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
 
 ## **Usage**
 

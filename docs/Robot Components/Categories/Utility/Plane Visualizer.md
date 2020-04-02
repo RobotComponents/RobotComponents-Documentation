@@ -14,11 +14,11 @@ Work in progress....
 
 ## **Input Parameters**
 
-...
+Plane (P):
 
 ## **Output Parameters**
 
-...
+Displays the three vectors of the plane in Rhino.
 
 ## **Usage**
 

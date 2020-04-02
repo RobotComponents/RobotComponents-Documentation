@@ -14,11 +14,23 @@ Work in progress....
 
 ## **Input Parameters**
 
-...
+**Coord X (X):**
+
+**Coord Y (Y):**
+
+**Coord Z (Z):**
+
+**Quaternion A (A):**
+
+**Quaternion B (B):**
+
+**Quaternion C (C):**
+
+**Quaternion D (D):**
 
 ## **Output Parameters**
 
-...
+**Plane (P):**
 
 ## **Usage**
 

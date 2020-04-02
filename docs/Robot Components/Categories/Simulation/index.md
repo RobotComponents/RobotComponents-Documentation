@@ -21,8 +21,8 @@ To simulate the robot movement path all Actions from Category: Code Generation c
 
 ## **Usage**
 
-Forward Kinematics: Computes the position of the end-effector of a defined ABB robot based on a set of given axis values. It can be also used for visualizing the robot mesh inside of Rhino.
+[**Forward Kinematics**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Simulation/Forward Kinematics.md %})**:** Computes the position of the end-effector of a defined ABB robot based on a set of given axis values. It can be also used for visualizing the robot mesh inside of Rhino.
 
-Inverse Kinematics: Computes the axis values for a defined ABB robot based on an Action: Target.
+[**Inverse Kinematics**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Simulation/Inverse Kinematics.md %})**:** Computes the axis values for a defined ABB robot based on an Action: Target.
 
-Path Generator: Generates and displays the movement path for a defined ABB robot based on a list of Actions. It can be also used for visually simulating and animating the robot movement inside of Rhino by using the Forward Kinematics component.
+[**Path Generator**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Simulation/Path Generator.md %})**:** Generates and displays the movement path for a defined ABB robot based on a list of Actions. It can be also used for visually simulating and animating the robot movement inside of Rhino by using the Forward Kinematics component.

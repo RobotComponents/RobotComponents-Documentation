@@ -16,15 +16,21 @@ Definitions: This component defines an External Linear Axis that can be used wit
 
 ## **Input Parameters**
 
-Start Point: Defines the Start Point of the External Linear Axis.
+**Name (N):** ...
 
-End Point: Defines the End Point of the External Linear Axis.
+**Attachment Plane (AP):** ...
 
-Robot Attachment Point: Defines the original Position of the attached ABB Robot from the Start Point
+**Axis (A):** ...
+
+**Axis Limits (AL):** ...
+
+**Base Mesh (BM):** ...
+
+**Link Mesh (LM):** ...
 
 ## **Output Parameters**
 
-External Linear Axis: Contains the External Linear Axis information.
+**External Linear Axis (ELA):** Contains the External Linear Axis information.
 
 ## **Usage**
 

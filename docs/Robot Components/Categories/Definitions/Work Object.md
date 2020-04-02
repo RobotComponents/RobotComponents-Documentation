@@ -14,11 +14,15 @@ Work in progress....
 
 ## **Input Parameters**
 
-...
+**Name (N):**
+
+**Plane (WP):**
+
+**External Rotational Axis (ERA):**
 
 ## **Output Parameters**
 
-...
+**Work Object (WO):**
 
 ## **Usage**
 

@@ -16,11 +16,11 @@ Utility: This component flips a plane to the oposite direction by setting its y-
 
 ## **Input Parameters**
 
-Plane: Defines the plane or a list of planes to flip.
+**Plane (P):** Defines the plane or a list of planes to flip.
 
 ## **Output Parameters**
 
-Plane: Outputs all input planes flipped.
+**Plane (P):** Outputs all input planes flipped.
 
 ## **Usage**
 
