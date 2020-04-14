@@ -7,7 +7,6 @@ This repo contains the content of [edek-unikassel.github.io/RobotComponents-Docu
 Pull request are welcome. If you want to build the site yourself, to test your changes before opening a pull request, then please check out the getting started guide below. 
 
 ## Getting started
-
 ### Installation
 
 Install Ruby (Ruby+Devkit 2.6.5-1 (x64)) from [here](https://rubyinstaller.org/downloads/).
@@ -32,6 +31,11 @@ Now you can open [http://localhost:4000/](http://localhost:4000/) in your browse
 ### Usage
 
 [View the documentation](https://pmarsceill.github.io/just-the-docs/) of [Just The Docs](https://github.com/pmarsceill/just-the-docs) for usage information.
+
+## Credits
+![EDEK_logo](https://github.com/EDEK-UniKassel/RobotComponents-Documentation/blob/master/181101_EDEK-LOGO-01.png)
+
+The project is a development from the [Department of Experimental and Digital Design and Construction of the University of Kassel](https://edek.uni-kassel.de/). Supervised by the head of the department Prof. Eversmann. The technical development is initiated and executed by the research associates and student assistants which are listed [here](https://github.com/EDEK-UniKassel/RobotComponents-Documentation/blob/master/AUTHORS.md).
 
 ## License
 
