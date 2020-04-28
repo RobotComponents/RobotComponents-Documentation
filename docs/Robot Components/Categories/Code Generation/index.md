@@ -29,6 +29,8 @@ All Action components can be plugged into the Code Generator component which gen
 
 [**Action Speed Data**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Speed Data.md %})**:** Defines a speed data for an Action: Movement.
 
+[**Action Zone Data**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Zone Data.md %})**:** Defines a zone data for an Action: Movement.
+
 [**Action Timer**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Timer.md %})**:** Defines an instruction to wait a given amount of time between two other robot instructions in RAPID code generation.
 
 [**Action Digital Output**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Digital Output.md %})**:** Defines an instruction to change the state of a digital output of the robot controller for RAPID code generation.
