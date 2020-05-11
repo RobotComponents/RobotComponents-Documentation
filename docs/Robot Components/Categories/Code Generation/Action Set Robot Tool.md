@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Action Overwrite Robot Tool
+title: Action Override Robot Tool
 nav_order: 1
 parent: Code Generation
 grand_parent: Robot Components Categories
@@ -19,7 +19,13 @@ has_toc: false
 
 ## **Output Parameters**
 
-**Overwrite Robot Tool (ORT):** Contains the instruction to change the robot tool to the defined robot tool as an Action for RAPID code generation.
+**Override Robot Tool (ORT):** Contains the instruction to change the robot tool to the defined robot tool as an Action for RAPID code generation.
+
+## **Menu Items**
+
+Through the right-click menu of the component additional options are availbale:
+
+**Documentation:** Opens the documentation page of this component.
 
 ## **Usage**
 

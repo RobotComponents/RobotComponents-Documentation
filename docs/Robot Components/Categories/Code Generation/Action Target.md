@@ -19,21 +19,15 @@ has_toc: false
 
 **Plane (P):** Defines the target plane of the target based on one or a list of planes. Note: You can use a Flip Plane X or Flip Plane Y component to flip the plane.
 
-**Reference Plane (RP):**
+**Axis Configuration (AC):** Defines the axis configuration of the robot to reach the defined target plane based on an integer value. The range is 0 to 7. Read more on the topic of Robot Configuration Data in the official ABB Rechnical reference manual for RAPID Instructions.
 
-**Axis Configuration (AC):** Defines the axis configuration of the robot to reach the defined target plane based on an integer value. The range is 0 to 7. Read more on that topic here: Robot Configuration Data.
+## **Optional Input Parameters**
 
-**External Axis Value A (EAa):**
+Through the right-click menu of the component additional inputs can be available:
 
-**External Axis Value B (EAb):**
+**Reference Plane (RP):** TO DO
 
-**External Axis Value C (EAc):**
-
-**External Axis Value D (EAd):**
-
-**External Axis Value E (EAe):**
-
-**External Axis Value F (EAf):**
+**External Axis Values:** Defines the current robot external axis values based on a list of doubles.
 
 ## **Output Parameters**
 
@@ -41,7 +35,9 @@ has_toc: false
 
 ## **Menu Items**
 
-TODO
+Through the right-click menu of the component additional options are availbale:
+
+**Documentation:** Opens the documentation page of this component.
 
 ## **Usage**
 

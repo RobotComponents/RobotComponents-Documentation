@@ -29,6 +29,12 @@ has_toc: false
 
 **Speed Data (SD):** Contains the Speed Data instructions as action for a [Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Movement.md %}) or [Absolute Joint Movement]({{ site.baseurl }}{link docs/Robot Components/Categories/Code Generation/Action Absolute Joint Movement.md %}) instruction.
 
+## **Menu Items**
+
+Through the right-click menu of the component additional options are availbale:
+
+**Documentation:** Opens the documentation page of this component.
+
 ## **Usage**
 
 [Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Speed Data output of this component into the Speed Data input of the Action: Movement component to set the speed behavior of a robot movement instruction in the RAPID Main Code. This will also add a speeddata variable to the RAPID Main Code.

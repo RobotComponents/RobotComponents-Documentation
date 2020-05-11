@@ -29,13 +29,19 @@ Creates the RAPID Main and Base Code for the robot controller from a given list 
 
 ## **Output Parameters**
 
-**Program Code:** The RAPID program code contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
+**Program Module:** The RAPID program code contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found here: [**Introduction to RAPID**]({http://dl.icdst.org/pdfs/files3/db9fddeb58803077290aa2538c54333d.pdf}) or in the Technical Reference Manual of ABB Robotics.
 
-**System Code:** The RAPID system code contains basic defined system data in RAPID code such as tool information. More on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
+**System Module:** The RAPID system code contains basic defined system data in RAPID code such as tool information. More on that topic can be found here: [**Introduction to RAPID**]({http://dl.icdst.org/pdfs/files3/db9fddeb58803077290aa2538c54333d.pdf}) or in the Technical Reference Manual of ABB Robotics.
 
 ## **Menu Items**
 
-Through the right-click menu item the RAPID program and system code can de be saved to a file. Right-click on the component logo and select from the menu “Save Program module to file” or “Save System module to file”.
+Through the right-click menu of the component additional options are availbale:
+
+**Save Program module to file:** Save the RAPID program code to a file.
+
+**Save System module to file:** Save the RAPID system code to a file.
+
+**Documentation:** Opens the documentation page of this component.
 
 ## **Usage**
 

@@ -15,13 +15,19 @@ has_toc: false
 
 ## **Input Parameters**
 
-**DI Name (N):** Defines the name of the digital input based on a string value.
+**Digital Input Name (N):** Defines the name of the digital input based on a string value.
 
 **State (S):** Defines the state of the digital input that should be waited for.
 
 ## **Output Parameters**
 
-**Wait DI (WDI):** Contains the instruction to wait for the signal of a defined digital input from the robot controller as an Action for RAPID main code generation.
+**Wait for Digital Input (WDI):** Contains the instruction to wait for the signal of a defined digital input from the robot controller as an Action for RAPID main code generation.
+
+## **Menu Items**
+
+Through the right-click menu of the component additional options are availbale:
+
+**Documentation:** Opens the documentation page of this component.
 
 ## **Usage**
 

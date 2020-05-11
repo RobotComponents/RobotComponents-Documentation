@@ -21,6 +21,12 @@ has_toc: false
 
 **Auto Axis Config (AAC):** Contains an instruction to sets or unset the auto axis configuration for the robot as an action for RAPID code generation.
 
+## **Menu Items**
+
+Through the right-click menu of the component additional options are availbale:
+
+**Documentation:** Opens the documentation page of this component.
+
 ## **Usage**
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Auto Axis Config output of this component into the actions input of the [RAPID generator component]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) to define an instruction that sets or unsets the auto axis configuration for the robot in RAPID main code.

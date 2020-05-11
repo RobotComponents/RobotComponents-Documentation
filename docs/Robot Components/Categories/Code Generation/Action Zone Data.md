@@ -21,6 +21,12 @@ TODO..
 
 **Zone Data (ZD):** Contains the Zone Data instructions as action for a [Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Movement.md %}) or [Absolute Joint Movement]({{ site.baseurl }}{link docs/Robot Components/Categories/Code Generation/Action Absolute Joint Movement.md %}) instruction.
 
+## **Menu Items**
+
+Through the right-click menu of the component additional options are availbale:
+
+**Documentation:** Opens the documentation page of this component.
+
 ## **Usage**
 
 TODO..

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Action Digital Input
+title: Action Digital Output
 nav_order: 1
 parent: Code Generation
 grand_parent: Robot Components Categories
@@ -15,13 +15,19 @@ has_toc: false
 
 ## **Input Parameters**
 
-**DI Name (N):** Defines the name of the digital output based on a string value. This name should match with the name of the digital signal as it defined in the controller. 
+**Name (N):** Defines the name of the digital output based on a string value. This name should match with the name of the digital signal as it defined in the controller. 
 
 **State (S):** Defines the state of the digital output that should be set based on a boolean value.
 
 ## **Output Parameters**
 
 **Digital Output (DO):** Contains the instruction to change the state of a defined digital output as an Action for RAPID code generation.
+
+## **Menu Items**
+
+Through the right-click menu of the component additional options are availbale:
+
+**Documentation:** Opens the documentation page of this component.
 
 ## **Usage**
 

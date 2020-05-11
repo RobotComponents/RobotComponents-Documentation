@@ -21,6 +21,12 @@ has_toc: false
 
 **Timer (T):** Contains the wait instruction as an action for RAPID code generation.
 
+## **Menu Items**
+
+Through the right-click menu of the component additional options are availbale:
+
+**Documentation:** Opens the documentation page of this component.
+
 ## **Usage**
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** The Timer output of this component can be plugged into the actions input of the RAPID Generator component to add a wait instruction in the RAPID main code that defines an amount of time until the next instruction is executed.
