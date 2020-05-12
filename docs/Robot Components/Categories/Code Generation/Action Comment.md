@@ -23,10 +23,10 @@ has_toc: false
 
 ## **Menu Items**
 
-Through the right-click menu of the component additional options are availbale:
+Through the right-click menu of the component the following options are availbale:
 
-**Documentation:** Opens the documentation page of this component.
+**Documentation:** Opens the documentation page of the component in your browser.
 
 ## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Comment output of this component into the actions input of the [RAPID generator component]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) to generate a single comment line in the RAPID code. The RAPID code contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Comment output of this component into the actions input of the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) component to generate a single comment line in the RAPID code. The RAPID code contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.

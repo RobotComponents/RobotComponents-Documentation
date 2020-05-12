@@ -22,9 +22,17 @@ grand_parent: Robot Components Categories
 
 **External Axis Values (EAV):** Contains a list of doubles with the current robot external axis values.
 
+
+## **Menu Items**
+
+Through the right-click menu of the component additional options are availbale:
+
+**Documentation:** Opens the documentation page of this component.
+
+
 ## **Usage**
 
-Simulation: The Axis Values output of this component can be plugged into the Axis Values input of a Forward Kinematics component to visualize the robot geometry inside of Rhino.
+[**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Simulation/index.md %})**:** The Axis Values output of this component can be plugged into the Axis Values input of a Forward Kinematics component to visualize the robot geometry inside of Rhino.
 
-Code Generation: The Internal and External Axis Values outputs of this component can be plugged into the Axis Values input of a Forward Kinematics component to calculate the robots end plane. That end plane could then be used to define a Action: Target for RAPID main code generation.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** The Internal and External Axis Values outputs of this component can be plugged into the Axis Values input of a Forward Kinematics component to calculate the robots end plane. That end plane could then be used to define a Action: Target for RAPID main code generation.
 

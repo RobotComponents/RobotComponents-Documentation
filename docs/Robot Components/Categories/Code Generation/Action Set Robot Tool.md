@@ -23,10 +23,10 @@ has_toc: false
 
 ## **Menu Items**
 
-Through the right-click menu of the component additional options are availbale:
+Through the right-click menu of the component the following options are availbale:
 
-**Documentation:** Opens the documentation page of this component.
+**Documentation:** Opens the documentation page of the component in your browser.
 
 ## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Set Robot Tool output of this component into the [RAPID generator component]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) to generate a single code line in the RAPID program code that sets the currently used robot tool. The currently used robot tool should be defined in RAPID system code. This is done automatically when creating a Robot Tool From Planes or Robot Tools From Data component. Each robot tool name needs to be unique.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Set Robot Tool output of this component into the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) component to generate a single code line in the RAPID program code that sets the currently used robot tool. The currently used robot tool should be defined in RAPID system code. This is done automatically when creating a Robot Tool From Planes or Robot Tools From Data component. Each robot tool name needs to be unique.

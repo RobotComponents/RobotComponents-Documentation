@@ -23,10 +23,10 @@ has_toc: false
 
 ## **Menu Items**
 
-Through the right-click menu of the component additional options are availbale:
+Through the right-click menu of the component the following options are availbale:
 
-**Documentation:** Opens the documentation page of this component.
+**Documentation:** Opens the documentation page of the component in your browser.
 
 ## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Auto Axis Config output of this component into the actions input of the [RAPID generator component]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) to define an instruction that sets or unsets the auto axis configuration for the robot in RAPID main code.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Auto Axis Config output of this component into the actions input of the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) component to define an instruction that sets or unsets the auto axis configuration for the robot in RAPID main code.

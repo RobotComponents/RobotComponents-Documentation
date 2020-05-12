@@ -25,10 +25,10 @@ has_toc: false
 
 ## **Menu Items**
 
-Through the right-click menu of the component additional options are availbale:
+Through the right-click menu of the component the following options are availbale:
 
-**Documentation:** Opens the documentation page of this component.
+**Documentation:** Opens the documentation page of the component in your browser.
 
 ## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Digital Output output of this component into the actions input of a [RAPID generator component]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) to add a single instruction that waits for the signal of a defined digital input from the robot controller in the RAPID code.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Digital Output output of this component into the actions input of a [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/RAPID Generator.md %}) component to add a single instruction that waits for the signal of a defined digital input from the robot controller in the RAPID code.

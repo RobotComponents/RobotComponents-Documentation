@@ -11,7 +11,7 @@ has_toc: false
 
 ## **Description**
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Defines a speed data for a [Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Movement.md %}) or [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Absolute Joint Movement.md %}) instruction. Speed data is used to specify the velocity at which both the robot and the external axes move. 
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Defines a speed data for a [Action: Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Movement.md %}) or [Action: Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Absolute Joint Movement.md %}) instruction. Speed data is used to specify the velocity at which both the robot and the external axes move. 
 
 ## **Input Parameters**
 
@@ -27,13 +27,13 @@ has_toc: false
 
 ## **Output Parameters**
 
-**Speed Data (SD):** Contains the Speed Data instructions as action for a [Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Movement.md %}) or [Absolute Joint Movement]({{ site.baseurl }}{link docs/Robot Components/Categories/Code Generation/Action Absolute Joint Movement.md %}) instruction.
+**Speed Data (SD):** Contains the Speed Data instructions as action for a [Action: Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Movement.md %}) or [Action: Absolute Joint Movement]({{ site.baseurl }}{link docs/Robot Components/Categories/Code Generation/Action Absolute Joint Movement.md %}) instruction.
 
 ## **Menu Items**
 
-Through the right-click menu of the component additional options are availbale:
+Through the right-click menu of the component the following options are availbale:
 
-**Documentation:** Opens the documentation page of this component.
+**Documentation:** Opens the documentation page of the component in your browser.
 
 ## **Usage**
 

@@ -35,7 +35,7 @@ Through the right-click menu of the component additional inputs can be available
 
 ## **Menu Items**
 
-Through the right-click menu of the component additional options are availbale:
+Through the right-click menu of the component the following options are availbale:
 
 **Documentation:** Opens the documentation page of this component.
 
