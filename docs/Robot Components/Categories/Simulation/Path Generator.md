@@ -12,7 +12,10 @@ grand_parent: Robot Components Categories
 
 Work in progress....
 
-EXPERIMENTAL: This component does an estimation of the path and robot movements!
+EXPERIMENTAL: This component does an estimation of the path and robot movements! The following limitations are known:
+- It does not simulate the correct speed. 
+- It ignores the auto axis configuration (if used).
+- It ignores zone data (movement precision) values. 
 
 Simulation: This component generates and displays the movement path for a defined robot based on a list of Actions. It can be also used for visually simulating the robot movement inside of Rhino.
 

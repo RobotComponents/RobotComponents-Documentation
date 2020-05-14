@@ -21,15 +21,15 @@ has_toc: false
 
 **Path Zone TCP (pzTCP):** The size (the radius) of the TCP zone in mm. 
 
-**PathZoneOrientation (pzORI):** The zone size (the radius) for the tool reorientation. The size is defined as the distance of the TCP from the programmed point in mm.
+**Path Zone Orientation (pzORI):** The zone size (the radius) for the tool reorientation. The size is defined as the distance of the TCP from the programmed point in mm.
 
-**PathZoneExternalAxes (pzEA):** The zone size (the radius) for external axes. The size is defined as the distance of the TCP from the programmed point in mm.
+**Path Zone ExternalAxes (pzEA):** The zone size (the radius) for external axes. The size is defined as the distance of the TCP from the programmed point in mm.
 
-**ZoneOrientation (zORI):** The zone size for the tool reorientation in degrees. If the robot is holding the work object, this means an angle of rotation for the work object.
+**Zone Orientation (zORI):** The zone size for the tool reorientation in degrees. If the robot is holding the work object, this means an angle of rotation for the work object.
 
-**ZoneExternalLinearAxes (zELA):** The zone size for linear external axes in mm.
+**Zone External Linear Axes (zELA):** The zone size for linear external axes in mm.
 
-**ZoneExternalRotationalAxes (zERA):** The zone size for rotating external axes in degrees.
+**Zone External Rotational Axes (zERA):** The zone size for rotating external axes in degrees.
 
 ## **Output Parameters**
 
