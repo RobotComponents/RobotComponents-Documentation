@@ -22,7 +22,7 @@ grand_parent: Robot Components Categories
 
 ## **Menu Items**
 
-Through the right-click menu of the component additional options are availbale:
+Through the right-click menu of the component additional options are available:
 
 **Pick Controller:** Select an active ABB IRC5 Controller to connect to.
 

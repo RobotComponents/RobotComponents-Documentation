@@ -25,7 +25,7 @@ has_toc: false
 
 ## **Menu Items**
 
-Through the right-click menu of the component the following options are availbale:
+Through the right-click menu of the component the following options are available:
 
 **Documentation:** Opens the documentation page of the component in your browser.
 
