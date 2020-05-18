@@ -41,6 +41,6 @@ Through the right-click menu of the component the following options are availabl
 
 ## **Usage**
 
-**Simulation:** Plug the Target output of this component into the Target input of the Inverse Kinematics component to get the robots axis values for the defined target.
+[**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Simulation/index.md %})**:** Plug the Target output of this component into the Target input of the Inverse Kinematics component to get the robots axis values for the defined target.
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Target output of this component into the Target input of the Action: Movement component to define a robot movement.
