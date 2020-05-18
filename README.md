@@ -9,7 +9,7 @@ Pull request are welcome. If you want to build the site yourself, to test your c
 ## Getting started
 ### Installation
 
-Install Ruby (Ruby+Devkit 2.6.5-1 (x64)) from [here](https://rubyinstaller.org/downloads/).
+Install Ruby (Ruby+Devkit 2.6.6-1 (x64)) from [here](https://rubyinstaller.org/downloads/).
 
 Install [Bundler](https://bundler.io/) and [Jekyll](https://jekyllrb.com/).
 
