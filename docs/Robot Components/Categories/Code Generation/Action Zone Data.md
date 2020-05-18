@@ -23,7 +23,7 @@ has_toc: false
 
 **Path Zone Orientation (pzORI):** The zone size (the radius) for the tool reorientation. The size is defined as the distance of the TCP from the programmed point in mm.
 
-**Path Zone ExternalAxes (pzEA):** The zone size (the radius) for external axes. The size is defined as the distance of the TCP from the programmed point in mm.
+**Path Zone External Axes (pzEA):** The zone size (the radius) for external axes. The size is defined as the distance of the TCP from the programmed point in mm.
 
 **Zone Orientation (zORI):** The zone size for the tool reorientation in degrees. If the robot is holding the work object, this means an angle of rotation for the work object.
 

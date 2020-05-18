@@ -18,9 +18,9 @@ grand_parent: Robot Components Categories
 
 ## **Output Parameters**
 
-**Internal Axis Values (IAV):** Contains a list of doubles with the current robot internal axis values.
+**Internal Axis Values (IAV):** Contains a datatree of doubles with the current robot internal axis values. In case if multiple robots are connected to one controller a separate branch is made for each robot.
 
-**External Axis Values (EAV):** Contains a list of doubles with the current robot external axis values.
+**External Axis Values (EAV):** Contains a datatree of doubles with the current robot external axis values. For every mechanical unit the axis values are placed in a separate datatree branch. Since it is not possible to acces the axis logic number of the mechanical units in the controller, the axis values may not be placed in the correct order to work with the [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Categories/Simulation/Forward Kinematics.md %}) component. In that case the user has to re-order the axis values and / or flatten it to a list. 
 
 
 ## **Menu Items**

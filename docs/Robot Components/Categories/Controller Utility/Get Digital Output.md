@@ -14,7 +14,7 @@ grand_parent: Robot Components Categories
 
 ## **Input Parameters**
 
-**Robot Controller (RC):** Defines the ABB IRC5 robot controller that is connected to. A virtual or real ABB IRC5 robot controller can be defined by using the [Get Controller]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Get Controller.md %}) component.
+**Robot Controller (RC):** Defines the ABB IRC5 robot controller that is connected to. A virtual or real ABB IRC5 robot controller can be defined by using the [Get Controller]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/Get Controller.md %}) component.
 
 **DI Name (N):** Defines the name of the digital output based on a string value. This needs to be the same name that is defined in the ABB IRC5 robot controller for the digital output.
 

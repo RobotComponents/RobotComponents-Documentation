@@ -16,13 +16,13 @@ Note: The Access Levels of the defined digital input needs to be set to â€œallâ€
 
 ## **Input Parameters**
 
-**Robot Controller (RC):** Defines the ABB IRC5 robot controller that is connected to. A virtual or real ABB IRC5 robot controller can be defined by using the [Get Controller]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Get Controller.md %}) component.
+**Robot Controller (RC):** Defines the ABB IRC5 robot controller that is connected to. A virtual or real ABB IRC5 robot controller can be defined by using the [Get Controller]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/Get Controller.md %}) component.
 
 **DI Name (N):** Defines the name of the digital output based on a string value. This needs to be the same name that is defined in the ABB IRC5 robot controller for the digital output.
 
 **State (S):** Defines the state that sould be set for the digital input based on a boolean value.
 
-**Update (U):** If set to true, the state of the digital output will be changed in the robot controller.
+**Update (U):** If set to true, the state of the digital output will be changed in the robot controller. It is recommended to use of button for this input parameter. 
 
 ## **Output Parameters**
 
