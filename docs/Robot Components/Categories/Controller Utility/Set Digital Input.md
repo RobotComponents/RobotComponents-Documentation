@@ -16,7 +16,7 @@ Note: The Access Levels of the defined digital input needs to be set to â€œallâ€
 
 ## **Input Parameters**
 
-**Robot Controller (RC):** Defines the ABB IRC5 robot controller that is connected to. A virtual or real ABB IRC5 robot controller can be defined by using the Get Controller component.
+**Robot Controller (RC):** Defines the ABB IRC5 robot controller that is connected to. A virtual or real ABB IRC5 robot controller can be defined by using the [Get Controller]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Get Controller.md %}) component.
 
 **DI Name (N):** Defines the name of the digital input based on a string value. This needs to be the same name that is defined in the ABB IRC5 robot controller for the digital output.
 
@@ -30,7 +30,9 @@ Note: The Access Levels of the defined digital input needs to be set to â€œallâ€
 
 ## **Menu Items**
 
-TODO...
+Through the right-click menu of the component the following options are availbale:
+
+**Documentation:** Opens the documentation page of the component in your browser.
 
 ## **Usage**
 
