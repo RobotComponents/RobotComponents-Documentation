@@ -5,3 +5,6 @@ _site
 Gemfile.lock
 node_modules
 /.vs
+
+# Rhinoceros
+*.3dmbak
