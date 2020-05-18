@@ -6,7 +6,8 @@ has_children: true
 has_toc: false
 ---
 
-## Batagur Setup
+# **{{page.title}}**
+
 The main functionality of the Grasshopper addin, Batagur is collision-free motion planning. For incorporating this and other functionality Batagur is connecting to [MoveIt](https://moveit.ros.org/){:target="_blank"}, an easy-to-use robotics platform for developing advanced applications. MoveIt is running inside [ROS](https://www.ros.org/){:target="_blank"} (Robot Operation Software) a flexible framework for writing robot software.<br/>
 For connecting ROS with Grasshopper the package [Rosbridge](http://wiki.ros.org/rosbridge_suite){:target="_blank"} is used, a JSON API to ROS functionality for non-ROS programs.
 Besides that, one easy way of setting up everything is installing everything on Ubuntu.<br/>

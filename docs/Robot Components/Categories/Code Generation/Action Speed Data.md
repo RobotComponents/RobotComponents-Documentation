@@ -11,7 +11,7 @@ has_toc: false
 
 ## **Description**
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Defines a speed data for a [Action: Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Movement.md %}) or [Action: Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Absolute Joint Movement.md %}) instruction. Speed data is used to specify the velocity at which both the robot and the external axes move. 
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Defines a speed data for a [Action: Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Movement.md %}) or [Action: Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Absolute Joint Movement.md %}) instruction. Speed data is used to specify the velocity at which both the robot and the external axes move. 
 
 ## **Input Parameters**
 
@@ -31,10 +31,10 @@ has_toc: false
 
 ## **Menu Items**
 
-Through the right-click menu of the component the following options are availbale:
+Through the right-click menu of the component the following options are available:
 
 **Documentation:** Opens the documentation page of the component in your browser.
 
 ## **Usage**
 
-[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Speed Data output of this component into the Speed Data input of the Action: Movement component to set the speed behavior of a robot movement instruction in the RAPID Main Code. This will also add a speeddata variable to the RAPID Main Code.
+[Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Plug the Speed Data output of this component into the Speed Data input of the [Action: Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Movement.md %}) or [Action: Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/Action Absolute Joint Movement.md %}) component to set the speed behavior of a robot movement instruction in the RAPID Main Code. This will also add a speeddata variable to the RAPID Main Code.

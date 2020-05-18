@@ -11,7 +11,7 @@ has_toc: false
 
 ## **Description**
 
-Creates the RAPID Main and Base Code for the robot controller from a given list of actions.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Code Generation/index.md %})**:** Creates the RAPID Main and Base Code for the robot controller from a given list of actions.
 
 ## **Input Parameters**
 
@@ -35,7 +35,7 @@ Creates the RAPID Main and Base Code for the robot controller from a given list 
 
 ## **Menu Items**
 
-Through the right-click menu of the component the following options are availbale:
+Through the right-click menu of the component the following options are available:
 
 **Save Program module to file:** Save the RAPID program code to a file.
 

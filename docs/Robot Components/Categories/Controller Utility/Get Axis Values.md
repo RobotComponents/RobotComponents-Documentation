@@ -25,7 +25,7 @@ grand_parent: Robot Components Categories
 
 ## **Menu Items**
 
-Through the right-click menu of the component additional options are availbale:
+Through the right-click menu of the component additional options are available:
 
 **Documentation:** Opens the documentation page of this component.
 

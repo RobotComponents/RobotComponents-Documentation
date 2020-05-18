@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/github/license/EDEK-UniKassel/RobotComponents-Documentation?style=flat-square)]()
 
-This repo contains the content of [edek-unikassel.github.io/RobotComponents-Documentation/](edek-unikassel.github.io/RobotComponents-Documentation/). The documentation page is built on [Just The Docs](https://github.com/pmarsceill/just-the-docs). 
+This repo contains the content of [edek-unikassel.github.io/RobotComponents-Documentation/](https://edek-unikassel.github.io/RobotComponents-Documentation/). The documentation page is built on [Just The Docs](https://github.com/pmarsceill/just-the-docs). 
 
 Pull request are welcome. If you want to build the site yourself, to test your changes before opening a pull request, then please check out the getting started guide below. 
 
@@ -17,7 +17,7 @@ Open your cmd and type in:
 ```
 $ gem install jekyll bundler
 ```
-Navigate to your porject folder and type in for installing the right bundler version:
+Navigate to your project folder and type in for installing the right bundler version:
 ```
 $ gem install bundler --version '2.0.1'
 $ bundler

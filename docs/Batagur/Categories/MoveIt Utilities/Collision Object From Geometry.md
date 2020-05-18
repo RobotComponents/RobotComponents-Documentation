@@ -7,20 +7,22 @@ grand_parent: Batagur Categories
 has_toc: false
 ---
 
-## Description
+# **{{page.title}}**
 
-[MoveIt Utilities]({{ site.baseurl }}{% link docs/Batagur/Categories/MoveIt Utilities/MoveIt Utilities.md %}): Generates a [moveit_msgs/CollisionObject](http://docs.ros.org/api/moveit_msgs/html/msg/CollisionObject.html) message from Rhino Geometry.
+## **Description**
 
-## Input Parameter
+[**MoveIt Utilities**]({{ site.baseurl }}{% link docs/Batagur/Categories/MoveIt Utilities/MoveIt Utilities.md %})**:** Generates a [moveit_msgs/CollisionObject](http://docs.ros.org/api/moveit_msgs/html/msg/CollisionObject.html) message from Rhino Geometry.
 
-**ID**: The unique identivier of the object (name used in MoveIt).
+## **Input Parameters**
 
-**Header**: A [std_msgs/Header](docs.ros.org/api/std_msgs/html/msg/Header.html) message used for interpreting the poses. *Optional*
+**ID:** The unique identivier of the object (name used in MoveIt).
 
-**Geometrys**: The collision geometries as a list associated with the object.
+**Header:** A [std_msgs/Header](docs.ros.org/api/std_msgs/html/msg/Header.html) message used for interpreting the poses. *Optional*
 
-## Output Parameter
+**Geometrys:** The collision geometries as a list associated with the object.
 
-**CollisionObject**: A [moveit_msgs/CollisionObject](http://docs.ros.org/api/moveit_msgs/html/message) to add to the Planning Scene.
+## # **{{page.title}}**Output Parameters**
 
-## Usage
+**CollisionObject:** A [moveit_msgs/CollisionObject](http://docs.ros.org/api/moveit_msgs/html/message) to add to the Planning Scene.
+
+## **Usage**
