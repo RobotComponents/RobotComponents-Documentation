@@ -20,7 +20,7 @@ grand_parent: Robot Components Categories
 
 ## **Output Parameters**
 
-**Signal (S):** Contains information on the signal of the defined digital input. The signal value can be casted to a boolean and integer parameter. 
+**Signal (S):** Contains the signal of the defined digital input. The signal value can be casted to a boolean and integer parameter. 
 
 ## **Menu Items**
 

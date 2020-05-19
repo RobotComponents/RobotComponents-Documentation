@@ -11,11 +11,11 @@ has_toc: false
 
 ## **Description**
 
-Code Generation components are used to generate the RAPID program and system Code for a virtual or real ABB IRC5 robot controller.
+Code Generation components are used to generate the RAPID program and system modules for a virtual or real ABB IRC5 robot controller.
 
 ## **Functionality**
 
-All Action components can be plugged into the Code Generator component which generates the RAPID program and system code for the ABB IRC5 robot controller. The RAPID program and system code can be copied manually to the controller or uploaded and run by using the Remote Connection component from Category: Controller Utility.
+All Action components can be plugged into the Code Generator component which generates the RAPID program and system Modules for the ABB IRC5 robot controller. The RAPID program and system code can be copied manually to the controller or uploaded and run by using the Remote Connection component from Category: Controller Utility.
 
 ## **Usage**
 

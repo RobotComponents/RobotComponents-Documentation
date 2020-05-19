@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Simulation
-nav_order: 5
+nav_order: 6
 parent: Robot Components Categories
 has_children: true
 has_toc: false

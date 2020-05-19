@@ -36,4 +36,4 @@ Through the right-click menu of the component the following options are availbal
 
 ## **Usage**
 
-**General:** Change the state of a defined digital output of an ABB IRC5 robot controller by using this component.
+[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Categories/Controller Utility/index.md %})**:** Change the state of a defined digital output of an ABB IRC5 robot controller by using this component.
