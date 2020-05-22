@@ -2,7 +2,7 @@
 layout: default
 title: Action Wait for Digital Input
 nav_order: 1
-parent: Code Generation
+parent: Code Generation Components
 grand_parent: Robot Components Categories
 has_toc: false
 ---

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Naming
+title: Name Generator
 nav_order: 9
-parent: Utility
+parent: Utility Components
 grand_parent: Robot Components Categories
 ---
 

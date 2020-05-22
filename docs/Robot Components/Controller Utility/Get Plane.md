@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Get Plane
-nav_order: 2
-parent: Controller Utility
+nav_order: 1
+parent: Controller Utility Components
 grand_parent: Robot Components Categories
 ---
 

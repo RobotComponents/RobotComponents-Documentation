@@ -2,7 +2,7 @@
 layout: default
 title: Get Object Manager
 nav_order: 10
-parent: Utility
+parent: Utility Components
 grand_parent: Robot Components Categories
 ---
 

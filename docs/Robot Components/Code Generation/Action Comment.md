@@ -2,7 +2,7 @@
 layout: default
 title: Action Comment
 nav_order: 1
-parent: Code Generation
+parent: Code Generation Components
 grand_parent: Robot Components Categories
 has_toc: false
 ---

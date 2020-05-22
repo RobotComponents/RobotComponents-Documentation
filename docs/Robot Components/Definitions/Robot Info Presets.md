@@ -2,7 +2,7 @@
 layout: default
 title: Robot Info Presets
 nav_order: 1
-parent: Definitions
+parent: Definition Components
 grand_parent: Robot Components Categories
 ---
 

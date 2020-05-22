@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Deconstruct
+title: Deconstruct Components
 nav_order: 5
 has_children: true
 has_toc: false
@@ -10,7 +10,7 @@ has_toc: false
 
 ## **Description**
 
-Deconstruction components are used to deconstruct [**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %}) and [*Definitions*]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %}) components into their parameters.
+Deconstruction components are used to deconstruct [Simulation]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %}) and [Definitions]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %}) components into their parameters.
 ## **Functionality**
 
 ...

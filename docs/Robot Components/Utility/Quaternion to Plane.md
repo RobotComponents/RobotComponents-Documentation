@@ -2,7 +2,7 @@
 layout: default
 title: Quaternion to Plane
 nav_order: 2
-parent: Utility
+parent: Utility Components
 grand_parent: Robot Components Categories
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Parameters
+title: Parameter Components
 nav_order: 7
 has_children: true
 has_toc: false
@@ -10,7 +10,7 @@ has_toc: false
 
 ## **Description**
 
-Parameter components are used to maintain and store Data of [Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}) and [Definitions]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %}) components.
+Parameter components are used to maintain and store Data of [Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}) and [Definition]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %}) components.
 
 ## **Functionality**
 

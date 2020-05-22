@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Get Digital Output
-nav_order: 3
-parent: Controller Utility
+nav_order: 1
+parent: Controller Utility Components
 grand_parent: Robot Components Categories
 ---
 

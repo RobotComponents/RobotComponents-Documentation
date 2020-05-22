@@ -2,7 +2,7 @@
 layout: default
 title: Path Generator
 nav_order: 3
-parent: Simulation
+parent: Simulation Components
 grand_parent: Robot Components Categories
 ---
 

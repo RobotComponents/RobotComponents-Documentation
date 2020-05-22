@@ -2,7 +2,7 @@
 layout: default
 title: Movement
 nav_order: 1
-parent: Parameters
+parent: Parameter Components
 grand_parent: Robot Components Categories
 ---
 

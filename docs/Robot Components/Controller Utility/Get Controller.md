@@ -2,7 +2,7 @@
 layout: default
 title: Get Controller
 nav_order: 1
-parent: Controller Utility
+parent: Controller Utility Components
 grand_parent: Robot Components Categories
 ---
 

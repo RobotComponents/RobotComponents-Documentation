@@ -2,7 +2,7 @@
 layout: default
 title: Target Visualizer
 nav_order: 3
-parent: Utility
+parent: Utility Components
 grand_parent: Robot Components Categories
 ---
 

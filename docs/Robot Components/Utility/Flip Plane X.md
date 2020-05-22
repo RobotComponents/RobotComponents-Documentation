@@ -2,7 +2,7 @@
 layout: default
 title: Flip Plane X
 nav_order: 1
-parent: Utility
+parent: Utility Components
 grand_parent: Robot Components Categories
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: Deconstruct Speed Data
 nav_order: 1
-parent: Deconstruct
+parent: Deconstruct Components
 grand_parent: Robot Components Categories
 ---
 

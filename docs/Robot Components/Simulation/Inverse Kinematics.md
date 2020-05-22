@@ -2,7 +2,7 @@
 layout: default
 title: Inverse Kinematics
 nav_order: 2
-parent: Simulation
+parent: Simulation Components
 grand_parent: Robot Components Categories
 ---
 

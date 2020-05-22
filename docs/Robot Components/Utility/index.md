@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Utility
+title: Utility Components
 nav_order: 9
 has_children: true
 has_toc: false
@@ -24,7 +24,7 @@ The Target Visualizer can be used to display various information on all targets 
 
 [**Flip Plane Y**]({{ site.baseurl }}{% link docs/Robot Components/Utility/Flip Plane Y.md %})**:** Flips a plane by setting its y-Axis negativ. Useful for Action: Target creation.
 
-[**Naming**]({{ site.baseurl }}{% link docs/Robot Components/Utility/Naming.md %})**:** ...
+[**Name Generator**]({{ site.baseurl }}{% link docs/Robot Components/Utility/Name Generator.md %})**:** ...
 
 [**Plane to Quaternion**]({{ site.baseurl }}{% link docs/Robot Components/Utility/Plane to Quarternion.md %})**:** ...
 

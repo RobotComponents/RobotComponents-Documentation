@@ -2,7 +2,7 @@
 layout: default
 title: Forward Kinematics
 nav_order: 1
-parent: Simulation
+parent: Simulation Components
 grand_parent: Robot Components Categories
 ---
 

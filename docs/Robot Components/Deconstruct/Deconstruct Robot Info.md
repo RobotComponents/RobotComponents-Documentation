@@ -2,7 +2,7 @@
 layout: default
 title: Deconstruct Robot Info
 nav_order: 2
-parent: Deconstruct
+parent: Deconstruct Components
 grand_parent: Robot Components Categories
 ---
 
