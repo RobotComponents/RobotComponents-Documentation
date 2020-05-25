@@ -24,7 +24,7 @@ RobotComponents uses the ABB PC SDK for real-time connection to ABB Robots, you 
 
 [**Definitions Components**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %})**:** These components are used to define robots and robot tools which are needed for [Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}) and [Simulation]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %}).
 
-[**Parameters Components**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/index.md %})**:** These components are used to maintain and store Data of [Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}) and [Definitions]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %}) components.
+[**Parameters Components**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/index.md %})**:** These components are used to maintain and store Data of [Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}) and [Definitions]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %}) components.
 
 [**Simulation Components**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:** These components are used to visually approximate the movement behavior of the robot before running the RAPID program and system modules on an ABB IRC5 robot controller.
 

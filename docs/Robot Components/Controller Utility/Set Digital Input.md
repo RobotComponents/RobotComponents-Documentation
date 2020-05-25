@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Set Digital Input
-nav_order: 1
+nav_order: 3
 parent: Controller Utility Components
 grand_parent: Robot Components Categories
 ---

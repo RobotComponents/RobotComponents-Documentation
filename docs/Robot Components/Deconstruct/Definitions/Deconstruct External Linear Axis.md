@@ -1,9 +1,9 @@
 ---
 layout: default
-title: External Rotational Axis
+title: Deconstruct External Linear Axis
 nav_order: 1
-parent: Definition Components
-grand_parent: Robot Components Categories
+parent: Deconstruct Definition Components
+grand_parent: Deconstruct Components
 ---
 
 # **{{page.title}}**
@@ -14,19 +14,21 @@ Work in progress....
 
 ## **Input Parameters**
 
+**External Linear Axis (ELA):** 
+
+## **Output Parameters**
+
 **Name (N):** ...
 
-**Axis Plane (AP):** ...
+**Attachment Plane (AP):** ...
+
+**Axis (A):** ...
 
 **Axis Limits (AL):** ...
 
 **Base Mesh (BM):** ...
 
 **Link Mesh (LM):** ...
-
-## **Output Parameters**
-
-**External Rotational Axis (ERA):**
 
 ## **Usage**
 

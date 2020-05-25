@@ -1,7 +1,7 @@
 ---
 layout: default
 title: External Linear Axis
-nav_order: 2
+nav_order: 1
 parent: Definition Components
 grand_parent: Robot Components Categories
 ---
