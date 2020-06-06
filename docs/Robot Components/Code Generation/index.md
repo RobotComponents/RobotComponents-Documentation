@@ -10,36 +10,18 @@ has_toc: false
 
 ## **Description**
 
-Code Generation components are used to generate the RAPID program and system modules for a virtual or real ABB IRC5 robot controller.
+Code Generation components are used to create the RAPID program and system modules for a virtual or real ABB IRC5 robot controller. This is done by plugging a list of Actions into the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %}) component, which generates the RAPID program module for the ABB IRC5 robot controller. 
 
-## **Functionality**
+The RAPID program module contains the robot instructions such as target definitions, movement behavior etc. More information on that topic can be found here: [Introduction to RAPID](http://dl.icdst.org/pdfs/files3/db9fddeb58803077290aa2538c54333d.pdf) or in the [Technical Reference Manual of ABB Robotics](https://library.e.abb.com/public/688894b98123f87bc1257cc50044e809/Technical%20reference%20manual_RAPID_3HAC16581-1_revJ_en.pdf). 
 
-All Action components can be plugged into the Code Generator component which generates the RAPID program and system Modules for the ABB IRC5 robot controller. The RAPID program and system code can be copied manually to the controller or uploaded and run by using the Remote Connection component from Category: Controller Utility.
+The RAPID program module can be copied manually from the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %}) component output to the controller or uploaded and run by using the [Remote Connection]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/Remote Connection.md %}) component from the [Controller Utility]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/index.md %}). 
 
-## **Usage**
+## **Components**
 
-[**Action: Override Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Set Robot Tool.md %})**:** Defines an instruction to change the current robot tool of the ABB robot for RAPID base code generation.
+[**Declarative Actions**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/index.md %})**:** Used to define declarations for the RAPID program module.
 
-[**Action: Target**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Target.md %})**:** Defines a target for an Action: Movement or Inverse Kinematics component.
+[**Instructive Actions**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** Used to define instructions for the RAPID program module.
 
-[**Action: Absolute Joint Movement**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Absolute Joint Movement.md %})**:** Defines an aboslute joint movement instruction for simulation and RAPID code generation.
+[**Dynamic Actions**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Dynamic Actions/index.md %})**:** Used to define either declarations or instructions for the RAPID program module.
 
-[**Action: Movement**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Movement.md %})**:** Defines a linear or nonlinear movement instruction for simulation and RAPID code generation.
-
-[**Action: Speed Data**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Speed Data.md %})**:** Defines a speed data for an Action: Movement.
-
-[**Action: Zone Data**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Zone Data.md %})**:** Defines a zone data for an Action: Movement.
-
-[**Action: Timer**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Timer.md %})**:** Defines an instruction to wait a given amount of time between two other robot instructions in RAPID code generation.
-
-[**Action: Digital Output**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Digital Output.md %})**:** Defines an instruction to change the state of a digital output of the robot controller for RAPID code generation.
-
-[**Action: Wait for Digital Input**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Wait for Digital Input.md %})**:** Defines an instruction to wait for the signal of a Digital Input from the robot controller in RAPID code generation.
-
-[**Action: Auto Axis Configuration**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Auto Axis Configuration.md %})**:** Defines an instruction to set the axis configuration of the robot automatically for RAPID code generation.
-
-[**Action: Code Line**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Code Line.md %})**:** Defines manually an instruction for RAPID code generation.
-
-[**Action: Comment**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Comment.md %})**:** Defines a comment for RAPID code generation.
-
-[**RAPID Generator**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %})**:** Generates the RAPID program and system code for the ABB IRC5 robot controller from a list of Actions.
+[**RAPID Generator**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %})**:** Generates the RAPID program and system modules for the ABB IRC5 robot controller from a list of Actions.

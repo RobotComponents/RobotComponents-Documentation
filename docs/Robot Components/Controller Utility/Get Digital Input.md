@@ -10,7 +10,7 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/index.md %})**:** This component gets the signal of a defined digital input from an ABB IRC5 robot controller.
+[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/index.md %})**:** Gets the signal of a defined digital input from an ABB IRC5 robot controller.
 
 ## **Input Parameters**
 
@@ -21,9 +21,3 @@ grand_parent: Robot Components Categories
 ## **Output Parameters**
 
 **Signal (S):** Contains the signal of the defined digital input. The signal value can be casted to a boolean and integer parameter. 
-
-## **Menu Items**
-
-Through the right-click menu of the component the following options are availbale:
-
-**Documentation:** Opens the documentation page of the component in your browser.

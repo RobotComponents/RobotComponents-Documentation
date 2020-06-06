@@ -2,7 +2,7 @@
 layout: default
 title: Target
 nav_order: 2
-parent: Action Parameter Components
+parent: Action Parameters
 grand_parent: Parameter Components
 ---
 
@@ -10,12 +10,13 @@ grand_parent: Parameter Components
 
 ## **Description**
 
-
-## **Data**
-
+[**Action Parameter**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/index.md %})**:** Contains the data of a **Target** declaration. 
 
 ## **Constructors**
 
+[**Target**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %})
 
 ## **Deconstructors**
+
+[**Deconstruct Target**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Actions/Deconstruct Target.md %})
 

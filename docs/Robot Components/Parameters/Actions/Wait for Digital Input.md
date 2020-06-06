@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Wait for Digital Input
-nav_order: 2
-parent: Action Parameter Components
+nav_order: 8
+parent: Action Parameters
 grand_parent: Parameter Components
 ---
 
@@ -10,12 +10,9 @@ grand_parent: Parameter Components
 
 ## **Description**
 
-
-## **Data**
-
+[**Action Parameter**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/index.md %})**:** Contains the data of a **Wait for Digital Input** instruction.
 
 ## **Constructors**
 
-
-## **Deconstructors**
+[**Wait for Digital Input**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Wait for Digital Input.md %})
 

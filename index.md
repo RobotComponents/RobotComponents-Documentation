@@ -14,6 +14,7 @@ The Plugin is a development from the Department of Digital and Experimental Desi
 
 RobotComponents uses the ABB PC SDK for real-time connection to ABB Robots, you can find the .dll used in this project here: [ABB developercenter](http://developercenter.robotstudio.com/landing)
 
+
 ## **Overview**
 
 [**Code Generation Components**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** These components are used to generate the RAPID program and system modules for an ABB IRC5 robot controller which can be copied manually or uploaded and run by using Controller Utility components. Furthermore, movement instructions can be simulated visually in Rhino by using [Simulation]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %}) components.
@@ -29,3 +30,5 @@ RobotComponents uses the ABB PC SDK for real-time connection to ABB Robots, you 
 [**Simulation Components**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:** These components are used to visually approximate the movement behavior of the robot before running the RAPID program and system modules on an ABB IRC5 robot controller.
 
 [**Utility Components**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:** These components support other component categories with extra functionality.
+
+**NOTE:** By selecting **Documentation** from the right-click menu of any robot components component in grasshopper, the corresponding documentation page opens up in the browser.

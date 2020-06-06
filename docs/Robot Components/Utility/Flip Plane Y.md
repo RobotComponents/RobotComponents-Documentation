@@ -6,13 +6,10 @@ parent: Utility Components
 grand_parent: Robot Components Categories
 ---
 
-# **{{page.title}}**
-
 ## **Description**
 
-Work in progress....
-
-Utility: This component flips a plane to the oposite direction by setting its y-Axis negativ. Useful for Action: Target creation.
+[**Utility**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:** 
+Flips a plane by setting its y-Axis negativ.
 
 ## **Input Parameters**
 
@@ -24,4 +21,6 @@ Utility: This component flips a plane to the oposite direction by setting its y-
 
 ## **Usage**
 
-Code Generation: Plug the Plane output of this component into the Plane input of the Action: Target component. Since be default grasshopper planes are facing the wrong direction this will make your life easier.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** 
+Plug the Plane output of this component into the Plane input of the [Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %}) component. 
+Since be default grasshopper planes are facing the wrong direction when working with robot components, this component makes life easier.

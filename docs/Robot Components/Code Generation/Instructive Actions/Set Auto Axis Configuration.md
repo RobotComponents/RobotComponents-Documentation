@@ -1,0 +1,26 @@
+---
+layout: default
+title: Set Auto Axis Configuration
+nav_order: 5
+parent: Instructive Actions
+grand_parent: Code Generation Components
+has_toc: false
+---
+
+# **{{page.title}}**
+
+## **Description**
+
+[**Instructive Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** Defines an instruction to activate or deactivate auto axis configuration for all following instructions.
+
+## **Input Parameters**
+
+**is Active (A):** Defines if the axis configuration of the robot is set automatically based on a boolean value.
+
+## **Output Parameters**
+
+**Set Auto Axis Config (SAAC):** Contains an instruction activate or deactivate auto axis configuration for all following instructions.
+
+## **Usage**
+
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the output of this component into the actions input of the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %}) component to add an instruction to the RAPID program module that activates or deactivates auto axis configuration for the robot.

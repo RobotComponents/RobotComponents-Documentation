@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Forward Kinematics
-nav_order: 1
+nav_order: 2
 parent: Simulation Components
 grand_parent: Robot Components Categories
 ---
@@ -10,28 +10,30 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-Work in progress....
-
-Simulation: This component computes the position of the end-effector of a defined ABB robot based on a set of given axis values. It can be also used for visualizing the robot mesh inside of Rhino.
+[**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:** 
+Computes the position of the end-effector of a defined ABB robot based on a set of given axis values. 
 
 ## **Input Parameters**
 
-**Robot Info (RI):** Defines the robot based on a Robot Info component.
+**Robot (R):** Defines the robot based on a robot parameter. A custom robot can be created by using the [Robot]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %}) component.
 
-**Internal Axis Values (IAV):** Defines the current robot internal axis values based on a list of doubles.
+**Internal Axis Values (IAV):** Defines the robot internal axis values based on a list of numbers.
 
-**External Axis Values (EAV):** Defines the current robot external axis values based on a list of doubles.
+**External Axis Values (EAV):** Defines the robot external axis values based on a list of numbers.
 
 ## **Output Parameters**
 
-**Posed Meshes (PM):** Contains the robot mesh information which is displayed inside of Rhino. Note: Display errors can be fixed by creating a rectangle around and above the robot inside of Rhino like shown here.
+**Posed Meshes (PM):** Contains the posed robot and external axis meshes.
 
-**End Plane (EP):** Contains the plane information about the robot’s end-effector.
+**End Plane (EP):** Contains the robot's tool center point plane.
 
-**External Axis Planes (EAP):** ...
+**External Axis Planes (EAP):** Contains a list with all external axis planes.
 
 ## **Usage**
 
-Simulation: Visualize a defined robot based on a given list of internal and external axis values. The robot mesh will be colored red if any axis values are invalid. Note: Display errors can be fixed by creating a rectangle that contains the robot and is placed above it inside of Rhino like shown here.
+[**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:** 
+Visualize a robot based on a given list of internal and external axis values. 
+The robot mesh will be colored red if any axis values are invalid. 
 
-Code Generation: Plug the End Plane output of this component into the Plane input of the Action: Target component to define a robot target.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** 
+Plug the End Plane output of this component into the Plane input of the [Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %}) component.

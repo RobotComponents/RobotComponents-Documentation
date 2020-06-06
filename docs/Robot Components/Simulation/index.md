@@ -10,15 +10,12 @@ has_toc: false
 
 ## **Description**
 
-Work in progress....
-
 Simulation components are used to visually approximate the movement behavior of the robot before running the RAPID main and base code on the robot controller.
+To simulate the robot movement path all [Actions]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}) from the [Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}) category 
+can be plugged into the [Path Generator]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Path Generator.md %})component which also generates 
+corresponding axis values for every path position. To visualize the robot geometry inside of Rhino the [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %}) component can be used by feeding in any axis values.
 
-## **Functionality**
-
-To simulate the robot movement path all Actions from Category: Code Generation can be simply plugged into the Path Generator component which also generates corresponding axis values for every path position. Note that every Action except Movement Actions will be ignored. The Inverse Kinematics component can be used additionally to calculate the axis values for a specific Target. To visualize the robot geometry inside of Rhino the Forward Kinematics component can be used by feeding in any axis values.
-
-## **Usage**
+## **Components**
 
 [**Forward Kinematics**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %})**:** Computes the position of the end-effector of a defined ABB robot based on a set of given axis values. It can be also used for visualizing the robot mesh inside of Rhino.
 

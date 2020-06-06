@@ -2,7 +2,7 @@
 layout: default
 title: Deconstruct External Linear Axis
 nav_order: 1
-parent: Deconstruct Definition Components
+parent: Definition Deconstructors
 grand_parent: Deconstruct Components
 ---
 
@@ -10,26 +10,24 @@ grand_parent: Deconstruct Components
 
 ## **Description**
 
-Work in progress....
+[**Utility**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:** 
+Deconstructs a [External Linear Axis]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Linear Axis.md %}) into its parameters.
 
 ## **Input Parameters**
 
-**External Linear Axis (ELA):** 
+**External Linear Axis (ELA):**  Defines the [External Linear Axis]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Linear Axis.md %}) to be deconstructed.
 
 ## **Output Parameters**
 
-**Name (N):** ...
+**Name (N):** Contains the name of the external linear axis as string.
 
-**Attachment Plane (AP):** ...
+**Attachment Plane (AP):** Contains the attachment plane for the robot. 
 
-**Axis (A):** ...
+**Axis (A):** Contains the Axis as vector.
 
-**Axis Limits (AL):** ...
+**Axis Limits (AL):** Contains the Axis Limits as domain.
 
-**Base Mesh (BM):** ...
+**Base Mesh (BM):** Contains the Mesh for the External Linear Axis Base.
 
-**Link Mesh (LM):** ...
+**Link Mesh (LM):** Contains the Mesh for the External Linear Axis Link.
 
-## **Usage**
-
-...

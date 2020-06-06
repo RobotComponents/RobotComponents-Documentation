@@ -1,7 +1,7 @@
 ---
 layout: default
 title: External Linear Axis
-nav_order: 1
+nav_order: 6
 parent: Definition Components
 grand_parent: Robot Components Categories
 ---
@@ -10,23 +10,22 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-Work in progress....
-
-Definitions: This component defines an External Linear Axis that can be used with ABB Robots and plugged into a Robot Info component.
+[**Definition**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %})**:** 
+Defines a custom external linear axis.
 
 ## **Input Parameters**
 
-**Name (N):** ...
+**Name (N):** Defines the name of the external linear axis as string.
 
-**Attachment Plane (AP):** ...
+**Attachment Plane (AP):** Defines the attachment plane for the robot. Overrides the robot position plane.
 
-**Axis (A):** ...
+**Axis (A):** Defines the Axis as vector.
 
-**Axis Limits (AL):** ...
+**Axis Limits (AL):** Defines the Axis Limits as list of domains.
 
-**Base Mesh (BM):** ...
+**Base Mesh (BM):** Defines the Mesh for the External Linear Axis Base.
 
-**Link Mesh (LM):** ...
+**Link Mesh (LM):** Defines the Mesh for the External Linear Axis Link.
 
 ## **Output Parameters**
 
@@ -34,4 +33,4 @@ Definitions: This component defines an External Linear Axis that can be used wit
 
 ## **Usage**
 
-Definitions: Plug the External Linear Axis output of this component into the External Linear Axis input of a Robot Info component. The robot will be attached to the External Linear Axis.
+[**Definitions**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %})**:** Plug the External Linear Axis output of this component into the External Linear Axis input of a [Robot]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %}) component. The robot will be attached to the External Linear Axis.
