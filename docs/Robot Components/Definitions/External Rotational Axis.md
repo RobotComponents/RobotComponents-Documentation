@@ -31,4 +31,6 @@ Defines a custom external rotational axis.
 
 ## **Usage**
 
-[**Definitions**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %})**:** Plug the External Rotational Axis output of this component into the External Rotational Axis input of a [Robot]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %}) component. The robot will be attached to the External Linear Axis.
+**Note:** You can use the Quarternion to Plane component to define the axis plane from the Base Frame data that is defined in controller configuration. The position and orientation of the axis plane has to match with the Base Frame that is defined in the configuration file of the virtual or physical controller. 
+
+[**Definitions**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %})**:** Plug the External Rotational Axis output parameter of this component into the External Rotational Axis input parameter of a [Robot]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %}) component. The robot will be attached to the External Linear Axis.

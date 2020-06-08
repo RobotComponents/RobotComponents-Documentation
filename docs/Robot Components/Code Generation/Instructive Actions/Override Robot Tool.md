@@ -27,7 +27,7 @@ This component defines an instruction to change the current robot tool of the AB
 ## **Usage**
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** 
-Plug the output of this component into the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %}) component 
+Plug the output parameter of this component into the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %}) component 
 to add a code line to the RAPID program module that sets the currently used robot tool. The currently used robot tool should be defined in RAPID system code. 
 This is done automatically when creating a Robot Tool by using the [Robot Tool from Planes]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot Tool from Planes.md %}) or 
 [Robot Tool from Quaternions]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot Tool from Quaternions.md %}) component. Each robot tool name needs to be unique.

@@ -11,13 +11,13 @@ has_toc: false
 
 ## **Description**
 
-[**Dynamic Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Dynamic Actions/index.md %})**:**  This component defines manually an instruction or declaration for RAPID program module.
+[**Dynamic Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Dynamic Actions/index.md %})**:**  This component defines manually an instruction or declaration for a RAPID program module.
 
 ## **Input Parameters**
 
-**Text (T):** Defines the content of the code line based on a string value. An introduction to RAPID Programming can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
+**Text (T):** Defines the content of the code line based on a text value.
 
-**Type (T):** Defines the type of the Code Line. Use 0 for adding a code line as instruction in the RPAID programm module. Use 1 for adding a code line as declaration in the RAPID program module.
+**Type (T):** Defines the type of the code line. Use `0` for adding a code line as instruction in the RPAID program module. Use `1` for adding a code line as declaration in the RAPID program module. In case this input is left empty and an input is defined for the Text parameter, a value list will automatically be created. You can select `Instruction` or `Declaration` from the value list to define the desired Code Line type. 
 
 ## **Output Parameters**
 
@@ -25,4 +25,4 @@ has_toc: false
 
 ## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the Code Line Output of this component into the Action Input of the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %}) component to generate a single code line in the RAPID program module. 
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the [Code Line]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Code Line.md %}) output parameter of this component into the [Actions]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Action.md %}) input parameter of the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %}) component to generate a custom single code line in the RAPID program module. 

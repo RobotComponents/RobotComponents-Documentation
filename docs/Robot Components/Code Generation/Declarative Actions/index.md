@@ -16,8 +16,8 @@ grand_parent: Robot Components Categories
 
 ## **Components**
 
-[**Target**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %})**:** Defines a target for an Action: Movement or Inverse Kinematics component.
+[**Target**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %})**:** Defines a target for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) component.
 
-[**Speed Data**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Speed Data.md %})**:** Defines a speed data for an Action: Movement.
+[**Speed Data**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Speed Data.md %})**:** Defines a speed data for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) and [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Absolute Joint Movement.md %}) component.
 
-[**Zone Data**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Zone Data.md %})**:** Defines a zone data for an Action: Movement.
+[**Zone Data**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Zone Data.md %})**:** Defines a zone data for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) and [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Absolute Joint Movement.md %}) component.

@@ -38,6 +38,6 @@ Defines a robot tool based on quaternion values. It will be automatically regist
 ## **Usage**
 
 [**Definitions**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %})**:**  
-Plug the Robot Tool output of this component into the Robot Tool input of a [Robot]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %}) component. 
+Plug the Robot Tool output parameter of this component into the Robot Tool input parameter of a [Robot]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %}) component. 
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the Robot Tool output of this component into the Robot Tool input of a [Override Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Override Robot Tool.md %}) component.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the Robot Tool output parameter of this component into the Robot Tool input parameter of a [Override Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Override Robot Tool.md %}) component.

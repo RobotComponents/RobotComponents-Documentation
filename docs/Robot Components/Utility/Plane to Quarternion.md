@@ -15,9 +15,9 @@ Converts a plane to quaternion values.
 
 ## **Input Parameters**
 
-Plane (P): Defines the plane to be converted.
+**Plane (P):** Defines the plane to be converted.
 
-Reference Plane (RP): Defines the reference plane for the conversion.
+**Reference Plane (RP):** Defines the reference plane for the conversion. By default this is the world XY-plane.
 
 ## **Output Parameters**
 

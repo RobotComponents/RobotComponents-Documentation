@@ -28,4 +28,4 @@ Computes the axis values for a defined ABB robot based on a [Target]({{ site.bas
 ## **Usage**
 
 [**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:**
-Plug the Internal and External Axis Values outputs of this component into the Internal and External Axis Values inputs of the [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %}) component to generate a plane for a [Target]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Target.md %}).
+Plug the Internal and External Axis Values output parameters of this component into the Internal and External Axis Values input parameters of the [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %}) component to generate a plane for a [Target]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Target.md %}).

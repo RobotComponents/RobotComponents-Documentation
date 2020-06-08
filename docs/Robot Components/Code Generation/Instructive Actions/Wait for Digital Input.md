@@ -15,7 +15,7 @@ has_toc: false
 
 ## **Input Parameters**
 
-**Digital Input Name (N):** Defines the name of the digital input based on a string value.
+**Digital Input Name (N):** Defines the name of the digital input based on a text value.
 
 **State (S):** Defines the state of the digital input that should be waited for.
 

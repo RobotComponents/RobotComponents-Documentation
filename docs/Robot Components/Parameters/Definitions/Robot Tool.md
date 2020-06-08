@@ -6,7 +6,6 @@ parent: Definition Parameters
 grand_parent: Parameter Components
 ---
 
-
 # **{{page.title}}**
 
 ## **Description**
