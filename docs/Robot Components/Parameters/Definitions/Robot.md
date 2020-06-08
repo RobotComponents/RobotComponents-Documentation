@@ -17,7 +17,10 @@ Contains the data of a **Robot**.
 
 [**Robot**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %})
 
-
 ## **Deconstructors**
 
 [**Deconstruct Robot**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct Robot.md %})
+
+## **Casting methods**
+
+**Cast <u>to</u>** a **Robot Tool parameter:** Cast to the Robot Tool parameter. Defines the Robot Tool that is attached to the robot. 

@@ -16,3 +16,12 @@ grand_parent: Parameter Components
 
 [**Override Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Override Robot Tool.md %})
 
+## **Casting methods**
+
+**Cast <u>from</u>** an **[Action]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Action.md %}) parameter:** Constructs a {{page.title}} parameter from an generic Action parameter. This is only possible if the created Action parameter was constructed from an {{page.title}} parameter.
+
+**Cast <u>from</u>** a **[Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) parameter:** Constructs a {{page.title}} parameter from a Robot Tool parameter.
+
+**Cast <u>to</u>** an **[Action]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Action.md %}) parameter:** Cast to the generic [Action]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Action.md %}) parameter. 
+
+**Cast <u>to</u>** a **[Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) parameter:** Cast to the Robot Tool parameter that is definied for this Override Robot Tool instruction.
