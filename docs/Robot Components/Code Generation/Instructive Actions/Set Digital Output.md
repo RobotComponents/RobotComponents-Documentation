@@ -16,7 +16,7 @@ Defines an instruction to change the state of a digital output of the robot cont
 
 ## **Input Parameters**
 
-**Name (N):** Defines the name of the digital output based on a string value. This name should match with the name of the digital signal as it defined in the robot controller. 
+**Name (N):** Defines the name of the digital output based on a text value. This name should match with the name of the digital signal as it defined in the robot controller. 
 
 **State (S):** Defines the state of the digital output that should be set based on a boolean value.
 

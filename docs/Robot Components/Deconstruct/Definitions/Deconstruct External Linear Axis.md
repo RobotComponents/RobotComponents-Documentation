@@ -11,7 +11,7 @@ grand_parent: Deconstruct Components
 ## **Description**
 
 [**Utility**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:** 
-Deconstructs a [External Linear Axis]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Linear Axis.md %}) into its parameters.
+Deconstructs a [External Linear Axis]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Linear Axis.md %}) parameter into its parameters.
 
 ## **Input Parameters**
 

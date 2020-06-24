@@ -19,7 +19,7 @@ Changes the state of a defined digital input from an ABB IRC5 robot controller i
 
 **Robot Controller (RC):** Defines the ABB IRC5 robot controller that is connected to. A virtual or real ABB IRC5 robot controller can be defined by using the [Get Controller]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/Get Controller.md %}) component.
 
-**DI Name (N):** Defines the name of the digital input based on a string value. This needs to be the same name that is defined in the ABB IRC5 robot controller for the digital input.
+**DI Name (N):** Defines the name of the digital input based on a text value. This needs to be the same name that is defined in the ABB IRC5 robot controller for the digital input.
 
 **State (S):** Defines the state that sould be set for the digital input based on a boolean value.
 

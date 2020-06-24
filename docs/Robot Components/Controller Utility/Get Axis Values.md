@@ -25,7 +25,7 @@ Gets the current robot axis values from an ABB IRC5 robot controller.
 
 ## **Usage**
 
-[**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:** The Axis Values output of this component can be plugged into the Axis Values input of a [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %}) component to visualize the robot geometry inside of Rhino.
+[**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:** The Axis Values output of this component can be plugged into the Axis Values input parameters of a [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %}) component to visualize the robot geometry inside of Rhino.
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** The Internal and External Axis Values outputs of this component can be plugged into the Axis Values input of a [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %}) component to calculate the robots end plane. That end plane could then be used to define a [Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %}) for the RAPID program module generation.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** The Internal and External Axis Values outputs of this component can be plugged into the Axis Values input parameters of a [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %}) component to calculate the robots end plane. That end plane could then be used to define a [Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %}) for the RAPID program module generation.
 

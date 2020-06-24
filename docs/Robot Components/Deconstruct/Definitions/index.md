@@ -17,12 +17,12 @@ Definition Deconstructors are used to deconstruct [Definition]({{ site.baseurl }
 
 ## **Components**
 
-[**Deconstruct External Linear Axis:**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct External Linear Axis.md %})**:** ...
+[**Deconstruct External Linear Axis:**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct External Linear Axis.md %})**:** Deconstructs a External Linear Axis parameter into its parameters.
 
-[**Deconstruct External Rotational Axis**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct External Rotational Axis.md %})**:** ...
+[**Deconstruct External Rotational Axis**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct External Rotational Axis.md %})**:** Deconstructs a External Rotational Axis parameter into its parameters.
 
-[**Deconstruct Robot**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct Robot.md %})**:** Deconstructs an existing robot info definition. A robot can be defined by using a Robot Info or ABB_IRB 1200 7 0.7 component.
+[**Deconstruct Robot**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct Robot.md %})**:** Deconstructs a Robot parameter into its parameters.
 
-[**Deconstruct Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct Robot Tool.md %})**:** Deconstructs an existing robot tool definition. A robot tool can be defined by using a Robot Tool From Planes or Robot Tool From Data component.
+[**Deconstruct Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct Robot Tool.md %})**:** Deconstructs a Robot Tool parameter into its parameters.
 
-[**Deconstruct Work Object**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct Work Object.md %})**:**
+[**Deconstruct Work Object**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct Work Object.md %})**:** Deconstructs a Work Object parameter into its parameters.

@@ -15,7 +15,7 @@ Visualizes the orientation vectors of a plane.
 
 ## **Input Parameters**
 
-Plane (P): Defines the plane to visualize.
+**Plane (P):** Defines the plane to visualize.
 
 ## **Output Parameters**
 

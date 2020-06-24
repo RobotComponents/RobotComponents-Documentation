@@ -6,7 +6,6 @@ parent: Definition Parameters
 grand_parent: Parameter Components
 ---
 
-
 # **{{page.title}}**
 
 ## **Description**
@@ -23,3 +22,7 @@ Contains the data of a **Robot Tool**.
 ## **Deconstructors**
 
 [**Deconstruct Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Definitions/Deconstruct Robot Tool.md %})
+
+## **Casting methods**
+
+**Cast <u>to</u>** a **Mesh parameter:** Cast to the Mesh parameter. Defines the joined Mesh of the defined Robot Tool.

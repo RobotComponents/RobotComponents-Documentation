@@ -28,11 +28,11 @@ A collection of predefined ABB robot components.
 
 ## **Usage**
 
-Note: The Forward Kinematics component can be used for debugging this component by testing out different axis values.
+**Note:** You can use the Quarternion to Plane component to define the position plane from the Base Frame data that is defined in controller configuration. The position plane has to match with the Base Frame that is defined in the configuration file of the virtual or physical controller. Be aware that if you attach and external linear axis to the robot the position plane will be overwritten by the attachment plane of this external linear axis.
 
-[**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:** 
-Plug the Robot output of this component into the Robot input of the [Inverse Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Inverse Kinematics.md %}) 
-or [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %}) component.
+**Note:** The Forward Kinematics component can be used for debugging this component by testing out different axis values.
+
+[**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:** Plug the Robot output parameter of this component into the Robot input parameter of the [Inverse Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Inverse Kinematics.md %}) or [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %}) component.
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** 
-Plug the Robot output of this component into the Robot input of the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %}) component.
+Plug the Robot output parameter of this component into the Robot input parameter of the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %}) component.

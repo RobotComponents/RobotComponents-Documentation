@@ -27,7 +27,7 @@ Defines a robot tool based on attachment and end-effector planes. It will be aut
 
 **Robot Tool (RT):** Contains the robot tool information.
 
-**Robot Tool Code (RTC):** Contains the robot tool infortmation as a string for the RAPID system code.
+**Robot Tool Code (RTC):** Contains the robot tool infortmation as a text for the RAPID system code.
 
 ## **Usage**
 

@@ -18,14 +18,10 @@ Generates a name data tree for [Targets]({{ site.baseurl }}{% link docs/Robot Co
 
 ## **Input Parameters**
 
-**Name (N):** Defines the name of the data tree as string.
+**Name (N):** Defines the name of the data tree as text.
 
 **Data Tree (DT):** Defines the data tree structure.
 
 ## **Output Parameters**
 
-**Name (N):** Contains all names as a data tree of strings. 
-
-## **Usage**
-
-TODO
+**Name (N):** Contains all names as a data tree of text values. 

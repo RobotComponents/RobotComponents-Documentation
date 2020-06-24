@@ -23,4 +23,4 @@ has_toc: false
 
 ## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the output of this component into the actions input of the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %}) component to add an instruction to the RAPID program module that activates or deactivates auto axis configuration for the robot.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the output paramter of this component into the Actions input parameter of the [RAPID Generator]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/RAPID Generator.md %}) component to add an instruction to the RAPID program module that activates or deactivates auto axis configuration.

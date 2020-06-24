@@ -18,7 +18,7 @@ grand_parent: Robot Components Categories
 
 [**Absolute Joint Movement**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Absolute Joint Movement.md %})**:** Defines an aboslute joint movement instruction for simulation and RAPID code generation.
 
-[**Move**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %})**:** Defines a linear or nonlinear movement instruction for simulation and RAPID code generation.
+[**Move**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %})**:** Defines a linear or joint movement instruction for simulation and RAPID code generation.
 
 [**Override Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Override Robot Tool.md %})**:** Defines an instruction to change the current robot tool of the ABB robot for RAPID base code generation.
 

@@ -13,15 +13,12 @@ grand_parent: Robot Components Categories
 [**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:** 
 Generates and displays the movement path for a defined robot based on a list of [Actions]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}). It can be also used for visually simulating the robot movement inside of Rhino.
 
-
 **Note:** Every [Action]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}) except Move Actions will be ignored. The [Inverse Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Inverse Kinematics.md %}) component can be used to calculate the axis values for a specific [Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %}). 
 
-
 **EXPERIMENTAL:** This component does an estimation of the path and robot movements! The following limitations are known:
-- It does not simulate the correct speed. 
+- It ignores the speed data. 
 - It ignores the auto axis configuration (if used).
 - It ignores zone data (movement precision) values. 
-
 
 ## **Input Parameters**
 
@@ -50,7 +47,7 @@ Generates and displays the movement path for a defined robot based on a list of 
 ## **Usage**
 
 [**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:** 
-Plug the Axis Values output of this component into the Axis Values input of the [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %}) component. Visualize the robot movement as animation in Rhino by using a slider with range 0.0 to 1.0 for the Animation Slider input of this component.
+Plug the Axis Values output parameter of this component into the Axis Values input of the [Forward Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Forward Kinematics.md %}) component. Visualize the robot movement as animation in Rhino by using a slider with range 0.0 to 1.0 for the Animation Slider input parameter of this component.
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** 
 Visualize the robot movement path inside of Rhino by setting the Update input of this component to true.
