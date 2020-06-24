@@ -15,11 +15,11 @@ has_toc: false
 
 ## **Input Parameters**
 
-**is Active (A):** Defines if the axis configuration of the robot is set automatically based on a boolean value.
+**Is Active (A):** Defines if the axis configuration of the robot is set automatically based on a boolean value.
 
 ## **Output Parameters**
 
-**Set Auto Axis Config (SAAC):** Contains an instruction activate or deactivate auto axis configuration for all following instructions.
+**Set Auto Axis Config (SAAC):** Contains an instruction to activate or deactivate auto axis configuration for all following instructions.
 
 ## **Usage**
 

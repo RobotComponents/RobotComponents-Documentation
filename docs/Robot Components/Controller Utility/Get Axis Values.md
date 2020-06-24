@@ -10,7 +10,8 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/index.md %})**:** Gets the current robot axis values from an ABB IRC5 robot controller.
+[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/index.md %})**:** 
+Gets the current robot axis values from an ABB IRC5 robot controller.
 
 ## **Input Parameters**
 

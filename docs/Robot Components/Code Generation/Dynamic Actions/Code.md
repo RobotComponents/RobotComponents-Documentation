@@ -11,13 +11,13 @@ has_toc: false
 
 ## **Description**
 
-[**Dynamic Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Dynamic Actions/index.md %})**:**  This component defines manually an instruction or declaration for RAPID program module.
+[**Dynamic Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Dynamic Actions/index.md %})**:**  This component defines manually an instruction or declaration for the RAPID program module.
 
 ## **Input Parameters**
 
-**Text (T):** Defines the content of the code line based on a string value. An introduction to RAPID Programming can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
+**Text (T):** Defines the content of the code based on a string value. An introduction to RAPID Programming can be found here: Introduction to RAPID or in the Technial Reference Manual of ABB Robotics.
 
-**Type (T):** Defines the type of the Code Line. Use 0 for adding a code line as instruction in the RPAID programm module. Use 1 for adding a code line as declaration in the RAPID program module.
+**Type (T):** Defines the type of the code. Use 0 for adding the code as instruction in the RPAID programm module. Use 1 for adding the code as declaration in the RAPID program module.
 
 ## **Output Parameters**
 

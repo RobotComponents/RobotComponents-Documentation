@@ -11,7 +11,8 @@ has_toc: false
 
 ## **Description**
 
-[**Instructive Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** Defines an instruction to change the state of a digital output of the robot controller.
+[**Instructive Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** 
+Defines an instruction to change the state of a digital output of the robot controller.
 
 ## **Input Parameters**
 

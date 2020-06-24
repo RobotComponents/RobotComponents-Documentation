@@ -11,7 +11,8 @@ has_toc: false
 
 ## **Description**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Generates the RAPID program and system module for the robot controller.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** 
+Generates the RAPID program and system module for the robot controller.
 
 ## **Input Parameters**
 
@@ -25,7 +26,7 @@ has_toc: false
 
 **Custom System Code (CSC):** Additional custom code lines for the RAPID system module defined as a list of strings. 
 
-**Update (U):** Only if set to true, the RAPID program and system modules will will be generated. To increase performance, only update the path when changes were made. It is recommended to toggle this input parameter with a button.  
+**Update (U):** Only if set to true, the RAPID program and system modules will will be generated. To increase performance, only update when changes were made. It is recommended to toggle this input parameter with a button.  
 
 ## **Output Parameters**
 

@@ -11,7 +11,8 @@ has_toc: false
 
 ## **Description**
 
-[**Instructive Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** Defines an instruction to wait for the signal of a Digital Input from the robot controller.
+[**Instructive Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** 
+Defines an instruction to wait for the signal of a Digital Input from the robot controller.
 
 ## **Input Parameters**
 

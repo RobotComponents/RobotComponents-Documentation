@@ -11,7 +11,8 @@ has_toc: false
 
 ## **Description**
 
-[**Instructive Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** Defines a linear or nonlinear movement instruction.
+[**Instructive Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** 
+Defines a linear or nonlinear movement instruction.
 
 ## **Input Parameters**
 
@@ -31,7 +32,7 @@ Through the right-click menu of the component addional inputs can be added:
 
 **Override Work Object (WO):** The work object (coordinate system) to which the target position in the instruction is related. By default wobj0 is used. A work object can be created by using the [Work Object]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Work Object.md %}) component.
 
-**Set Digital Output (DO):** If this input is left empty a normal movement type instruction will be defined (MoveAbsJ, MoveL or MoveJ). If a valid digital output is defined the state will be set after this movement. In case of a linear movement this will done by defining a MoveLDO instruction, and in case of a joint movement this will result a MoveJDO instruction. If the movement type is an absolute joint movement an additional instruction will be set for the digital output (SetDO) after the movement instruction. A digital output can be defined by using the [Set Digital Output]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Set Digital Output.md %}) component. 
+**Digital Output (DO):** If this input is left empty a normal movement type instruction will be defined (MoveAbsJ, MoveL or MoveJ). If a valid digital output is defined the state will be set after this movement. In case of a linear movement this will done by defining a MoveLDO instruction, and in case of a joint movement this will result a MoveJDO instruction. If the movement type is an absolute joint movement an additional instruction will be set for the digital output (SetDO) after the movement instruction. A digital output can be defined by using the [Set Digital Output]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Set Digital Output.md %}) component. 
 
 ## **Output Parameters**
 

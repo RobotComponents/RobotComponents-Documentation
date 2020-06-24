@@ -10,7 +10,8 @@ grand_parent: Parameter Components
 
 ## **Description**
 
-[**Action Parameter**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/index.md %})**:** Contains the data of an **Comment**. 
+[**Action Parameter**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/index.md %})**:** 
+Contains the data of a **Comment**. 
 
 ## **Constructors**
 

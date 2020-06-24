@@ -10,7 +10,8 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/index.md %})**:** Establishes a remote connection with the controller to upload an run RAPID code directly on a virtual or real ABB IRC5 robot controller.
+[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/index.md %})**:** 
+Establishes a remote connection with the controller to upload an run RAPID code directly on a virtual or real ABB IRC5 robot controller.
 
 ## **Input Parameters**
 

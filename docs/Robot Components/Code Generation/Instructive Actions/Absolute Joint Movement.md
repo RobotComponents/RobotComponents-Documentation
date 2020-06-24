@@ -11,7 +11,8 @@ has_toc: false
 
 ## **Description**
 
-[**Instructive Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** Defines an aboslute joint movement instruction.
+[**Instructive Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** 
+Defines an aboslute joint movement instruction.
 
 ## **Input Parameters**
 

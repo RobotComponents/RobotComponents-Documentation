@@ -11,7 +11,8 @@ has_toc: false
 
 ## **Description**
 
-[**Instructive Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** Defines an instruction to wait a given amount of time between two other RAPID instructions.
+[**Instructive Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/index.md %})**:** 
+Defines an instruction to wait a given amount of time between two other RAPID instructions.
 
 ## **Input Parameters**
 

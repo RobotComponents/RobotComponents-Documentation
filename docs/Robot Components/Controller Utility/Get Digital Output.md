@@ -10,7 +10,8 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/index.md %})**:** Gets the signal of a defined digital output from an ABB IRC5 robot controller.
+[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/index.md %})**:** 
+Gets the signal of a defined digital output from an ABB IRC5 robot controller.
 
 ## **Input Parameters**
 

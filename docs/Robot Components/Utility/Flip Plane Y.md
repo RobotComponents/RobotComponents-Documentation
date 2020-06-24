@@ -9,7 +9,7 @@ grand_parent: Robot Components Categories
 ## **Description**
 
 [**Utility**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:** 
-Flips a plane by setting its y-Axis negativ.
+Flips the plane to the oposite direction by setting it's y-Axis negative.
 
 ## **Input Parameters**
 
