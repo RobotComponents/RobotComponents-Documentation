@@ -23,7 +23,7 @@ Contains the data of an **External Linear Axis**.
 
 ## **Casting methods**
 
-**Cast <u>from</u>** an **External Axis parameter:** Constructs an {{page.title}} parameter from an generic External Axis parameter. This is only possible if the {{page.title}} parameter was constructed from an {{page.title}} parameter.
+**Cast <u>from</u>** an **External Axis parameter:** Constructs an {{page.title}} parameter from a generic External Axis parameter. This is only possible if the {{page.title}} parameter was constructed from an {{page.title}} parameter.
 
 **Cast <u>to</u>** a **Plane parameter:** Cast to the Plane parameter. Defines the position and orientation of the attachment plane of the External Linear Axis. The plane is given in for an external axis value of 0.
 

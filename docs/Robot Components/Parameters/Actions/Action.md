@@ -2,7 +2,7 @@
 layout: default
 title: Action
 nav_order: 1
-parent: Action Parameter Components
+parent: Action Parameters
 grand_parent: Parameter Components
 ---
 

@@ -19,7 +19,7 @@ Contains the data of a **Override Robot Tool** instruction.
 
 ## **Casting methods**
 
-**Cast <u>from</u>** an **[Action]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Action.md %}) parameter:** Constructs a {{page.title}} parameter from an generic Action parameter. This is only possible if the created Action parameter was constructed from an {{page.title}} parameter.
+**Cast <u>from</u>** an **[Action]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Action.md %}) parameter:** Constructs a {{page.title}} parameter from a generic Action parameter. This is only possible if the created Action parameter was constructed from an {{page.title}} parameter.
 
 **Cast <u>from</u>** a **[Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) parameter:** Constructs a {{page.title}} parameter from a Robot Tool parameter.
 

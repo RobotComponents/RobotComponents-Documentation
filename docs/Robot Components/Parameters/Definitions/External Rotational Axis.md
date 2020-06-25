@@ -23,6 +23,7 @@ Contains the data of an **External Rotational Axis**.
 
 ## **Casting methods**
 
-**Cast <u>from</u>** an **External Axis parameter:** Constructs an {{page.title}} parameter from an generic External Axis parameter. This is only possible if the {{page.title}} parameter was constructed from an {{page.title}} parameter.
+**Cast <u>from</u>** an **External Axis parameter:** Constructs an {{page.title}} parameter from 
+External Axis parameter. This is only possible if the {{page.title}} parameter was constructed from an {{page.title}} parameter.
 
 **Cast <u>to</u>** a **Domain parameter:** Cast to the Domain parameter. Defines the axis limit of the External Rotational Axis.
