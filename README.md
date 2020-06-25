@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/github/license/EDEK-UniKassel/RobotComponents-Documentation?style=flat-square)]()
 
-This repo contains the content of [edek-unikassel.github.io/RobotComponents-Documentation/](https://edek-unikassel.github.io/RobotComponents-Documentation/). The documentation page is built on [Just The Docs](https://github.com/pmarsceill/just-the-docs). 
+This repo contains the content of [robotcomponents.github.io/RobotComponents-Documentation/](https://robotcomponents.github.io/RobotComponents-Documentation/). The documentation page is built on [Just The Docs](https://github.com/pmarsceill/just-the-docs). 
 
 Pull request are welcome. If you want to build the site yourself, to test your changes before opening a pull request, then please check out the getting started guide below. 
 
@@ -33,9 +33,9 @@ Now you can open [http://localhost:4000/](http://localhost:4000/) in your browse
 [View the documentation](https://pmarsceill.github.io/just-the-docs/) of [Just The Docs](https://github.com/pmarsceill/just-the-docs) for usage information.
 
 ## Credits
-![EDEK_logo](https://github.com/EDEK-UniKassel/RobotComponents-Documentation/blob/master/181101_EDEK-LOGO-01.png)
+![EDEK_logo](https://github.com/RobotComponents/RobotComponents-Documentation/blob/master/181101_EDEK-LOGO-01.png)
 
-The project is a development from the [Department of Experimental and Digital Design and Construction of the University of Kassel](https://edek.uni-kassel.de/). Supervised by the head of the department Prof. Eversmann. The technical development is initiated and executed by the research associates and student assistants which are listed [here](https://github.com/EDEK-UniKassel/RobotComponents-Documentation/blob/master/AUTHORS.md).
+The project is a development from the [Department of Experimental and Digital Design and Construction of the University of Kassel](https://edek.uni-kassel.de/). Supervised by the head of the department Prof. Eversmann. The technical development is initiated and executed by the research associates and student assistants which are listed [here](https://github.com/RobotComponents/RobotComponents-Documentation/blob/master/AUTHORS.md).
 
 ## License
 

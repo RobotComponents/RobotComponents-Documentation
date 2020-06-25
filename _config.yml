@@ -16,7 +16,7 @@
 title: Robot Components Documentation
 description: Robot Components Documentation
 baseurl: "/RobotComponents-Documentation" # the subpath of your site, e.g. /blog
-url: "https://edek-unikassel.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://robotcomponents.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", 
@@ -50,7 +50,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Robot Components Documentation on GitHub":
-    - "//github.com/EDEK-UniKassel/RobotComponents-Documentation"
+    - "//github.com/RobotComponents/RobotComponents-Documentation"
 
 # Footer content appears at the bottom of every page's main content
 footer_content: "Copyright &copy; 2020 EDEK Uni Kassel."
