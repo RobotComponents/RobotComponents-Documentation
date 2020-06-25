@@ -10,30 +10,29 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-Work in progress....
+[**Utility**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:** 
+Converts a plane to quaternion values.
 
 ## **Input Parameters**
 
-Plane (P):
+**Plane (P):** Defines the plane to be converted.
+
+**Reference Plane (RP):** Defines the reference plane for the conversion. By default this is the world XY-plane.
 
 ## **Output Parameters**
 
-**Coord X (X):**
+**Coord X (X):** Contains the x-coordinate of the plane origin as number.
 
-**Coord Y (Y):**
+**Coord Y (Y):** Contains the y-coordinate of the plane origin as number.
 
-**Coord Z (Z):**
+**Coord Z (Z):** Contains the z-coordinate of the plane origin as number.
 
-**Quaternion A (A):**
+**Quaternion A (A):** Contains the real part of the quaternion as number.
 
-**Quaternion B (B):**
+**Quaternion B (B):** Contains the first imaginary coefficient of the quaternion as number.
 
-**Quaternion C (C):**
+**Quaternion C (C):** Contains the second imaginary coefficient of the quaternion as number.
 
-**Quaternion D (D):**
+**Quaternion D (D):** Contains the third imaginary coefficient of the quaternion as number.
 
-**String (STR):**
-
-## **Usage**
-
-...
+**String (STR):** Contains the quaternion in string format to be used in RAPID Code.

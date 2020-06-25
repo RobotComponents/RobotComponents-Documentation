@@ -2,7 +2,7 @@
 layout: default
 title: Deconstruct Work Object
 nav_order: 3
-parent: Deconstruct Definition Components
+parent: Definition Deconstructors
 grand_parent: Deconstruct Components
 ---
 
@@ -10,20 +10,17 @@ grand_parent: Deconstruct Components
 
 ## **Description**
 
-Work in progress....
+[**Utility**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:**
+Deconstructs a [Work Object]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Work Object.md %}) into its parameters.
 
 ## **Input Parameters**
 
-**Work Object (WO):** ...
+**Work Object (WO):** Defines the [Work Object]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Work Object.md %}) to deconstruct.
 
 ## **Output Parameters**
 
-**Name (N):** ...
+**Name (N):** Contains the work object name as string.
 
-**Plane (WP):** ...
+**Plane (WP):** Contains the work objects plane.
 
-**External Rotational Axis (ERA):** ...
-
-## **Usage**
-
-...
+**External Rotational Axis (ERA):** Contains the [External Rotational Axis]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Rotational Axis.md %}) of the work object. 

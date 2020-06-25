@@ -10,7 +10,8 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/index.md %})**:** This component is used to connect to a virtual or real ABB IRC5 robot controller and extract data from it.
+[**Controller Utility**]({{ site.baseurl }}{% link docs/Robot Components/Controller Utility/index.md %})**:** 
+Connects to a real or virtual ABB IRC5 robot controller and extracts data from it.
 
 ## **Input Parameters**
 
@@ -25,5 +26,3 @@ grand_parent: Robot Components Categories
 Through the right-click menu of the component additional options are available:
 
 **Pick Controller:** Select an active ABB IRC5 Controller to connect to.
-
-**Documentation:** Opens the documentation page of this component.

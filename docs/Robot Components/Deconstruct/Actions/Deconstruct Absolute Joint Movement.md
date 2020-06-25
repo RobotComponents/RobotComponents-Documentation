@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Deconstruct Absolute Joint Movement
-nav_order: 1
-parent: Deconstruct Action Components
+nav_order: 5
+parent: Action Deconstructors
 grand_parent: Deconstruct Components
 ---
 
@@ -10,11 +10,12 @@ grand_parent: Deconstruct Components
 
 ## **Description**
 
-[**Deconstruction**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Deconstructs an [Action: Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Absolute Joint Movement.md %}) component into its parameters.
+[**Deconstruction**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** 
+Deconstructs an [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Absolute Joint Movement.md %}) component into its parameters.
 
 ## **Input Parameters**
 
-**Absolute Joint Movement (AJM):** Defines the [Action: Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Absolute Joint Movement.md %}) to deconstruct.
+**Absolute Joint Movement (AJM):** Defines the [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Absolute Joint Movement.md %}) to be deconstructed.
 
 ## **Output Parameters**
 
@@ -24,19 +25,13 @@ grand_parent: Deconstruct Components
 
 **External Axis Values (EAV):** Contains the external axis values of the deconstructed movement as a list of numbers in degrees.
 
-**Speed Data (SD):** Contains the [Action: Speed Data]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Speed Data.md %}) of the deconstructed movement. 
+**Speed Data (SD):** Contains the [Speed Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Speed Data.md %}) of the deconstructed movement. 
 
 **Movement Type (MT:** Contains information on the movement type of the deconstructed movement.
 
-**Zone Data (Z):** Contains the [Action: Zone Data]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Action Zone Data.md %}) of the deconstructed movement.
+**Zone Data (Z):** Contains the [Zone Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Zone Data.md %}) of the deconstructed movement.
 
-**Robot Tool (RT):** Contains the [Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot Tool from Planes.md %}) of the deconstructed movement.
-
-## **Menu Items**
-
-Through the right-click menu of the component the following options are available:
-
-**Documentation:** Opens the documentation page of the component in your browser.
+**Robot Tool (RT):** Contains the [Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) of the deconstructed movement.
 
 ## **Usage**
 

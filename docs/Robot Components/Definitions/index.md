@@ -10,26 +10,20 @@ has_toc: false
 
 ## **Description**
 
-Work in progress....
+Definition components are used for [Code Generation]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}) and [Simulation]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %}).
 
-Definition components are used to define robots and robot tools for Code Generation and Simulation.
+## **Components**
 
-## **Functionality**
+[**Robot**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %})**:** Defines a custom robot.
 
-ABB_IRB-1200-7-0.7 or any other Robot Info components are needed for different components from Code Generation and Simulation such as RAPID Generator or Inverse Kinematics and Forward Kinematics. If a specific robot tool is required it can be defined by using the Robot Tool From Data or Robot Tool From Planes component from this category. The Robot Tool output must then be plugged into the ABB_IRB-1200-7-0.7 or any other Robot Info component which is used for Code Generation and Simulation. It will be automatically registered in the RAPID base code of any RAPID Generator component
+[**Robot Presets**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot Presets.md %})**:** A collection of predefined ABB robot components.
 
-## **Usage**
+[**Robot Tool from Planes**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot Tool from Planes.md %})**:** Defines a robot tool based on attachment and end-effector planes.
 
-[**External Linear Axis**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/External Linear Axis.md %})**:** ...
+[**Robot Tool from Quaternions**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot Tool from Quaternions.md %})**:** Defines a robot tool based on quaternion values.
 
-[**External Rotational Axis**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/External Rotational Axis.md %})**:** ...
+[**External Linear Axis**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/External Linear Axis.md %})**:** Defines a custom external linear axis.
 
-[**Robot Info Presets**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot Info Presets.md %})**:** ...
+[**External Rotational Axis**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/External Rotational Axis.md %})**:** Defines a custom external rotational axis.
 
-[**Robot Info**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot Info.md %})**:** Defines a robot which is needed for Code Generation and Simulation. 
-
-[**Robot Tool From Planes**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot Tool from Planes.md %})**:** ...
-
-[**Robot Tool Quaternion**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot Tool from Quaternion Data.md %})**:** ...
-
-[**Work Object**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Work Object.md %})**:** ...
+[**Work Object**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Work Object.md %})**:** Defines a work object.

@@ -1,6 +1,8 @@
 # Robot Components Documentation
 
 [![License](https://img.shields.io/github/license/EDEK-UniKassel/RobotComponents-Documentation?style=flat-square)]()
+[![Closed Issues](https://img.shields.io/github/issues-raw/EDEK-UniKassel/RobotComponents-Documentation?style=flat-square)]()
+[![Open Issues](https://img.shields.io/github/issues-closed-raw/EDEK-UniKassel/RobotComponents-Documentation?style=flat-square)]()
 
 This repo contains the content of [robotcomponents.github.io/RobotComponents-Documentation/](https://robotcomponents.github.io/RobotComponents-Documentation/). The documentation page is built on [Just The Docs](https://github.com/pmarsceill/just-the-docs). 
 

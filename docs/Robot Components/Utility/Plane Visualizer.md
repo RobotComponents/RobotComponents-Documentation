@@ -10,11 +10,12 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-Work in progress....
+[**Utility**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:**
+Visualizes the orientation vectors of a plane.
 
 ## **Input Parameters**
 
-Plane (P):
+**Plane (P):** Defines the plane to visualize.
 
 ## **Output Parameters**
 
@@ -22,4 +23,6 @@ Displays the three vectors of the plane in Rhino.
 
 ## **Usage**
 
-...
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:**
+This component is very usefull when defining a [Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %}) by
+visualizing the orientation of the input plane.
