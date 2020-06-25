@@ -2,7 +2,7 @@
 
 ## Contributors
 
-- Gabriel Rumpf [@GabrielRumpf](https://github.com/GabrielRumpf)
-- Benedikt Wannemacher <<wannemacher@uni-kassel.de>> [@BenediktWannemacher](https://github.com/BenediktWannemacher)
-- Arjen Deetman <<deetman@uni-kassel.de>> [@arjendeetman](https://github.com/arjendeetman)
+- [Gabriel Rumpf](https://github.com/GabrielRumpf) [[EDEK Uni Kassel](http://edek.uni-kassel.de/)]
+- [Benedikt Wannemacher](https://github.com/BenediktWannemacher) [[EDEK Uni Kassel](http://edek.uni-kassel.de/)]
+- [Arjen Deetman](https://github.com/arjendeetman) [[EDEK Uni Kassel](http://edek.uni-kassel.de/)] <<deetman@uni-kassel.de>>
 
