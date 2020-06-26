@@ -15,7 +15,7 @@ Computes the position of the end-effector of a defined ABB robot based on a set 
 
 ## **Input Parameters**
 
-**Robot (R):** Defines the robot based on a robot parameter. A custom robot can be created by using the [Robot]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %}) component.
+[**Robot**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot.md %}) **(R):** Defines the robot based on a robot parameter. A custom robot can be created by using the [Robot]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %}) component.
 
 **Internal Axis Values (IAV):** Defines the robot internal axis values based on a list of numbers.
 

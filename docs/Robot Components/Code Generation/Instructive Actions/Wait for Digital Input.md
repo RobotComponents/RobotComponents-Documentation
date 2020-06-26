@@ -22,7 +22,7 @@ Defines an instruction to wait for the signal of a Digital Input from the robot 
 
 ## **Output Parameters**
 
-**Wait for Digital Input (WDI):** Contains the instruction to wait for the signal of a defined digital input from the robot controller.
+[**Wait for Digital Input**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Wait for Digital Input.md %}) **(WDI):**  Contains the instruction to wait for the signal of a defined digital input from the robot controller.
 
 ## **Usage**
 

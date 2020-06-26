@@ -15,7 +15,7 @@ Deconstructs a [Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Para
 
 ## **Input Parameters**
 
-**Robot Tool (RT):** Defines the [Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) to deconstruct.
+[**Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) **(RT):** Defines the [Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) to deconstruct.
 
 ## **Output Parameters**
 

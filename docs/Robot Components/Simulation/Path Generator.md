@@ -22,9 +22,9 @@ Generates and displays the movement path for a defined robot based on a list of 
 
 ## **Input Parameters**
 
-**Robot (R):** Defines the robot.
+[**Robot**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot.md %}) **(R):** Defines the robot.
 
-**Actions (A):** Defines the movement path based on a list of ordered move instructions. A move instruction can be defined by using the [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) component. **Note:** All Actions can be plugged into this input but will be ignored except for move instructions.
+[**Actions**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Action.md %}) **(A):** Defines the movement path based on a list of ordered move instructions. A move instruction can be defined by using the [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) component. **Note:** All Actions can be plugged into this input but will be ignored except for move instructions.
 
 **Interpolations (I):** Defines the resolution per movement based on an integer value. This means that for every two movement targets additional targets are generated in between them based on the interpolations count. Increase this value to get a smoother animation. **Note:** This can dramatically decrease performance. For performance improvement use a button for the Update Input of this component and only recalculate the movement path when necessary.
 

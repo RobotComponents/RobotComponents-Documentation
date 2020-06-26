@@ -15,7 +15,7 @@ Deconstructs a [External Linear Axis]({{ site.baseurl }}{% link docs/Robot Compo
 
 ## **Input Parameters**
 
-**External Linear Axis (ELA):**  Defines the [External Linear Axis]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Linear Axis.md %}) to be deconstructed.
+[**External Linear Axis**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Linear Axis.md %}) **(ELA):**  Defines the [External Linear Axis]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Linear Axis.md %}) to be deconstructed.
 
 ## **Output Parameters**
 

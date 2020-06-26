@@ -25,9 +25,7 @@ Defines a robot tool based on attachment and end-effector planes. It will be aut
 
 ## **Output Parameters**
 
-**Robot Tool (RT):** Contains the robot tool information.
-
-**Robot Tool Code (RTC):** Contains the robot tool infortmation as a text for the RAPID system code.
+[**Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) **(RT):** Contains the robot tool information.
 
 ## **Usage**
 

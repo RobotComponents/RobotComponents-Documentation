@@ -15,7 +15,7 @@ Deconstructs a [Speed Data]({{ site.baseurl }}{% link docs/Robot Components/Para
 
 ## **Input Parameters**
 
-**Speed Data (SD):** Defines the [Speed Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Speed Data.md %}) to be deconstructed.
+[**Speed Data**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Speed Data.md %}) **(SD):** Defines the [Speed Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Speed Data.md %}) to be deconstructed.
 
 ## **Output Parameters**
 

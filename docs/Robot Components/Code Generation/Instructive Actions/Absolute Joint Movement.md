@@ -30,7 +30,7 @@ Defines an aboslute joint movement instruction.
 
 Through the right-click menu of the component addional inputs can be added:
 
-**Override Robot Tool (ORT):** Defines the robot tool that will be used for the defined movement. If this input is left empty the robot tool that is attached to the used robot info will be used. This a variable input parameter that can be accessed and enabled through the right-click menu of the component. 
+[**Override Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Override Robot Tool.md %}) **(ORT):** Defines the robot tool that will be used for the defined movement. If this input is left empty the robot tool that is attached to the used robot will be used. This a variable input parameter that can be accessed and enabled through the right-click menu of the component. 
 
 ## **Output Parameters**
 

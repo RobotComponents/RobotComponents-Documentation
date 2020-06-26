@@ -34,5 +34,3 @@ Converts a plane to quaternion values.
 **Quaternion C (C):** Contains the second imaginary coefficient of the quaternion as number.
 
 **Quaternion D (D):** Contains the third imaginary coefficient of the quaternion as number.
-
-**String (STR):** Contains the quaternion in string format to be used in RAPID Code.

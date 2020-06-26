@@ -38,7 +38,7 @@ Action Parameter components are used to maintain and store Data of [Code Generat
 
 [**Override Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Override Robot Tool.md %})**:** Used to store the data of a **Override Robot Tool** instruction. 
 
-[**Code Line**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Code Line.md %})**:** Used to store the data of a **Code Line**. 
+[**Code**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Code Line.md %})**:** Used to store the data of a **Code Line**. 
 
 [**Comment**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Comment.md %})**:** Used to store the data of a **Comment**. 
 

@@ -27,7 +27,7 @@ Defines a custom external rotational axis.
 
 ## **Output Parameters**
 
-**External Rotational Axis (ERA):** Contains the External Rotational Axis information.
+[**External Rotational Axis**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Rotational Axis.md %}) **(ERA):** Contains the External Rotational Axis information.
 
 ## **Usage**
 

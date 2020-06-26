@@ -24,7 +24,7 @@ Defines a work object.
 
 ## **Output Parameters**
 
-**Work Object (WO):** Contains the work object information.
+[**Work Object**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Work Object.md %}) **(WO):** Contains the work object information.
 
 ## **Usage**
 

@@ -15,7 +15,7 @@ Deconstructs a [Target]({{ site.baseurl }}{% link docs/Robot Components/Paramete
 
 ## **Input Parameters**
 
-**Target (T):** Defines the [Target]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Target.md %}) to be deconstructed.
+[**Target**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Target.md %}) **(T):** Defines the [Target]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Target.md %}) to be deconstructed.
 
 ## **Output Parameters**
 

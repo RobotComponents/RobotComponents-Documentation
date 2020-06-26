@@ -22,7 +22,7 @@ Defines an instruction to change the state of a digital output of the robot cont
 
 ## **Output Parameters**
 
-**Set Digital Output (SDO):** Contains the instruction to change the state of a defined digital output.
+[**Set Digital Output**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Set Digital Output.md %}) **(SDO):** Contains the instruction to change the state of a defined digital output.
 
 ## **Usage**
 

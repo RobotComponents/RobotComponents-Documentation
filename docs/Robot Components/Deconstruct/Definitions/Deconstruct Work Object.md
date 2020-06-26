@@ -15,7 +15,7 @@ Deconstructs a [Work Object]({{ site.baseurl }}{% link docs/Robot Components/Par
 
 ## **Input Parameters**
 
-**Work Object (WO):** Defines the [Work Object]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Work Object.md %}) to deconstruct.
+[**Work Object**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Work Object.md %}) **(WO):** Defines the [Work Object]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Work Object.md %}) to deconstruct.
 
 ## **Output Parameters**
 
@@ -23,4 +23,4 @@ Deconstructs a [Work Object]({{ site.baseurl }}{% link docs/Robot Components/Par
 
 **Plane (WP):** Contains the work objects plane.
 
-**External Rotational Axis (ERA):** Contains the [External Rotational Axis]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Rotational Axis.md %}) of the work object. 
+[**External Rotational Axis**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Rotational Axis.md %}) **(ERA):** Contains the [External Rotational Axis]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Rotational Axis.md %}) of the work object. 

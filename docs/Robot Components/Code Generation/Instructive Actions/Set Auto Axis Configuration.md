@@ -19,7 +19,7 @@ has_toc: false
 
 ## **Output Parameters**
 
-**Set Auto Axis Config (SAAC):** Contains an instruction to activate or deactivate auto axis configuration for all following instructions.
+[**Set Auto Axis Configuration**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Set Auto Axis Configurator.md %}) **(SAAC):** Contains an instruction to activate or deactivate auto axis configuration for all following instructions.
 
 ## **Usage**
 

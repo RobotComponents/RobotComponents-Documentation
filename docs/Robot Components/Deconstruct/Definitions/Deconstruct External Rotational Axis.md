@@ -15,7 +15,7 @@ Deconstructs a [External Rotational Axis]({{ site.baseurl }}{% link docs/Robot C
 
 ## **Input Parameters**
 
-**External Rotational Axis (ERA):** Defines the [External Rotational Axis]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Rotational Axis.md %}) to deconstruct.
+[**External Rotational Axis**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Rotational Axis.md %}) **(ERA):** Defines the [External Rotational Axis]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Rotational Axis.md %}) to deconstruct.
 
 ## **Output Parameters**
 

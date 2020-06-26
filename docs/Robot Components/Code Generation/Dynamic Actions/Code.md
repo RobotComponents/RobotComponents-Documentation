@@ -21,7 +21,7 @@ has_toc: false
 
 ## **Output Parameters**
 
-**Code (C):** Contains the defined RAPID code for the RAPID program module.
+[**Code**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Code Line.md %}) **(C):** Contains the defined RAPID code for the RAPID program module.
 
 ## **Usage**
 

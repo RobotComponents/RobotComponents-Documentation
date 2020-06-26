@@ -15,7 +15,7 @@ Deconstructs an [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot C
 
 ## **Input Parameters**
 
-**Absolute Joint Movement (AJM):** Defines the [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Absolute Joint Movement.md %}) to be deconstructed.
+[**Absolute Joint Movement**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Absolute Joint Movement.md %}) **(AJM):** Defines the [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Absolute Joint Movement.md %}) to be deconstructed.
 
 ## **Output Parameters**
 
@@ -25,14 +25,12 @@ Deconstructs an [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot C
 
 **External Axis Values (EAV):** Contains the external axis values of the deconstructed movement as a list of numbers in degrees.
 
-**Speed Data (SD):** Contains the [Speed Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Speed Data.md %}) of the deconstructed movement. 
+[**Speed Data**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Speed Data.md %}) **(SD):** Contains the [Speed Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Speed Data.md %}) of the deconstructed movement. 
 
 **Movement Type (MT:** Contains information on the movement type of the deconstructed movement.
 
-**Zone Data (Z):** Contains the [Zone Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Zone Data.md %}) of the deconstructed movement.
+[**Zone Data**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Zone Data.md %}) **(ZD):** Contains the [Zone Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Zone Data.md %}) of the deconstructed movement.
 
-**Robot Tool (RT):** Contains the [Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) of the deconstructed movement.
-
-## **Usage**
+[**Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) **(RT):** Contains the [Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) of the deconstructed movement.
 
 

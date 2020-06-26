@@ -6,6 +6,8 @@ parent: Utility Components
 grand_parent: Robot Components Categories
 ---
 
+# **{{page.title}}**
+
 ## **Description**
 
 [**Utility**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:** 

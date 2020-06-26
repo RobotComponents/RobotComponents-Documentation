@@ -20,7 +20,7 @@ Defines an instruction to wait a given amount of time between two other RAPID in
 
 ## **Output Parameters**
 
-**Timer (T):** Contains the wait instruction.
+[**Wait for Time**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Wait for Time.md %}) **(WT):** Contains the wait instruction.
 
 ## **Usage**
 

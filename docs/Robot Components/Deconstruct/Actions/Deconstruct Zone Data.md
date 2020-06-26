@@ -15,7 +15,7 @@ Deconstructs a [Zone Data]({{ site.baseurl }}{% link docs/Robot Components/Param
 
 ## **Input Parameters**
 
-**Zone Data (ZD):** Defines [Zone Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Zone Data.md %}) to be deconstructed.
+[**Zone Data**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Zone Data.md %}) **(ZD):** Defines [Zone Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Zone Data.md %}) to be deconstructed.
 
 ## **Output Parameters**
 

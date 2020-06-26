@@ -35,9 +35,12 @@ Defines a robot tool based on quaternion values. It will be automatically regist
 
 **Quaternion D (D):** Defines the third imaginary coefficient of the quaternion as number.
 
+## **Output Parameters**
+
+[**Robot Tool**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) **(RT):** Contains the robot tool information.
+
 ## **Usage**
 
-[**Definitions**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %})**:**  
-Plug the Robot Tool output parameter of this component into the Robot Tool input parameter of a [Robot]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %}) component. 
+[**Definitions**]({{ site.baseurl }}{% link docs/Robot Components/Definitions/index.md %})**:** Plug the Robot Tool output parameter of this component into the Robot Tool input parameter of a [Robot]({{ site.baseurl }}{% link docs/Robot Components/Definitions/Robot.md %}) component. 
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the Robot Tool output parameter of this component into the Robot Tool input parameter of a [Override Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Override Robot Tool.md %}) component.

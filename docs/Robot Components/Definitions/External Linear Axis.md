@@ -29,7 +29,7 @@ Defines a custom external linear axis.
 
 ## **Output Parameters**
 
-**External Linear Axis (ELA):** Contains the External Linear Axis information.
+[**External Linear Axis**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/External Linear Axis.md %}) **(ELA):** Contains the External Linear Axis information.
 
 ## **Usage**
 

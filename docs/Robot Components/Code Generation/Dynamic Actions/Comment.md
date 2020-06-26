@@ -21,7 +21,7 @@ has_toc: false
 
 ## **Output Parameters**
 
-**Comment (C):** Contains the defined comment for the RAPID program module based on the text input of this component.
+[**Comment**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Comment.md %}) **(C):** Contains the defined comment for the RAPID program module based on the text input of this component.
 
 ## **Usage**
 
