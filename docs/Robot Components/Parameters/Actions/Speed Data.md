@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Speed Data
-nav_order: 3
+nav_order: 5
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

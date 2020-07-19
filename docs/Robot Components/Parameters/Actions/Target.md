@@ -15,11 +15,15 @@ Contains the data of a **Target** declaration.
 
 ## **Constructors**
 
-[**Target**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %})
+[**Robot Target**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Robot Target.md %})
+
+[**Joint Target**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Joint Target.md %})
 
 ## **Deconstructors**
 
-[**Deconstruct Target**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Actions/Deconstruct Target.md %})
+[**Deconstruct Robot Target**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Actions/Deconstruct Robot Target.md %})
+
+[**Deconstruct Joint Target**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/Actions/Deconstruct Joint Target.md %})
 
 ## **Casting methods**
 

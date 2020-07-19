@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zone Data
-nav_order: 3
+nav_order: 4
 parent: Declarative Actions
 grand_parent: Code Generation Components
 has_toc: false
@@ -11,7 +11,7 @@ has_toc: false
 
 ## **Description**
 
-[**Declarative Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/index.md %})**:** Defines the zone data for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) or [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Absolute Joint Movement.md %}) component. The Zone data is used to specify how (precise) a position is to be terminated. 
+[**Declarative Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/index.md %})**:** Defines the zone data for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) component. The Zone data is used to specify how (precise) a position is to be terminated. 
 
 ## **Input Parameters**
 
@@ -37,4 +37,4 @@ has_toc: false
 
 ## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the [Zone Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Zone Data.md %}) output parameter of this component into the Zone Data input parameter of the [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) or [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Absolute Joint Movement.md %}) component to set the precision of the movement instruction. This will also add a zonedata declaration to the RAPID Program module.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the [Zone Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Zone Data.md %}) output parameter of this component into the Zone Data input parameter of the [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) component to set the precision of the movement instruction. This will also add a zonedata declaration to the RAPID Program module.

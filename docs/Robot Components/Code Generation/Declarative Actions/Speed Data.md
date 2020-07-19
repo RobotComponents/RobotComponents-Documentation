@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Speed Data
-nav_order: 2
+nav_order: 3
 parent: Declarative Actions
 grand_parent: Code Generation Components
 has_toc: false
@@ -11,7 +11,7 @@ has_toc: false
 
 ## **Description**
 
-[**Declarative Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/index.md %})**:** Defines the speed data for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Move.md %}) and [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Absolute Joint Movement.md %}) component. The speed data is used to specify the velocity at which both the robot and the external axes move. 
+[**Declarative Action**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/index.md %})**:** Defines the speed data for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Move.md %}) component. The speed data is used to specify the velocity at which both the robot and the external axes move. 
 
 ## **Input Parameters**
 
@@ -31,4 +31,4 @@ has_toc: false
 
 ## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the [Speed Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Speed Data.md %}) output parameter of this component into the Speed Data input parameter of the [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) or [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Absolute Joint Movement.md %}) component to set the speed behavior of the robot movement. This will also add a speeddata declaration to the RAPID program module.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** Plug the [Speed Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Speed Data.md %}) output parameter of this component into the Speed Data input parameter of the [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) component to set the speed behavior of the robot movement. This will also add a speeddata declaration to the RAPID program module.

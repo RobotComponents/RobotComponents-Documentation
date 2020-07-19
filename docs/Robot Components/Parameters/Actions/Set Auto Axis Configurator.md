@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Set Auto Axis Configuration
-nav_order: 9
+nav_order: 10
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

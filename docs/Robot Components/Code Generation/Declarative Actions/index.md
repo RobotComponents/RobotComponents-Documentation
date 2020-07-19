@@ -16,8 +16,16 @@ grand_parent: Robot Components Categories
 
 ## **Components**
 
-[**Target**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %})**:** Defines a target for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) component.
+[**Robot Target**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Robot Target.md %})**:** Defines a robot target for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) component.
 
-[**Speed Data**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Speed Data.md %})**:** Defines a speed data for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) and [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Absolute Joint Movement.md %}) component.
+[**Joint Target**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Joint Target.md %})**:** Defines a join target for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) component.
 
-[**Zone Data**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Zone Data.md %})**:** Defines a zone data for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) and [Absolute Joint Movement]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Absolute Joint Movement.md %}) component.
+[**Speed Data**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Speed Data.md %})**:** Defines a speed data for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) component.
+
+[**Zone Data**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Zone Data.md %})**:** Defines a zone data for a [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) component.
+
+[**Robot Joint Position**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Robot Joint Position.md %})**:** Defines a robot joint position for a [Joint Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Joint Target.md %}) component.
+
+[**External Joint Position**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/External Joint Position.md %})**:** Defines a external joint poisition for a [Joint Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Joint Target.md %}) component.
+
+

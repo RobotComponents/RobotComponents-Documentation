@@ -10,7 +10,7 @@ grand_parent: Deconstruct Components
 
 ## **Description**
 
-[**Utility**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:**
+[**Deconstruct**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/index.md %})**:** 
 Deconstructs a [Robot Tool]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Definitions/Robot Tool.md %}) into its parameters.
 
 ## **Input Parameters**

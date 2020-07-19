@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Deconstruct Speed Data
-nav_order: 2
+nav_order: 3
 parent: Action Deconstructors
 grand_parent: Deconstruct Components
 ---
@@ -10,7 +10,7 @@ grand_parent: Deconstruct Components
 
 ## **Description**
 
-[**Utility**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:** 
+[**Deconstruct**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/index.md %})**:** 
 Deconstructs a [Speed Data]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Speed Data.md %}) into its parameters.
 
 ## **Input Parameters**

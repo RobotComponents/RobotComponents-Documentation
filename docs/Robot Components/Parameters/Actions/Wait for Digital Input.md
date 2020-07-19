@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wait for Digital Input
-nav_order: 8
+nav_order: 9
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

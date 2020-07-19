@@ -24,5 +24,5 @@ Displays the three vectors of the plane in Rhino.
 ## **Usage**
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:**
-This component is very usefull when defining a [Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %}) by
+This component is very usefull when defining a [Robot Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Robot Target.md %}) by
 visualizing the orientation of the input plane.

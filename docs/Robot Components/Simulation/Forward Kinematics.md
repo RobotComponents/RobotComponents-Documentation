@@ -36,4 +36,4 @@ Visualize a robot based on a given list of internal and external axis values.
 The robot mesh will be colored red if any axis values are invalid. 
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** 
-Plug the End Plane output parameter of this component into the Plane input parameter of the [Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %}) component.
+Plug the End Plane output parameter of this component into the Plane input parameter of the [Robot Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Robot Target.md %}) component.

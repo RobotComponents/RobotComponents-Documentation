@@ -20,13 +20,19 @@ Action Parameter components are used to maintain and store Data of [Code Generat
 
 [**Target**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Target.md %})**:** Used to store the data of a **Target** declaration. 
 
+[**Robot Target**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Robot Target.md %})**:** Used to store the data of a **Robot Target** declaration. 
+
+[**Joint Target**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Joint Target.md %})**:** Used to store the data of a **Joint Target** declaration. 
+
 [**Speed Data**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Speed Data.md %})**:** Used to store the data of a **Speed Data** declaration. 
 
 [**Zone Data**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Zone Data.md %})**:** Used to store the data of a **Zone Data** declaration. 
 
-[**Move**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Move.md %})**:** Used to store the data of a **Move** instruction. 
+[**Robot Joint Position**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Robot Joint Position.md %})**:** Used to store the data of a **Robot Joint** declaration. 
 
-[**Absolute Joint Movement**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Absolute Joint Movement.md %})**:** Used to store the data of a **Absolute Joint Movement**. 
+[**External Joint Position**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/External Joint Position.md %})**:** Used to store the data of an **External Joint Position** declaration. 
+
+[**Move**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Move.md %})**:** Used to store the data of a **Move** instruction. 
 
 [**Wait for Time**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Wait for Time.md %})**:** Used to store the data of a **Wait for Time** instruction. 
 

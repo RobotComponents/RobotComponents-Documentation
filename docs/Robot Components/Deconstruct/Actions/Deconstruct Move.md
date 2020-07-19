@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Deconstruct Movement
-nav_order: 4
+title: Deconstruct Move
+nav_order: 5
 parent: Action Deconstructors
 grand_parent: Deconstruct Components
 ---
@@ -10,12 +10,12 @@ grand_parent: Deconstruct Components
 
 ## **Description**
 
-[**Utility**]({{ site.baseurl }}{% link docs/Robot Components/Utility/index.md %})**:** 
-Deconstructs a [Movement]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Move.md %}) into its parameters.
+[**Deconstruct**]({{ site.baseurl }}{% link docs/Robot Components/Deconstruct/index.md %})**:** 
+Deconstructs a [Move]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Move.md %}) into its parameters.
 
 ## **Input Parameters**
 
-[**Move**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Move.md %}) **(M):** Defines the [Movement]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) to be deconstructed.
+[**Move**]({{ site.baseurl }}{% link docs/Robot Components/Parameters/Actions/Move.md %}) **(M):** Defines the [Move]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Instructive Actions/Move.md %}) to be deconstructed.
 
 ## **Output Parameters**
 

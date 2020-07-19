@@ -13,7 +13,7 @@ grand_parent: Robot Components Categories
 [**Simulation**]({{ site.baseurl }}{% link docs/Robot Components/Simulation/index.md %})**:** 
 Generates and displays the movement path for a defined robot based on a list of [Actions]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}). It can be also used for visually simulating the robot movement inside of Rhino.
 
-**Note:** Every [Action]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}) except Move Actions will be ignored. The [Inverse Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Inverse Kinematics.md %}) component can be used to calculate the axis values for a specific [Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %}). 
+**Note:** Every [Action]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %}) except Move Actions will be ignored. The [Inverse Kinematics]({{ site.baseurl }}{% link docs/Robot Components/Simulation/Inverse Kinematics.md %}) component can be used to calculate the axis values for a specific [Joint Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Joint Target.md %}). 
 
 **EXPERIMENTAL:** This component does an estimation of the path and robot movements! The following limitations are known:
 - It ignores the speed data. 

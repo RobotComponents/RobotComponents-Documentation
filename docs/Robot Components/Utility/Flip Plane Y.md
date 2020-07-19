@@ -24,5 +24,5 @@ Flips the plane to the oposite direction by setting it's y-Axis negative.
 ## **Usage**
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/index.md %})**:** 
-Plug the Plane output of this component into the Plane input of the [Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Target.md %}) component. 
+Plug the Plane output of this component into the Plane input of the [Robot Target]({{ site.baseurl }}{% link docs/Robot Components/Code Generation/Declarative Actions/Robot Target.md %}) component. 
 Since be default grasshopper planes are facing the wrong direction when working with robot components, this component makes life easier.
