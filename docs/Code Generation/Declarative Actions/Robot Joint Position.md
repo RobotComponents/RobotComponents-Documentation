@@ -15,21 +15,21 @@ has_toc: false
 
 ## **Input Parameters**
 
-**Robot Axis Value A (RA1):** Defines the position of robot axis 1 in degrees.
+**Robot Axis Value 1 (RA1):** Defines the position of robot axis 1 in degrees.
 
-**Robot Axis Value B (RA2):** Defines the position of robot axis 2 in degrees.
+**Robot Axis Value 2 (RA2):** Defines the position of robot axis 2 in degrees.
 
-**Robot Axis Value C (RA3):** Defines the position of robot axis 3 in degrees.
+**Robot Axis Value 3 (RA3):** Defines the position of robot axis 3 in degrees.
 
-**Robot Axis Value D (RA4):** Defines the position of robot axis 4 in degrees.
+**Robot Axis Value 4 (RA4):** Defines the position of robot axis 4 in degrees.
 
-**Robot Axis Value E (RA5):** Defines the position of robot axis 5 in degrees.
+**Robot Axis Value 5 (RA5):** Defines the position of robot axis 5 in degrees.
 
-**Robot Axis Value F (RA6):** Defines the position of robot axis 6 in degrees.
+**Robot Axis Value 6 (RA6):** Defines the position of robot axis 6 in degrees.
 
 ## **Output Parameters**
 
-**[Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) (SD):** Contains the robot joint position as action for a joint target declaration.
+**[Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) (RJ):** Contains the robot joint position as action for a joint target declaration.
 
 ## **Usage**
 

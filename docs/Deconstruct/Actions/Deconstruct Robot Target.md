@@ -19,10 +19,10 @@ Deconstructs a [Robot Target]({{ site.baseurl }}{% link docs/Parameters/Actions/
 
 ## **Output Parameters**
 
-**Name (N):** Contains the name of the deconstructed Robot Target.
+**Name (N):** Contains the variable name of the deconstructed Robot Target.
 
-**Plane (P):** Contains the target plane of the deconstructed Target.
+**Plane (P):** Contains the target plane of the deconstructed Robot Target.
 
-**Axis Configuration (AC):** Contains the axis configuration of the deconstructed Target.
+**Axis Configuration (AC):** Contains the axis configuration of the deconstructed Robot Target.
 
-**External Axis Values (EAV):** Contains the external axis values of the deconstructed Target.
+**[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (EJ):** Contains the [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) of the deconstructed Robot Target.

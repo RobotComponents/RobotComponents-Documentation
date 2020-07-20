@@ -15,7 +15,7 @@ has_toc: false
 
 ## **Input Parameters**
 
-**Name (N):**  Defines the name of the target based on a text value. Each speed data name needs to be unique. The first letter should not be a number. Do not use special characters.
+**Name (N):**  Defines the name of the target based on a text value. Each target name needs to be unique. The first letter should not be a number. Do not use special characters.
 
 **Plane (P):** Defines the target plane of the target based on one plane or a list of planes. The target plane has to be defined in the work object coordinate system. Note: You can use a [Flip Plane X]({{ site.baseurl }}{% link docs/Utility/Flip Plane X.md %}) or [Flip Plane Y]({{ site.baseurl }}{% link docs/Utility/Flip Plane Y.md %}) component to invert the plane.
 
@@ -25,7 +25,7 @@ has_toc: false
 
 **Reference Plane (RP):** If this input is used the target planes will be reoriented from this reference plane to the world XY-plane. This a variable input parameter that can be accessed and enabled through the right-click menu of the component.
 
-**External Joint Position (EJP):** Defines the current robot external axis values based on a [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) parameter. The default external axis value is set to 9e9. For ABB this means that the axis is not connected. Robot Components recognizes this value as undefined external axis value. If external axes are used and no external axis values are defined the closed position of the target plane to the external linear axis will be used as axis value in case of an external linear axis, and an axis value of 0 will be used in case an external rotational axis is used and no axis value is defined. This a variable input parameter that can be accessed and enabled through the right-click menu of the component.
+**[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (EJ):** Defines the current robot external axis values based on an [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) parameter. The default external axis values are set to 9e9. For ABB this means that the axis is not connected. Robot Components recognizes this value as undefined external axis value. If external axes are used and no external axis values are defined the closed position of the target plane to the external linear axis will be used as axis value in case of an external linear axis, and an axis value of 0 will be used in case an external rotational axis is used and no axis value is defined. This a variable input parameter that can be accessed and enabled through the right-click menu of the component.
 
 ## **Output Parameters**
 

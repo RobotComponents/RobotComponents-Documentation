@@ -38,9 +38,9 @@ Generates and displays the movement path for a defined robot based on a list of 
 
 **Plane (P):** Contains the current robot end plane. 
 
-**Internal Axis Values (IAV):** Contains the current robot internal axis values as a list of numbers.
+**[Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) (RJ):** Contains the current [Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}). 
 
-**External Axis Values (EAV):** Contains the current robot external axis values as a list of numbers.
+**[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (EJ):** Contains the current [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}).
 
 **Movement Paths (P):** Contains the robot movement path as a list with curves.
 

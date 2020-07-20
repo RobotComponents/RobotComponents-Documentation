@@ -19,8 +19,8 @@ Deconstructs a [Joint Target]({{ site.baseurl }}{% link docs/Parameters/Actions/
 
 ## **Output Parameters**
 
-**Name (N):** Contains the name of the deconstructed Joint Target.
+**Name (N):** Contains the variable name of the deconstructed Joint Target.
 
-**Robot Joint Position (RJ):** Contains the [Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) of the deconstructed Joint Target.
+**[Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) (RJ):** Contains the [Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) of the deconstructed Joint Target.
 
-**External Joint Position (EJ):** Contains the [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) of the deconstructed Joint Target.
+**[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (EJ):** Contains the [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) of the deconstructed Joint Target.

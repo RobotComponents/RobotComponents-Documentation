@@ -19,9 +19,9 @@ Gets the current robot axis values from an ABB IRC5 robot controller.
 
 ## **Output Parameters**
 
-**Internal Axis Values (IAV):** Contains a datatree of doubles with the current robot internal axis values. In case if multiple robots are connected to one controller a separate branch is made for each robot.
+**[Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) (RJ):** Contains the current Robot Joint Position of the robot. In case multiple robots are connected to one controller (e.g. Multi Move) this parameter outputs a list with multiple Robot Joint Positions with a Robot Joint Position for each robot. 
 
-**External Axis Values (EAV):** Contains a datatree of doubles with the current robot external axis values. For every mechanical unit the axis values are placed in a separate datatree branch. Since it is not possible to acces the axis logic number of the mechanical units in the controller, the axis values may not be placed in the correct order to work with the [Forward Kinematics]({{ site.baseurl }}{% link docs/Simulation/Forward Kinematics.md %}) component. In that case the user has to re-order the axis values and / or flatten it to a list. 
+**External Axis Values (EAV):** Contains a datatree of numbers with the current robot external axis values. For each mechanical unit the axis values are placed in a separate datatree branch. Since it is not possible to acces the axis logic number of the mechanical units in the controller, the axis values may not be placed in the correct order to work with the [Forward Kinematics]({{ site.baseurl }}{% link docs/Simulation/Forward Kinematics.md %}) component. The user has to order the axis values to create an [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) for the [Forward Kinematics]({{ site.baseurl }}{% link docs/Simulation/Forward Kinematics.md %}) component.
 
 ## **Usage**
 

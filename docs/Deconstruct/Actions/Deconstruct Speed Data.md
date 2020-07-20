@@ -19,7 +19,7 @@ Deconstructs a [Speed Data]({{ site.baseurl }}{% link docs/Parameters/Actions/Sp
 
 ## **Output Parameters**
 
-**Name (N):** Contains the name of the deconstructed speed data.
+**Name (N):** Contains the variable name of the deconstructed speed data.
 
 **TCP Velocity (vTCP):** Contains the TCP moving velocity of the deconstructed speed data.
 

@@ -12,25 +12,27 @@ has_toc: false
 ## **Description**
 
 [**Declarative Action**]({{ site.baseurl }}{% link docs/Code Generation/Declarative Actions/index.md %})**:** 
-Defines the external joint position for a [Joint Target]({{ site.baseurl }}{% link docs/Parameters/Actions/Joint Target.md %}) component. 
+Defines the external joint position for a [Joint Target]({{ site.baseurl }}{% link docs/Parameters/Actions/Joint Target.md %}) component.
 
 ## **Input Parameters**
 
-**External Axis Value A (EAa):** Defines the first external axis value.
+**External Axis Value A (EAa):** Defines the first external axis value. The default axis value is set to `9E9` (undefined / not connected). 
 
-**External Axis Value B (EAb):** Defines the second external axis value.
+**External Axis Value B (EAb):** Defines the second external axis value. The default axis value is set to `9E9` (undefined / not connected). 
 
-**External Axis Value C (EAc):** Defines the third external axis value.
+## **Variable Input Parameters**
 
-**External Axis Value D (EAd):** Defines the fourth external axis value.
+**External Axis Value C (EAc):** Defines the third external axis value. The default axis value is set to `9E9` (undefined / not connected). 
 
-**External Axis Value E (EAe):** Defines the fifth external axis value.
+**External Axis Value D (EAd):** Defines the fourth external axis value. The default axis value is set to `9E9` (undefined / not connected). 
 
-**External Axis Value F (EAf):** Defines the sixth external axis value.
+**External Axis Value E (EAe):** Defines the fifth external axis value. The default axis value is set to `9E9` (undefined / not connected). 
+
+**External Axis Value F (EAf):** Defines the sixth external axis value. The default axis value is set to `9E9` (undefined / not connected). 
 
 ## **Output Parameters**
 
-**[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (SD):** Contains the external joint position as action for a joint target declaration.
+**[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (EJ):** Contains the external joint position as Action for a Joint Target declaration.
 
 ## **Usage**
 

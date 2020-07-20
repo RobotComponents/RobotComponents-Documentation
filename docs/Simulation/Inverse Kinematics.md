@@ -21,9 +21,9 @@ Computes the axis values for a defined ABB robot based on a [Target]({{ site.bas
 
 ## **Output Parameters**
 
-**Internal Axis Values (IAV):** Contains the robot internal axis values as a list of numbers.
+**[Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) (RJ):** Contains the calculated [Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}). 
 
-**External Axis Values (EAV):** Contains the robot external axis values as a list of numbers.
+**[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (EJ):** Contains the calculated [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}).
 
 ## **Usage**
 

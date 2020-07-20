@@ -11,7 +11,7 @@ grand_parent: Deconstruct Components
 ## **Description**
 
 [**Deconstruct**]({{ site.baseurl }}{% link docs/Deconstruct/index.md %})**:** 
-Deconstructs a [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) into its parameters. 
+Deconstructs an [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) into its parameters. 
 
 ## **Input Parameters**
 
