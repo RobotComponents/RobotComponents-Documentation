@@ -20,3 +20,17 @@ Contains the data of a **Joint Target** declaration.
 ## **Casting methods**
 
 [**Deconstruct Joint Target**]({{ site.baseurl }}{% link docs/Deconstruct/Actions/Deconstruct Joint Target.md %})
+
+## **Casting methods**
+
+**Cast <u>from</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Constructs a {{page.title}} parameter from a generic Action parameter. This is only possible if the created Action parameter was constructed from a {{page.title}} parameter.
+
+**Cast <u>from</u>** a **[Target]({{ site.baseurl }}{% link docs/Parameters/Actions/Target.md %}) parameter:** Constructs a {{page.title}} parameter from a generic Target parameter. This is only possible if the created Target parameter was constructed from a {{page.title}} parameter.
+
+**Cast <u>to</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Cast to the generic [Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 
+
+**Cast <u>to</u>** a **[Target]({{ site.baseurl }}{% link docs/Parameters/Actions/Target.md %}) parameter:** Cast to the generic [Target]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 
+
+**Cast <u>to</u>** a **[Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) parameter:** Cast to the Robot Joint Position parameter that is definied for this Joint Target declaration.
+
+**Cast <u>to</u>** an **[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) parameter:** Cast to the External Joint Position parameter that is definied for this Joint Target declaration.
