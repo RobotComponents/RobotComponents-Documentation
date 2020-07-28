@@ -39,6 +39,18 @@ Now you can open [http://localhost:4000/](http://localhost:4000/) in your browse
 
 The project is a development from the [Department of Experimental and Digital Design and Construction of the University of Kassel](https://edek.uni-kassel.de/). Supervised by the head of the department Prof. Eversmann. The technical development is initiated and executed by the research associates and student assistants which are listed [here](https://github.com/RobotComponents/RobotComponents-Documentation/blob/master/AUTHORS.md).
 
+We forked the theme from [Just The Docs](https://github.com/pmarsceill/just-the-docs). The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT). See below for the license of the content of the documentation website. 
+
 ## License
 
-We forked the theme from [Just The Docs](https://github.com/pmarsceill/just-the-docs). The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+Robot Components
+
+Copyright (c) 2018-2020 [The Robot Components authors and / or their affiliations](https://github.com/EDEK-UniKassel/RobotComponents/blob/master/AUTHORS.md)
+
+Robot Components is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0 as published by the Free Software Foundation. 
+
+Robot Components is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with Robot Components; If not, see <http://www.gnu.org/licenses/>.
+
+@license GPL-3.0 <https://www.gnu.org/licenses/gpl.html>
