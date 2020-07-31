@@ -23,9 +23,11 @@ has_toc: false
 
 ## **Variable Input Parameters**
 
-**Reference Plane (RP):** If this input is used the target planes will be reoriented from this reference plane to the world XY-plane. This a variable input parameter that can be accessed and enabled through the right-click menu of the component.
+Through the right-click menu of the component the following variable input parameters can be added:
 
-**[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (EJ):** Defines the current robot external axis values based on an [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) parameter. The default external axis values are set to 9e9. For ABB this means that the axis is not connected. Robot Components recognizes this value as undefined external axis value. If external axes are used and no external axis values are defined the closed position of the target plane to the external linear axis will be used as axis value in case of an external linear axis, and an axis value of 0 will be used in case an external rotational axis is used and no axis value is defined. This a variable input parameter that can be accessed and enabled through the right-click menu of the component.
+**Reference Plane (RP):** If this input is used the target planes will be reoriented from this reference plane to the world XY-plane.
+
+**[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (EJ):** Defines the current robot external axis values based on an [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) parameter. The default external axis values are set to 9e9. For ABB this means that the axis is not connected. Robot Components recognizes this value as undefined external axis value. If external axes are used and no external axis values are defined the closed position of the target plane to the external linear axis will be used as axis value in case of an external linear axis, and an axis value of 0 will be used in case an external rotational axis is used and no axis value is defined.
 
 ## **Output Parameters**
 

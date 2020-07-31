@@ -36,7 +36,9 @@ Generates and displays the movement path for a defined robot based on a list of 
 
 ## **Output Parameters**
 
-**Plane (P):** Contains the current robot end plane. 
+**Plane (EP):** Contains the current robot end plane (TCP). 
+
+**External Axis Planes (EAP):** Contains a list with the current posed external axis planes.
 
 **[Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) (RJ):** Contains the current [Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}). 
 

@@ -26,13 +26,13 @@ Generates the RAPID program and system module for the robot controller.
 
 **Custom System Code (CSC):** Additional custom code lines for the RAPID system module defined as a list of text values. 
 
-**Update (U):** Only if set to true, the RAPID program and system modules will will be generated. To increase performance, only update when changes were made. It is recommended to toggle this input parameter with a button.  
+**Update (U):** Only if set to true, the RAPID program and system modules will be generated. To increase performance, only update when changes were made. It is recommended to toggle this input parameter with a button.  
 
 ## **Output Parameters**
 
-**Program Module (PM):** Contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found here: [Introduction to RAPID]({http://dl.icdst.org/pdfs/files3/db9fddeb58803077290aa2538c54333d.pdf}) or in the Technical Reference Manual of ABB Robotics.
+**Program Module (PM):** Contains the robot instructions such as target definitions, movement behavior etc. More on that topic can be found in the [Introduction to RAPID manual](http://dl.icdst.org/pdfs/files3/db9fddeb58803077290aa2538c54333d.pdf) or in the [Technical Reference Manual](https://library.e.abb.com/public/688894b98123f87bc1257cc50044e809/Technical%20reference%20manual_RAPID_3HAC16581-1_revJ_en.pdf) of ABB Robotics. 
 
-**System Module (SM):** Contains basic defined system data in RAPID code such as tool information. More on that topic can be found here: [Introduction to RAPID]({http://dl.icdst.org/pdfs/files3/db9fddeb58803077290aa2538c54333d.pdf}) or in the Technical Reference Manual of ABB Robotics.
+**System Module (SM):** Contains basic defined system data in RAPID code such as tool information. More on that topic can be found in the [Introduction to RAPID manual](http://dl.icdst.org/pdfs/files3/db9fddeb58803077290aa2538c54333d.pdf) or in the [Technical Reference Manual](https://library.e.abb.com/public/688894b98123f87bc1257cc50044e809/Technical%20reference%20manual_RAPID_3HAC16581-1_revJ_en.pdf) of ABB Robotics. 
 
 ## **Menu Items**
 
