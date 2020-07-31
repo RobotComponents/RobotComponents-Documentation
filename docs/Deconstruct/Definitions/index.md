@@ -17,9 +17,9 @@ Definition Deconstructors are used to deconstruct [Definition]({{ site.baseurl }
 
 ## **Components**
 
-[**Deconstruct External Linear Axis:**]({{ site.baseurl }}{% link docs/Deconstruct/Definitions/Deconstruct External Linear Axis.md %})**:** Deconstructs a External Linear Axis parameter into its parameters.
+[**Deconstruct External Linear Axis:**]({{ site.baseurl }}{% link docs/Deconstruct/Definitions/Deconstruct External Linear Axis.md %})**:** Deconstructs an External Linear Axis parameter into its parameters.
 
-[**Deconstruct External Rotational Axis**]({{ site.baseurl }}{% link docs/Deconstruct/Definitions/Deconstruct External Rotational Axis.md %})**:** Deconstructs a External Rotational Axis parameter into its parameters.
+[**Deconstruct External Rotational Axis**]({{ site.baseurl }}{% link docs/Deconstruct/Definitions/Deconstruct External Rotational Axis.md %})**:** Deconstructs an External Rotational Axis parameter into its parameters.
 
 [**Deconstruct Robot**]({{ site.baseurl }}{% link docs/Deconstruct/Definitions/Deconstruct Robot.md %})**:** Deconstructs a Robot parameter into its parameters.
 

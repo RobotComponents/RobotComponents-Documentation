@@ -26,6 +26,6 @@ grand_parent: Robot Components Categories
 
 [**Robot Joint Position**]({{ site.baseurl }}{% link docs/Code Generation/Declarative Actions/Robot Joint Position.md %})**:** Defines a robot joint position for a [Joint Target]({{ site.baseurl }}{% link docs/Code Generation/Declarative Actions/Joint Target.md %}) component.
 
-[**External Joint Position**]({{ site.baseurl }}{% link docs/Code Generation/Declarative Actions/External Joint Position.md %})**:** Defines a external joint poisition for a [Joint Target]({{ site.baseurl }}{% link docs/Code Generation/Declarative Actions/Joint Target.md %}) component.
+[**External Joint Position**]({{ site.baseurl }}{% link docs/Code Generation/Declarative Actions/External Joint Position.md %})**:** Defines an external joint poisition for a [Joint Target]({{ site.baseurl }}{% link docs/Code Generation/Declarative Actions/Joint Target.md %}) or [Robot Target]({{ site.baseurl }}{% link docs/Code Generation/Declarative Actions/Robot Target.md %}) component.
 
 
