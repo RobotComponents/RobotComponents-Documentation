@@ -11,7 +11,7 @@ grand_parent: Robot Components Categories
 ## **Description**
 
 [**Definition**]({{ site.baseurl }}{% link docs/Definitions/index.md %})**:** 
-Defines a custom robot. 
+Defines a custom 6-axis robot. 
 
 ## **Input Parameters**
 
@@ -19,9 +19,9 @@ Defines a custom robot.
 
 **Mesh (M):** Defines the robot mesh based on a list of meshes. For a six-axis robot, this would make regularly a list of seven meshes. One mesh for the robot base and an additional mesh for every robot axis.
 
-**Axis Planes (AP):** Defines the robot axis planes based on a list of planes. The count of this list should be equal to the count of the axis limits list.
+**Axis Planes (AP):** Defines the robot axis planes based on a list of planes. The list lenght should be equal to six since an axis plane has to be defined for every axis. 
 
-**Axis Limits (AL):** Defines the robot axis limits based on a list of intervals. The count of this list should be equal to the count of the axis planes list.
+**Axis Limits (AL):** Defines the robot axis limits based on a list of intervals. The list lenght should be equal to six since an axis limit has to be defined for every axis.
 
 **Position Plane (PP):** Defines the position plane of the robot based on a plane. The position plane is the plane the robot is standing on.
 
@@ -42,7 +42,7 @@ Defines a custom robot.
 
 **Note:** The Forward Kinematics component can be used for debugging this component by testing out different axis values.
 
-[**Simulation**]({{ site.baseurl }}{% link docs/Simulation/index.md %})**:** Plug the Robot output parameter of this component into the Robot input parameter of the [Inverse Kinematics]({{ site.baseurl }}{% link docs/Simulation/Inverse Kinematics.md %}) 
+[**Simulation**]({{ site.baseurl }}{% link docs/Simulation/index.md %})**:** Plug the Robot output parameter of this component into the [Robot]({{ site.baseurl }}{% link docs/Parameters/Definitions/Robot.md %}) input parameter of the [Inverse Kinematics]({{ site.baseurl }}{% link docs/Simulation/Inverse Kinematics.md %}) 
 or [Forward Kinematics]({{ site.baseurl }}{% link docs/Simulation/Forward Kinematics.md %}) component.
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Code Generation/index.md %})**:** 
