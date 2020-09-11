@@ -16,8 +16,7 @@ Generates and displays the movement path for a defined robot based on a list of 
 **Note:** Every [Action]({{ site.baseurl }}{% link docs/Code Generation/index.md %}) except Move Actions will be ignored. The [Inverse Kinematics]({{ site.baseurl }}{% link docs/Simulation/Inverse Kinematics.md %}) component can be used to calculate the axis values for a specific [Joint Target]({{ site.baseurl }}{% link docs/Code Generation/Declarative Actions/Joint Target.md %}). 
 
 **EXPERIMENTAL:** This component does an estimation of the path and robot movements! The following limitations are known:
-- It ignores the speed data. 
-- It ignores the auto axis configuration (if used).
+- It ignores speed data values.
 - It ignores zone data (movement precision) values. 
 
 ## **Input Parameters**
