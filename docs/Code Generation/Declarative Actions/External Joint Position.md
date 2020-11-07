@@ -16,19 +16,19 @@ Defines the external joint position for a [Joint Target]({{ site.baseurl }}{% li
 
 ## **Input Parameters**
 
-**External Axis Value A (EAa):** Defines the first external axis value. The default axis value is set to `9E9` (undefined / not connected). 
+**External Axis Value A (EAa):** Defines the position of external logical axis A. The default axis value is set to `9E9` (undefined / not connected). 
 
-**External Axis Value B (EAb):** Defines the second external axis value. The default axis value is set to `9E9` (undefined / not connected). 
+**External Axis Value B (EAb):** Defines the position of external logical axis B. The default axis value is set to `9E9` (undefined / not connected). 
 
 ## **Variable Input Parameters**
 
-**External Axis Value C (EAc):** Defines the third external axis value. The default axis value is set to `9E9` (undefined / not connected). 
+**External Axis Value C (EAc):** Defines the position of external logical axis C. The default axis value is set to `9E9` (undefined / not connected). 
 
-**External Axis Value D (EAd):** Defines the fourth external axis value. The default axis value is set to `9E9` (undefined / not connected). 
+**External Axis Value D (EAd):** Defines the position of external logical axis D. The default axis value is set to `9E9` (undefined / not connected). 
 
-**External Axis Value E (EAe):** Defines the fifth external axis value. The default axis value is set to `9E9` (undefined / not connected). 
+**External Axis Value E (EAe):** Defines the position of external logical axis E. The default axis value is set to `9E9` (undefined / not connected). 
 
-**External Axis Value F (EAf):** Defines the sixth external axis value. The default axis value is set to `9E9` (undefined / not connected). 
+**External Axis Value F (EAf):** Defines the position of external logical axis F. The default axis value is set to `9E9` (undefined / not connected). 
 
 ## **Output Parameters**
 
