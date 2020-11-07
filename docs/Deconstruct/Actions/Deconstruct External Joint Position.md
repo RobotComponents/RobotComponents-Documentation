@@ -19,15 +19,15 @@ Deconstructs an [External Joint Position]({{ site.baseurl }}{% link docs/Paramet
 
 ## **Output Parameters**
 
-**External Axis Value A (EAa):** Contains the first external axis value.
+**External Axis Value A (EAa):** Contains the position of external logical axis A in degrees or mm.
 
-**External Axis Value B (EAb):** Contains the second external axis value.
+**External Axis Value B (EAb):** Contains the position of external logical axis B in degrees or mm.
 
-**External Axis Value C (EAc):** Contains the third external axis value.
+**External Axis Value C (EAc):** Contains the position of external logical axis C in degrees or mm.
 
-**External Axis Value D (EAd):** Contains the fourth external axis value.
+**External Axis Value D (EAd):** Contains the position of external logical axis D in degrees or mm.
 
-**External Axis Value E (EAe):** Contains the fifth external axis value.
+**External Axis Value E (EAe):** Contains the position of external logical axis E in degrees or mm.
 
-**External Axis Value F (EAf):** Contains the sixth external axis value.
+**External Axis Value F (EAf):** Contains the position of external logical axis F in degrees or mm.
 
