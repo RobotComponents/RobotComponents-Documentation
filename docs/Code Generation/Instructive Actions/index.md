@@ -20,6 +20,8 @@ grand_parent: Robot Components Categories
 
 [**Override Robot Tool**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Override Robot Tool.md %})**:** Defines an instruction to change the current robot tool of the ABB robot for RAPID base code generation.
 
+[**Set Analog Output**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Set Analog Output.md %})**:** Defines an instruction to change the state of a analog output of the robot controller for RAPID code generation.
+
 [**Set Digital Output**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Set Digital Output.md %})**:** Defines an instruction to change the state of a digital output of the robot controller for RAPID code generation.
 
 [**Set Auto Axis Configuration**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Set Auto Axis Configuration.md %})**:** Defines an instruction to set the axis configuration of the robot automatically for RAPID code generation.
