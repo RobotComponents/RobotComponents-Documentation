@@ -26,4 +26,4 @@ Defines an instruction to change the state of a digital output of the robot cont
 
 ## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Code Generation/index.md %})**:** Plug the output of this component into the actions input of a [RAPID Generator]({{ site.baseurl }}{% link docs/Code Generation/RAPID Generator.md %}) component to add a single instruction to the RAPID program module that waits for the signal of a defined digital input from the robot controller.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Code Generation/index.md %})**:** Plug the output of this component into the actions input of a [RAPID Generator]({{ site.baseurl }}{% link docs/Code Generation/RAPID Generator.md %}) component to add a single instruction to the RAPID program module that sets the state of a defined digital output in the robot controller.

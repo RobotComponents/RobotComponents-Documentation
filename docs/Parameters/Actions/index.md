@@ -40,6 +40,8 @@ Action Parameter components are used to maintain and store Data of [Code Generat
 
 [**Set Auto Axis Configuration**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Auto Axis Configurator.md %})**:** Used to store the data of an **Auto Axis Configuration** instruction. 
 
+[**Set Analog Output**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Analog Output.md %})**:** Used to store the data of a **Set Analog Output** instruction. 
+
 [**Set Digital Output**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Digital Output.md %})**:** Used to store the data of a **Set Digital Output** instruction. 
 
 [**Override Robot Tool**]({{ site.baseurl }}{% link docs/Parameters/Actions/Override Robot Tool.md %})**:** Used to store the data of a **Override Robot Tool** instruction. 
