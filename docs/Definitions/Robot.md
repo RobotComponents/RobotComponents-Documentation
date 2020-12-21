@@ -38,7 +38,7 @@ Defines a custom 6-axis robot.
 
 ## **Usage**
 
-**Note:** You can use the Quarternion to Plane component to define the position plane from the Base Frame data that is defined in controller configuration. The position plane has to match with the Base Frame that is defined in the configuration file of the virtual or physical controller. Be aware that if you attach and external linear axis to the robot the position plane will be overwritten by the attachment plane of this external linear axis.
+**Note:** You can use the Quarternion to Plane component to define the position plane from the Base Frame data that is defined in controller configuration. The position plane has to match with the Base Frame that is defined in the configuration file of the virtual or physical controller. Be aware that if you attach an external axis to the robot that can move this robot the position plane will be overwritten by the attachment plane of this external axis.
 
 **Note:** The Forward Kinematics component can be used for debugging this component by testing out different axis values.
 
