@@ -31,3 +31,7 @@ Deconstructs a [External Linear Axis]({{ site.baseurl }}{% link docs/Parameters/
 
 **Link Mesh (LM):** Contains the Mesh for the External Linear Axis Link.
 
+**Axis Logic Number (AL):** Contains the axis logic number. 
+
+**Moves Robot (MR):** Specifies whether or not the External Linear Axis moves the Robot. 
+

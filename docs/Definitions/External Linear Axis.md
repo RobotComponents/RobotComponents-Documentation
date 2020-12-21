@@ -27,6 +27,14 @@ Defines a custom external linear axis.
 
 **Link Mesh (LM):** Defines the Mesh for the External Linear Axis Link.
 
+## **Variable Input Parameters**
+
+Through the right-click menu of the component the following variable input parameters can be added:
+
+**Axis Logic Number (AL):** Defines the axis logic number of the External Linear Axis. By default this value is set to `-1`. For that case the axis logic number will be assigned automatically when a new Robot is constructed based on the list order of all attached external axes. The user can overwrite this value by using this Axis Logic Number input parameter. Allowed text values are `A`, `B`, `C`, `D`, `E` and `F`. Lower case text values are also allowed.
+
+**Moves Robot (MR)**: Defines if the External Linear Axis moves a Robot. For an External Linear Axis the default value is set to `True`. 
+
 ## **Output Parameters**
 
 [**External Linear Axis**]({{ site.baseurl }}{% link docs/Parameters/Definitions/External Linear Axis.md %}) **(ELA):** Contains the External Linear Axis information.

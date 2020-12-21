@@ -19,14 +19,17 @@ Deconstructs a [External Rotational Axis]({{ site.baseurl }}{% link docs/Paramet
 
 ## **Output Parameters**
 
-**Name (N):** Contains the name of the external rotational axis as string.
+**Name (N):** Contains the name of the External Rotational Axis as string.
 
 **Axis Plane (AP):** Contains the axis plane as plane.
 
 **Axis Limits (AL):** Contains the axis limits as list of domains.
 
-**Base Mesh (BM):** Contains the mesh of the external rotational axis base.
+**Base Mesh (BM):** Contains the mesh of the External Rotational Axis base.
 
-**Link Mesh (LM):** Contains the mesh of the external rotational axis link.
+**Link Mesh (LM):** Contains the mesh of the External Rotational Axis link.
 
+**Axis Logic Number (AL):** Contains the axis logic number. 
+
+**Moves Robot (MR):** Specifies whether or not the External Rotational Axis moves the Robot. 
 

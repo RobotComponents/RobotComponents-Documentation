@@ -50,7 +50,7 @@ For easy sharing of the download link and the documentation (with e.g. students)
 
 # **Credits**
 
-The plugin is an open source project initiated by the chair of [Experimental and Digital Design and Construction](https://edek.uni-kassel.de/) of the University of Kassel led by Prof. Eversmann. The technical development is initiated and executed by the research associates and student assistants who are listed [here](https://github.com/EDEK-UniKassel/RobotComponents/blob/master/AUTHORS.md).
+The plugin is an open source project initiated by the chair of [Experimental and Digital Design and Construction](https://edek.uni-kassel.de/) of the University of Kassel led by Prof. Eversmann. The technical development is initiated and executed by the research associates and student assistants who are listed [here](https://github.com/RobotComponents/RobotComponents/blob/master/AUTHORS.md).
 
 RobotComponents uses the ABB PC SDK for real-time connection to ABB Robots, you can find the .dll used in this project here: [ABB developercenter](http://developercenter.robotstudio.com/landing). 
 
@@ -60,7 +60,7 @@ We would like to acknowledge [Jose Luis Garcia del Castillo](https://github.com/
 
 Robot Components
 
-Copyright (c) 2018-2020 [The Robot Components authors and / or their affiliations](https://github.com/EDEK-UniKassel/RobotComponents/blob/master/AUTHORS.md)
+Copyright (c) 2018-2020 [The Robot Components authors and / or their affiliations](https://github.com/RobotComponents/RobotComponents/blob/master/AUTHORS.md)
 
 Robot Components is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0 as published by the Free Software Foundation. 
 

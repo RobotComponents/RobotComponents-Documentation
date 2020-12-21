@@ -35,20 +35,31 @@ Generates and displays the movement path for a defined robot based on a list of 
 
 ## **Output Parameters**
 
-**Plane (EP):** Contains the current robot end plane (TCP). 
+**Path (P):** Contains the robot movement path as a list with curves.
 
-**External Axis Planes (EAP):** Contains a list with the current posed external axis planes.
+## **Variable Output Parameters**
+
+Through the right-click menu of the component the following variable output parameters can be added:
+
+**Robot End Plane (EP):** Contains the current robot end plane (TCP). 
+
+**Robot End Planes (EPs):** Contains the robot end planes (TCPs) of the whole path as a list with planes. 
 
 **[Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) (RJ):** Contains the current [Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}). 
 
+**[Robot Joint Positions]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) (RJs):** Contains the [Robot Joint Positions]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) of the whole path as a list with [Robot Joint Positions]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}).
+
+**External Axis Planes (EAP):** Contains a list with the current posed external axis planes.
+
 **[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (EJ):** Contains the current [External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}).
 
-**Movement Paths (P):** Contains the robot movement path as a list with curves.
+**[External Joint Positions]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (EJ):** Contains the [External Joint Positions]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) of the whole path as a listh with [External Joint Positions]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %})
 
 ## **Usage**
 
-[**Simulation**]({{ site.baseurl }}{% link docs/Simulation/index.md %})**:** 
-Plug the Axis Values output parameter of this component into the Axis Values input of the [Forward Kinematics]({{ site.baseurl }}{% link docs/Simulation/Forward Kinematics.md %}) component. Visualize the robot movement as animation in Rhino by using a slider with range 0.0 to 1.0 for the Animation Slider input parameter of this component.
+[**Simulation**]({{ site.baseurl }}{% link docs/Simulation/index.md %})**:** Visualize the robot movement as animation in Rhino by using a slider with range 0.0 to 1.0 for the Animation Slider input parameter of this component.
 
 [**Code Generation**]({{ site.baseurl }}{% link docs/Code Generation/index.md %})**:** 
-Visualize the robot movement path inside of Rhino by setting the Update input of this component to true.
+Visualize the robot movement path inside of Rhino by setting the update input parameter of this component to true.
+
+

@@ -25,6 +25,14 @@ Defines a custom external rotational axis.
 
 **Link Mesh (LM):** Defines the mesh of the external rotational axis link.
 
+## **Variable Input Parameters**
+
+Through the right-click menu of the component the following variable input parameters can be added:
+
+**Axis Logic Number (AL):** Defines the axis logic number of the External Rotational Axis. By default this value is set to `-1`. For that case the axis logic number will be assigned automatically when a new Robot is constructed based on the list order of all attached external axes. The user can overwrite this value by using this Axis Logic Number input parameter. Allowed text values are `A`, `B`, `C`, `D`, `E` and `F`. Lower case text values are also allowed. 
+
+**Moves Robot (MR)**: Defines if the External Rotatioanl Axis moves a Robot. For an External Rotational Axis the default value is set to `False`. 
+
 ## **Output Parameters**
 
 [**External Rotational Axis**]({{ site.baseurl }}{% link docs/Parameters/Definitions/External Rotational Axis.md %}) **(ERA):** Contains the External Rotational Axis information.
