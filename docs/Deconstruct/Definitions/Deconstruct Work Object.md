@@ -21,6 +21,6 @@ Deconstructs a [Work Object]({{ site.baseurl }}{% link docs/Parameters/Definitio
 
 **Name (N):** Contains the work object name as string.
 
-**Plane (WP):** Contains the work objects plane.
+**Plane (WP):** Contains the work object plane.
 
-[**External Rotational Axis**]({{ site.baseurl }}{% link docs/Parameters/Definitions/External Rotational Axis.md %}) **(ERA):** Contains the [External Rotational Axis]({{ site.baseurl }}{% link docs/Parameters/Definitions/External Rotational Axis.md %}) of the work object. 
+[**External Axis**]({{ site.baseurl }}{% link docs/Parameters/Definitions/External Axis.md %}) **(ERA):** Contains the [External Axis]({{ site.baseurl }}{% link docs/Parameters/Definitions/External Axis.md %}) of the work object. 
