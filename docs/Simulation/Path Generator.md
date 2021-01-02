@@ -55,6 +55,8 @@ Through the right-click menu of the component the following variable output para
 
 **[External Joint Positions]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) (EJ):** Contains the [External Joint Positions]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) of the whole path as a listh with [External Joint Positions]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %})
 
+**Error Messages (E):** Contains all the error and warning messages that were collected during the path generation. 
+
 ## **Usage**
 
 [**Simulation**]({{ site.baseurl }}{% link docs/Simulation/index.md %})**:** Visualize the robot movement as animation in Rhino by using a slider with range 0.0 to 1.0 for the Animation Slider input parameter of this component.

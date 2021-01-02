@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 0
-description: "Department of Experimental and Digital Design and Construction (EDEK)"
+description: "Robot Components"
 permalink: /
 ---
 
@@ -10,7 +10,7 @@ permalink: /
 
 Robot Components is a plugin for intuitive robot programming for ABB robots inside of Rhinoceros Grasshopper. Robot Components offers a wide set of tools to create toolpaths, simulate robotic motion and generate RAPID code within Grasshopper. Some of the main features include:
 
-- 30+ predefined ABB robot models
+- 40+ predefined ABB robot models
 - Possibility to add your own robot models
 - Support for external axes (both linear and rotational)
 - Possibility to define custom strategies for all external axis values
@@ -60,7 +60,7 @@ We would like to acknowledge [Jose Luis Garcia del Castillo](https://github.com/
 
 Robot Components
 
-Copyright (c) 2018-2020 [The Robot Components authors and / or their affiliations](https://github.com/RobotComponents/RobotComponents/blob/master/AUTHORS.md)
+Copyright (c) 2018-2021 [The Robot Components authors and / or their affiliations](https://github.com/RobotComponents/RobotComponents/blob/master/AUTHORS.md)
 
 Robot Components is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0 as published by the Free Software Foundation. 
 
