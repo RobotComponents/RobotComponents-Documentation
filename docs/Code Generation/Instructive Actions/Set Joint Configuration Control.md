@@ -19,7 +19,7 @@ has_toc: false
 
 ## **Output Parameters**
 
-[**Set Joint Configuration Control**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Auto Axis Configurator.md %}) **(SJCC):** Contains an instruction to activate or deactivate joint configuration control for all following `MoveJ` move instructions.
+[**Set Joint Configuration Control**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Joint Configuration Control.md %}) **(SJCC):** Contains an instruction to activate or deactivate joint configuration control for all following `MoveJ` move instructions.
 
 ## **Usage**
 
