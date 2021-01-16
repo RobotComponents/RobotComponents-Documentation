@@ -15,7 +15,7 @@ has_toc: false
 
 ## **Input Parameters**
 
-**Name (N):**  Defines the name of the target based on a text value. Each target name needs to be unique. The first letter should not be a number. Do not use special characters.
+**Name (N):**  Defines the name of the target based on a text value. Each target name needs to be unique. The first letter should not be a number. Do not use special characters. The variables names will be updated based on the list or datatree structure this component generates.
 
 **Plane (P):** Defines the target plane of the target based on one plane or a list of planes. The target plane has to be defined in the work object coordinate system. Note: You can use a [Flip Plane X]({{ site.baseurl }}{% link docs/Utility/Flip Plane X.md %}) or [Flip Plane Y]({{ site.baseurl }}{% link docs/Utility/Flip Plane Y.md %}) component to invert the plane.
 

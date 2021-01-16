@@ -26,8 +26,3 @@ Converts a quarternion to a plane.
 
 [**Plane Visualizer**]({{ site.baseurl }}{% link docs/Utility/Plane Visualizer.md %})**:**
 Visualizes the orientation vectors of a plane.
-
-[**Name Generator**]({{ site.baseurl }}{% link docs/Utility/Name Generator.md %})**:**
-Generates a name data tree for [Targets]({{ site.baseurl }}{% link docs/Parameters/Actions/Target.md %}), 
-[Speed Datas]({{ site.baseurl }}{% link docs/Parameters/Actions/Speed Data.md %}) and 
-[Zone Datas]({{ site.baseurl }}{% link docs/Parameters/Actions/Zone Data.md %}).

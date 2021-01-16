@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Set Auto Axis Configuration
+title: Set Joint Configuration Control
 nav_order: 10
 parent: Action Parameters
 grand_parent: Parameter Components
@@ -11,18 +11,18 @@ grand_parent: Parameter Components
 ## **Description**
 
 [**Action Parameter**]({{ site.baseurl }}{% link docs/Parameters/Actions/index.md %})**:** 
-Contains the data of an **Set Auto Axis Configuration** instruction. 
+Contains the data of an **Set Joint Configuration Control** instruction. 
 
 ## **Constructors**
 
-[**Set Auto Axis Configuration**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Set Auto Axis Configuration.md %})
+[**Set Joint Configuration Control**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Set Joint Configuration Control.md %})
 
 ## **Casting methods**
 
 **Cast <u>from</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Constructs a {{page.title}} parameter from a generic Action parameter. This is only possible if the created Action parameter was constructed from a {{page.title}} parameter.
 
-**Cast <u>from</u>** a **Boolean parameter:** Constructs a {{page.title}} parameter from a primitive Boolean parameter. The boolean defines if the Auto Axis Configuration is active.  
+**Cast <u>from</u>** a **Boolean parameter:** Constructs a {{page.title}} parameter from a primitive Boolean parameter. The boolean defines if the Joint Configuration Control is active.  
 
 **Cast <u>to</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Cast to the generic [Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 
 
-**Cast <u>to</u>** a **Boolean parameter:** Cast to the primitive Boolean parameter. The boolean defines if the Auto Axis Configuration is active.  
+**Cast <u>to</u>** a **Boolean parameter:** Cast to the primitive Boolean parameter. The boolean defines if the Joint Configuration Control is active.  
