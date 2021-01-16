@@ -19,7 +19,7 @@ has_toc: false
 
 ## **Output Parameters**
 
-[**Set Linear Configuration Control**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Auto Axis Configurator.md %}) **(SJCC):** Contains an instruction to activate or deactivate linear configuration control for all following `MoveJ` move instructions.
+[**Set Linear Configuration Control**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Linear Configuration Control.md %}) **(SJCC):** Contains an instruction to activate or deactivate linear configuration control for all following `MoveJ` move instructions.
 
 ## **Usage**
 
