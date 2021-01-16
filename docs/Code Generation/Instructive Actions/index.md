@@ -24,7 +24,9 @@ grand_parent: Robot Components Categories
 
 [**Set Digital Output**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Set Digital Output.md %})**:** Defines an instruction to change the state of a digital output of the robot controller for RAPID code generation.
 
-[**Set Auto Axis Configuration**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Set Auto Axis Configuration.md %})**:** Defines an instruction to set the axis configuration of the robot automatically for RAPID code generation.
+[**Set Joint Configuration Control**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Set Joint Configuration Control.md %})**:** Defines an instruction to set the joint configuration control of the robot for RAPID code generation.
+
+[**Set Linear Configuration Control**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Set Linear Configuration Control.md %})**:** Defines an instruction to set the linear configuration control of the robot for RAPID code generation.
 
 [**Wait for Digital Input**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Wait for Digital Input.md %})**:** Defines an instruction to wait for the signal of a Digital Input from the robot controller in RAPID code generation.
 

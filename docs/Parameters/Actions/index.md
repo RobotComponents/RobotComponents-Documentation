@@ -38,7 +38,9 @@ Action Parameter components are used to maintain and store Data of [Code Generat
 
 [**Wait for Digital Input**]({{ site.baseurl }}{% link docs/Parameters/Actions/Wait for Digital Input.md %})**:** Used to store the data of a **Wait for Digital Input** isntruction. 
 
-[**Set Auto Axis Configuration**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Auto Axis Configurator.md %})**:** Used to store the data of an **Auto Axis Configuration** instruction. 
+[**Set Joint Configuration Control**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Joint Configuration Control.md %})**:** Used to store the data of a **Joint Configuration Control** instruction. 
+
+[**Set Linear Configuration Control**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Linear Configuration Control.md %})**:** Used to store the data of a **Linear Configuration Control** instruction. 
 
 [**Set Analog Output**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Analog Output.md %})**:** Used to store the data of a **Set Analog Output** instruction. 
 
