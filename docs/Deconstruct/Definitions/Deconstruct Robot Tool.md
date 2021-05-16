@@ -26,3 +26,9 @@ Deconstructs a [Robot Tool]({{ site.baseurl }}{% link docs/Parameters/Definition
 **Attachment Plane (AP):** Contains the attachment plane of the robot tool as a plane.
 
 **Tool Plane (TP):** Contains the effector plane of the robot tool as a plane.
+
+**Mass (M):** Contains the weight of the tool load in kg as a number.
+
+**Center of Gravity (CG):** Contains the position and orientation of the center of gravity of the tool load as a plane.
+
+**Moment of Intertia (MI):** Contains the moment of inertia of the tool load in kgm2 as a vector.

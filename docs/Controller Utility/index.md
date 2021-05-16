@@ -13,7 +13,6 @@ has_toc: false
 
 Controller Utility components are used to build up a real-time connection to a virtual or real ABB IRC5 robot controller.
 
-
 The [**Get Controller**]({{ site.baseurl }}{% link docs/Controller Utility/Get Controller.md %}) component can be used to easily build up and define a connection to an available virtual or real ABB IRC5 robot controller. 
 Different pieces of information can then be extracted and updated using other components from this category. 
 Also, the [**Remote Connection**]({{ site.baseurl }}{% link docs/Controller Utility/Remote Connection.md %}) component can be used to establish a remote connection with the defined controller which enables the user to upload an run RAPID code instantaneously.

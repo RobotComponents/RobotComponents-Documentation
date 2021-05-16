@@ -23,6 +23,16 @@ Defines a robot tool based on attachment and end-effector planes. It will be aut
 
 **Tool Plane (TP):** Defines the effector plane for the robot tool based on a plane.
 
+## **Variable Input Parameters**
+
+Through the right-click menu of the component the following variable input parameters can be added:
+
+**Mass (M):** Defines the weight of the tool load in kg. The default value is set to 0.001 kg.
+
+**Center of Gravity (CG):** Defines the position and orientation of the center of gravity of the tool load based on a plane. The default position is set to (0, 0, 0.001), and the default quaternion orientation is set to (1, 0, 0, 0).
+
+**Moment of Intertia (MI):** Defines the moment of inertia of the tool load in kgm2. The default value is set to (0, 0, 0). 
+
 ## **Output Parameters**
 
 [**Robot Tool**]({{ site.baseurl }}{% link docs/Parameters/Definitions/Robot Tool.md %}) **(RT):** Contains the robot tool information.

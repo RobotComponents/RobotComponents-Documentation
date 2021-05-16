@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Plane Visualizer
-nav_order: 3
+nav_order: 1
 parent: Utility Components
 grand_parent: Robot Components Categories
 ---
