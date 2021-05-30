@@ -18,6 +18,8 @@ Action Parameter components are used to maintain and store Data of [Code Generat
 
 [**Action**]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %})**:** Used to store the data of any **Action**. 
 
+[**Action Group**]({{ site.baseurl }}{% link docs/Parameters/Actions/Action Group.md %})**:** Used to store the data of a set of Actions as an **Action Group**. 
+
 [**Target**]({{ site.baseurl }}{% link docs/Parameters/Actions/Target.md %})**:** Used to store the data of a **Target** declaration. 
 
 [**Robot Target**]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Target.md %})**:** Used to store the data of a **Robot Target** declaration. 

@@ -29,3 +29,10 @@ Converts a quarternion to a plane.
 
 [**Robot Tool Calibration**]({{ site.baseurl }}{% link docs/Utility/Robot Tool Calibration.md %})**:**
 Calculates the tool center point (TCP) based on given joint positions.
+
+[**Group Actions**]({{ site.baseurl }}{% link docs/Utility/Group Actions.md %})**:**
+Group a set of Actions.
+
+[**Ungroup Actions**]({{ site.baseurl }}{% link docs/Utility/Ungroup Actions.md %})**:**
+Ungroup a set of Actions.
+
