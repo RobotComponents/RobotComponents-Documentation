@@ -15,7 +15,7 @@ has_toc: false
 
 ## **Input Parameters**
 
-**Name (N):** The zone data variable name. Each zone data name needs to be unique. The first letter shouldn’t be a number. Don’t use special characters. The variables names will be updated based on the list or datatree structure this component generates.
+**Name (N):** The zone data variable name. Each zone data name needs to be unique or empty. The first letter shouldn’t be a number. Don’t use special characters. The variables names will be updated based on the list or datatree structure this component generates.
 
 **Fine Point (FP):** A boolean that defines whether the movement is to terminate as a stop point (fine point) or as a fly-by point. 
 

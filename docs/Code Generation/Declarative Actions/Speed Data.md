@@ -15,7 +15,7 @@ has_toc: false
 
 ## **Input Parameters**
 
-**Name (N):** Defines the name of the speed data based on a text value. Each speed data name needs to be unique. The first letter shouldn’t be a number. Don’t use special characters. The variables names will be updated based on the list or datatree structure this component generates.
+**Name (N):** Defines the name of the speed data based on a text value. Each speed data name needs to be unique or empty. The first letter shouldn’t be a number. Don’t use special characters. The variables names will be updated based on the list or datatree structure this component generates.
 
 **TCP Velocity (vTCP):** Defines the velocity of the tool center point (TCP) in mm/s as a number value.
 
