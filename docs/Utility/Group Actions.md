@@ -15,7 +15,7 @@ Group a set of Actions.
 
 ## **Input Parameters**
 
-**Name (N):** Name of the group with Actions.
+**Name (N):** Defines the name of the group with Actions.
 
 [**Actions**]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) **(A):** Defines the set of Actions to store inside the group.
 
