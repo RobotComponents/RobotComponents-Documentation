@@ -27,6 +27,8 @@ Contains the data of a **Robot Target** declaration.
 
 **Cast <u>from</u>** a **[Target]({{ site.baseurl }}{% link docs/Parameters/Actions/Target.md %}) parameter:** Constructs a {{page.title}} parameter from a generic Target parameter. This is only possible if the created Target parameter was constructed from a {{page.title}} parameter.
 
+**Cast <u>from</u>** a **Plane parameter:** Constructs a {{page.title}} parameter from a Plane parameter. This results a robot target with a position and orientation set from the given plane position and orientation. The axis configuration will be set to `0' and a default external joint position will be used.
+
 **Cast <u>to</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Cast to the generic [Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 
 
 **Cast <u>to</u>** a **[Target]({{ site.baseurl }}{% link docs/Parameters/Actions/Target.md %}) parameter:** Cast to the generic [Target]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 

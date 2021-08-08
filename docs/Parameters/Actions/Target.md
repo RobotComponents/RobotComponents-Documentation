@@ -29,6 +29,10 @@ Contains the data of a **Target** declaration.
 
 **Cast <u>from</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Constructs a {{page.title}} parameter from a generic Action parameter. This is only possible if the created Action parameter was constructed from a {{page.title}} parameter.
 
+**Cast <u>from</u>** a **[Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) parameter:** Constructs a {{page.title}} parameter from a Robot Joint Position parameter. This results a joint target with a default external joint position.
+
+**Cast <u>from</u>** a **Plane parameter:** Constructs a {{page.title}} parameter from a Plane parameter. This results a robot target with a position and orientation set from the given plane position and orientation. The axis configuration will be set to `0' and a default external joint position will be used. 
+
 **Cast <u>to</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Cast to the generic [Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 
 
 **Cast <u>to</u>** a **[Joint Target]({{ site.baseurl }}{% link docs/Parameters/Actions/Joint Target.md %}) parameter:** Cast to the Joint Target parameter. This is only possible if a Joint Target was used to construct the Target parameter.
