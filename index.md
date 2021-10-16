@@ -50,7 +50,7 @@ For easy sharing of the download link and the documentation (with e.g. students)
 
 # **Credits**
 
-The plugin is an open source project initiated by the chair of [Experimental and Digital Design and Construction](https://edek.uni-kassel.de/) of the University of Kassel led by Prof. Eversmann. The technical development is initiated and executed by the research associates and student assistants who are listed [here](https://github.com/RobotComponents/RobotComponents/blob/master/AUTHORS.md).
+The plugin is an open source project initiated by the chair of [Experimental and Digital Design and Construction](https://www.uni-kassel.de/fb06/institute/architektur/fachgebiete/experimentelles-und-digitales-entwerfen-und-konstruieren/home) of the University of Kassel. The technical development is executed by the developers and contributors who are listed [here](https://github.com/RobotComponents/RobotComponents/blob/master/AUTHORS.md).
 
 RobotComponents uses the ABB PC SDK for real-time connection to ABB Robots, you can find the .dll used in this project here: [ABB developercenter](http://developercenter.robotstudio.com/landing). 
 

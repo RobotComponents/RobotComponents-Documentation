@@ -37,7 +37,7 @@ Now you can open [http://localhost:4000/](http://localhost:4000/) in your browse
 ## Credits
 ![EDEK_logo](https://github.com/RobotComponents/RobotComponents-Documentation/blob/master/181101_EDEK-LOGO-01.png)
 
-Robot Components is an open source project developed and initiated by the chair of [Experimental and Digital Design and Construction of the University of Kassel](https://edek.uni-kassel.de/) led by Prof. Eversmann. The technical development is initiated and executed by the research associates and student assistants which are listed [here](https://github.com/RobotComponents/RobotComponents-Documentation/blob/master/AUTHORS.md).
+Robot Components is an open source project initiated by the chair of [Experimental and Digital Design and Construction of the University of Kassel](https://www.uni-kassel.de/fb06/institute/architektur/fachgebiete/experimentelles-und-digitales-entwerfen-und-konstruieren/home). The technical development is executed by the developers and contributors who are listed [here](https://github.com/RobotComponents/RobotComponents-Documentation/blob/master/AUTHORS.md).
 
 We forked the theme from [Just The Docs](https://github.com/pmarsceill/just-the-docs). The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT). See below for the license of the content of the documentation website. 
 

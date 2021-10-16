@@ -19,14 +19,16 @@ Deconstructs a [Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/
 
 ## **Output Parameters**
 
-**Robot Axis Value A (RA1):** Contains the position of robot axis 1 in degrees.
+**Name (N):** Contains the variable name of the deconstructed Robot Joint Position.
 
-**Robot Axis Value B (RA2):** Contains the position of robot axis 2 in degrees.
+**Robot Joint Position 1 (RJ1):** Contains the position of robot axis 1 in degrees.
 
-**Robot Axis Value C (RA3):** Contains the position of robot axis 3 in degrees.
+**Robot Joint Position 2 (RJ2):** Contains the position of robot axis 2 in degrees.
 
-**Robot Axis Value D (RA4):** Contains the position of robot axis 4 in degrees.
+**Robot Joint Position 3 (RJ3):** Contains the position of robot axis 3 in degrees.
 
-**Robot Axis Value E (RA5):** Contains the position of robot axis 5 in degrees.
+**Robot Joint Position 4 (RJ4):** Contains the position of robot axis 4 in degrees.
 
-**Robot Axis Value F (RA6):** Contains the position of robot axis 6 in degrees.
+**Robot Joint Position 5 (RJ5):** Contains the position of robot axis 5 in degrees.
+
+**Robot Joint Position 6 (RJ6):** Contains the position of robot axis 6 in degrees.

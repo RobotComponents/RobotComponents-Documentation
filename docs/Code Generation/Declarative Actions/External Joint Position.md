@@ -16,19 +16,21 @@ Defines the external joint position for a [Joint Target]({{ site.baseurl }}{% li
 
 ## **Input Parameters**
 
-**External Axis Value A (EAa):** Defines the position of external logical axis A in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
+**Name (N):**  Defines the name of the joint position based on a text value. Each joint position name needs to be unique or empty. The first letter should not be a number. Do not use special characters. The variables names will be updated based on the list or datatree structure this component generates.
 
-**External Axis Value B (EAb):** Defines the position of external logical axis B in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
+**External Joint Position A (EJa):** Defines the position of external logical axis A in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
+
+**External Joint Position B (EJb):** Defines the position of external logical axis B in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
 
 ## **Variable Input Parameters**
 
-**External Axis Value C (EAc):** Defines the position of external logical axis C in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
+**External Joint Position C (EJc):** Defines the position of external logical axis C in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
 
-**External Axis Value D (EAd):** Defines the position of external logical axis D in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
+**External Joint Position D (EJd):** Defines the position of external logical axis D in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
 
-**External Axis Value E (EAe):** Defines the position of external logical axis E in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
+**External Joint Position E (EJe):** Defines the position of external logical axis E in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
 
-**External Axis Value F (EAf):** Defines the position of external logical axis F in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
+**External Joint Position F (EJf):** Defines the position of external logical axis F in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
 
 ## **Output Parameters**
 
