@@ -32,3 +32,9 @@ Establishes a remote connection with the controller to upload an run RAPID code 
 ## **Output Parameters**
 
 **Status (S):** Contains text information about the status of the defined ABB IRC5 robot controller.
+
+## **Menu Items**
+
+Through the right-click menu of the component additional options are available:
+
+**Pick Task:** Pick a task to upload to. If more than one task is defined in the controller and the connection input parameter is set to true a form will be shown where the tasked can be picked from. If only one task is defined, this task will be picked. The component label displays the selected task name.
