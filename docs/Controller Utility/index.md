@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Controller Utility Components
-nav_order: 4
+nav_order: 2
 has_children: true
 # permalink: docs/utilities
 has_toc: false

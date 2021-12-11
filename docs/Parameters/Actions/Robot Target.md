@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Robot Target
-nav_order: 3
+nav_order: 2
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

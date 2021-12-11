@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wait for Time
-nav_order: 8
+nav_order: 3
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

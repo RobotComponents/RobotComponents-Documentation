@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Override Robot Tool
-nav_order: 12
+nav_order: 4
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

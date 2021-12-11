@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Set Linear Configuration Control
-nav_order: 10
+nav_order: 3
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

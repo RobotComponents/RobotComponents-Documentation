@@ -1,7 +1,7 @@
 ---
 layout: default
 title: External Joint Position
-nav_order: 16
+nav_order: 2
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

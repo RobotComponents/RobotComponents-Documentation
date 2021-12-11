@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Joint Target
-nav_order: 4
+nav_order: 2
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

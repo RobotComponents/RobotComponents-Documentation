@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Move
-nav_order: 7
+nav_order: 3
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

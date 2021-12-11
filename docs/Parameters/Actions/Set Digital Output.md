@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Set Digital Output
-nav_order: 11
+nav_order: 3
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

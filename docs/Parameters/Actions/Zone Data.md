@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zone Data
-nav_order: 6
+nav_order: 2
 parent: Action Parameters
 grand_parent: Parameter Components
 ---

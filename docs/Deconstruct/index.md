@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Deconstruct Components
-nav_order: 5
+nav_order: 3
 has_children: true
 has_toc: false
 ---
