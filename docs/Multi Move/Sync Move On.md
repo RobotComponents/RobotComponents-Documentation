@@ -25,5 +25,4 @@ Defines an instruction that starts a sequence of synchronized movements.
 
 ## **Usage**
 
-Work in progress..
-
+[**Code Generation**]({{ site.baseurl }}{% link docs/Code Generation/index.md %})**:** Plug the [Sync Move On]({{ site.baseurl }}{% link docs/Parameters/Actions/Sync Move On.md %}) output of this component into the Actions input of the [RAPID Generator]({{ site.baseurl }}{% link docs/Code Generation/RAPID Generator.md %}) component to define a Sync Move On instruction in the RAPID program module. 

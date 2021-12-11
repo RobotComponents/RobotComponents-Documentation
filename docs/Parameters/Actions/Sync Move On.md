@@ -14,7 +14,7 @@ grand_parent: Parameter Components
 Contains the data of a **{{page.title}}** instruction. 
 
 ## **Constructors**
-s
+
 [**Sync Move On**]({{ site.baseurl }}{% link docs/Multi Move/Sync Move On.md %})
 
 ## **Casting methods**

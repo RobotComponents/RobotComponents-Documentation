@@ -21,12 +21,11 @@ Defines an instruction to synchronize several program tasks at a special point i
 
 **In Position (IP):** Defines whether or not the robot and external axes must have come to a standstill in its synchronization point.
 
-
 ## **Output Parameters**
 
 [**Wait Sync Task**]({{ site.baseurl }}{% link docs/Parameters/Actions/Wait Sync Task.md %}) **(WST):** Contains the data of a Wait Sync Task instruction.
 
 ## **Usage**
 
-Work in progress..
+[**Code Generation**]({{ site.baseurl }}{% link docs/Code Generation/index.md %})**:** Plug the [Wait Sync Task]({{ site.baseurl }}{% link docs/Parameters/Actions/Wait Sync Task.md %}) output of this component into the Actions input of the [RAPID Generator]({{ site.baseurl }}{% link docs/Code Generation/RAPID Generator.md %}) component to define a Wait Sync Task instruction in the RAPID program module.
 

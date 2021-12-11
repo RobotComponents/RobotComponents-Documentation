@@ -25,5 +25,5 @@ Defines a collection that specifies several RAPID program tasks.
 
 ## **Usage**
 
-Work in progress..
+[**Multi Move**]({{ site.baseurl }}{% link docs/Multi Move/index.md %})**:** Plug the [Task List]({{ site.baseurl }}{% link docs/Parameters/Actions/Task List.md %}) output parameter of this component into the Task List input parameter of the [Wait Sync Task]({{ site.baseurl }}{% link docs/Multi Move/Wait Sync Task.md %}) and/or [Sync Move On]({{ site.baseurl }}{% link docs/Multi Move/Sync Move On.md %}) component to set the RAPID program tasks for these Multi Move synchronization points. This will also add the Task List declaration to the RAPID Program module.
 
