@@ -14,11 +14,13 @@ grand_parent: Robot Components Categories
 
 Action Parameter components are used to maintain and store Data of [Code Generation]({{ site.baseurl }}{% link docs/Code Generation/index.md %}) components.
 
-## **Components**
+## **Action Parameters**
 
 [**Action**]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %})**:** Used to store the data of any **Action**. 
 
 [**Action Group**]({{ site.baseurl }}{% link docs/Parameters/Actions/Action Group.md %})**:** Used to store the data of a set of Actions as an **Action Group**. 
+
+### **Declarations**
 
 [**Target**]({{ site.baseurl }}{% link docs/Parameters/Actions/Target.md %})**:** Used to store the data of a **Target** declaration. 
 
@@ -33,6 +35,10 @@ Action Parameter components are used to maintain and store Data of [Code Generat
 [**Robot Joint Position**]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %})**:** Used to store the data of a **Robot Joint** declaration. 
 
 [**External Joint Position**]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %})**:** Used to store the data of an **External Joint Position** declaration. 
+
+[**Task List**]({{ site.baseurl }}{% link docs/Parameters/Actions/Task List.md %})**:** Used to store the data of a **Task List** declaration. 
+
+### **Instructions**
 
 [**Move**]({{ site.baseurl }}{% link docs/Parameters/Actions/Move.md %})**:** Used to store the data of a **Move** instruction. 
 
@@ -49,6 +55,14 @@ Action Parameter components are used to maintain and store Data of [Code Generat
 [**Set Digital Output**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Digital Output.md %})**:** Used to store the data of a **Set Digital Output** instruction. 
 
 [**Override Robot Tool**]({{ site.baseurl }}{% link docs/Parameters/Actions/Override Robot Tool.md %})**:** Used to store the data of a **Override Robot Tool** instruction. 
+
+[**Wait Sync Task**]({{ site.baseurl }}{% link docs/Parameters/Actions/Wait Sync Task.md %})**:** Used to store the data of a **Wait Sync Task** instruction.
+
+[**Sync Move On**]({{ site.baseurl }}{% link docs/Parameters/Actions/Sync Move On.md %})**:** Used to store the data of a **Sync Move On** instruction.
+
+[**Sync Move Off**]({{ site.baseurl }}{% link docs/Parameters/Actions/Sync Move Off.md %})**:** Used to store the data of a **Sync Move Off** instruction.
+
+### **Dynamic**
 
 [**Code**]({{ site.baseurl }}{% link docs/Parameters/Actions/Code Line.md %})**:** Used to store the data of a **Code Line**. 
 

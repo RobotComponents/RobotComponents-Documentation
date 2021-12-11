@@ -11,7 +11,7 @@ grand_parent: Parameter Components
 ## **Description**
 
 [**Action Parameter**]({{ site.baseurl }}{% link docs/Parameters/Actions/index.md %})**:** 
-Contains the data of an **Set Analog Output** instruction. 
+Contains the data of a **{{page.title}}** instruction. 
 
 ## **Constructors**
 
