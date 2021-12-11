@@ -1,8 +1,9 @@
 # Robot Components Documentation
 
-[![License](https://img.shields.io/github/license/RobotComponents/RobotComponents-Documentation?style=flat-square)]()
-[![Closed Issues](https://img.shields.io/github/issues-raw/RobotComponents/RobotComponents-Documentation?style=flat-square)]()
-[![Open Issues](https://img.shields.io/github/issues-closed-raw/RobotComponents/RobotComponents-Documentation?style=flat-square)]()
+[![License](https://img.shields.io/github/license/RobotComponents/RobotComponents-Documentation)]()
+[![Closed Issues](https://img.shields.io/github/issues-raw/RobotComponents/RobotComponents-Documentation)]()
+[![Open Issues](https://img.shields.io/github/issues-closed-raw/RobotComponents/RobotComponents-Documentation)]()
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.5773815.svg)]()
 
 This repo contains the content of [robotcomponents.github.io/RobotComponents-Documentation/](https://robotcomponents.github.io/RobotComponents-Documentation/). The documentation page is built on [Just The Docs](https://github.com/pmarsceill/just-the-docs). 
 
