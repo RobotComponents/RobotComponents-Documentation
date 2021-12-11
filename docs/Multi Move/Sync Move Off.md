@@ -10,15 +10,17 @@ grand_parent: Robot Components Categories
 
 ## **Description**
 
-Work in progress..
+
+[**Multi Move Action**]({{ site.baseurl }}{% link docs/Multi Move/index.md %})**:** 
+Defines an instruction that ends a sequence of synchronized movements.
 
 ## **Input Parameters**
 
-Work in progress..
+**Sync ID (ID):** Defines the variable name of the synchronization point (syncident) based on a text value. Each name needs to be unique. The first letter should not be a number. Do not use special characters.
 
 ## **Output Parameters**
 
-Work in progress..
+[**Sync Move Off**]({{ site.baseurl }}{% link docs/Parameters/Actions/Sync Move Off.md %}) **(SMOFF):** Contains the data of a Sync Move Off instruction.
 
 ## **Usage**
 

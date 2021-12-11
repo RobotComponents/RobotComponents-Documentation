@@ -16,7 +16,7 @@ Defines the external joint position for a [Joint Target]({{ site.baseurl }}{% li
 
 ## **Input Parameters**
 
-**Name (N):**  Defines the name of the joint position based on a text value. Each joint position name needs to be unique or empty. The first letter should not be a number. Do not use special characters. The variables names will be updated based on the list or datatree structure this component generates.
+**Name (N):** Defines the name of the joint position based on a text value. Each joint position name needs to be unique or empty. The first letter should not be a number. Do not use special characters. The variables names will be updated based on the list or datatree structure this component generates.
 
 **External Joint Position A (EJa):** Defines the position of external logical axis A in degrees or mm. The default axis value is set to `9E9` (undefined / not connected). 
 
