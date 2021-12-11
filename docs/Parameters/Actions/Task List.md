@@ -15,7 +15,7 @@ Contains the data of a **{{page.title}}** declaration.
 
 ## **Constructors**
 
-[**Task List**]({{ site.baseurl }}{% link docs/Mulit Move/Task List.md %})
+[**Task List**]({{ site.baseurl }}{% link docs/Multi Move/Task List.md %})
 
 ## **Casting methods**
 

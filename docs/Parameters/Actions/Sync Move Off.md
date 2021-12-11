@@ -15,7 +15,7 @@ Contains the data of a **{{page.title}}** instruction.
 
 ## **Constructors**
 
-[**Sync Move Off**]({{ site.baseurl }}{% link docs/Mulit Move/Sync Move Off.md %})
+[**Sync Move Off**]({{ site.baseurl }}{% link docs/Multi Move/Sync Move Off.md %})
 
 ## **Casting methods**
 

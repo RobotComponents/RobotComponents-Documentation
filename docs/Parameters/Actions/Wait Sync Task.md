@@ -15,7 +15,7 @@ Contains the data of a **{{page.title}}** instruction.
 
 ## **Constructors**
 
-[**Wait Sync Task**]({{ site.baseurl }}{% link docs/Mulit Move/Wait Sync Task.md %})
+[**Wait Sync Task**]({{ site.baseurl }}{% link docs/Multi Move/Wait Sync Task.md %})
 
 ## **Casting methods**
 
