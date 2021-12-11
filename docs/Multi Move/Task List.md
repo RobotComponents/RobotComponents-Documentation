@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Task List
-nav_order: 7
+nav_order: 1
 parent: Multi Move Components
 grand_parent: Robot Components Categories
 ---

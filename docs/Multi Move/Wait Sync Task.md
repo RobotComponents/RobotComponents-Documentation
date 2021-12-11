@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wait Sync Task
-nav_order: 7
+nav_order: 2
 parent: Multi Move Components
 grand_parent: Robot Components Categories
 ---
