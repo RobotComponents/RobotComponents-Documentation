@@ -21,7 +21,7 @@ Contains the data of a **External Joint Position** declaration.
 
 [**Deconstruct External Joint Position**]({{ site.baseurl }}{% link docs/Deconstruct/Actions/Deconstruct External Joint Position.md %})
 
-## **Casting methods**s
+## **Casting methods**
 
 **Cast <u>from</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Constructs an {{page.title}} parameter from a generic Action parameter. This is only possible if the created Action parameter was constructed from an {{page.title}} parameter.
 
