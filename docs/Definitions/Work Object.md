@@ -19,7 +19,7 @@ Defines a work object.
 
 **Plane (WP):** Defines the work objects plane. In case you attach and external axis to the work object you have to defined the work object plane relative to the axis plane. 
 
-**External Axis (EA):** Defines the external axis of the work object. A custom external axis can be created by using the [External Rotational Axis]({{ site.baseurl }}{% link docs/Definitions/External Rotational Axis.md %}) or [External Linear Axis]({{ site.baseurl }}{% link docs/Definitions/External Linear Axis.md %}) component. This input parameter is optional. By default this input parameter is empty and a fixed work object will be created. In case an external axis is attacted to the work object a movable work object will be created. An external axis that moves a Robot cannot be attached to a Work Object. 
+[**External Axis**]({{ site.baseurl }}{% link docs/Parameters/Definitions/External Axis.md %}) **(EA):** Defines the external axis of the work object. A custom external axis can be created by using the [External Rotational Axis]({{ site.baseurl }}{% link docs/Definitions/External Rotational Axis.md %}) or [External Linear Axis]({{ site.baseurl }}{% link docs/Definitions/External Linear Axis.md %}) component. This input parameter is optional. By default this input parameter is empty and a fixed work object will be created. In case an external axis is attacted to the work object a movable work object will be created. An external axis that moves a Robot cannot be attached to a Work Object. 
 
 ## **Output Parameters**
 
