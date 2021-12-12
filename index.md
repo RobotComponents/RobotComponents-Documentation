@@ -40,7 +40,7 @@ For easy sharing of the download link and the documentation (with e.g. students)
 
 [**Definitions Components**]({{ site.baseurl }}{% link docs/Definitions/index.md %})**:** These components are used to define robots and robot tools which are needed for [Code Generation]({{ site.baseurl }}{% link docs/Code Generation/index.md %}) and [Simulation]({{ site.baseurl }}{% link docs/Simulation/index.md %}).
 
-[**Multi Move Components**]({{ site.baseurl }}{% link docs/Multi Move/index.md %})**:** These componets are used to create RAPID programs for Multi Move tasks. Multi Move compononents are an extension of the components in the [Code Generation Components]({{ site.baseurl }}{% link docs/Code Generation/index.md %}) category and need to be combined with other [Code Generation]({{ site.baseurl }}{% link docs/Code Generation/index.md %}) components to create a Multi Move program.
+[**Multi Move Components**]({{ site.baseurl }}{% link docs/Multi Move/index.md %})**:** These componets are used to create RAPID programs for Multi Move tasks. Multi Move compononents are an extension of the components in the [Code Generation]({{ site.baseurl }}{% link docs/Code Generation/index.md %}) category and need to be combined with other [Code Generation]({{ site.baseurl }}{% link docs/Code Generation/index.md %}) components to create a Multi Move program.
 
 [**Parameters Components**]({{ site.baseurl }}{% link docs/Parameters/Actions/index.md %})**:** These components are used to maintain and store Data of [Code Generation]({{ site.baseurl }}{% link docs/Code Generation/index.md %}) and [Definitions]({{ site.baseurl }}{% link docs/Definitions/index.md %}) components.
 
