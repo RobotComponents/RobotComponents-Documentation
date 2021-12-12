@@ -32,7 +32,7 @@ Action Parameter components are used to maintain and store Data of [Code Generat
 
 [**Zone Data**]({{ site.baseurl }}{% link docs/Parameters/Actions/Zone Data.md %})**:** Used to store the data of a **Zone Data** declaration. 
 
-[**Robot Joint Position**]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %})**:** Used to store the data of a **Robot Joint** declaration. 
+[**Robot Joint Position**]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %})**:** Used to store the data of a **Robot Joint Position** declaration. 
 
 [**External Joint Position**]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %})**:** Used to store the data of an **External Joint Position** declaration. 
 
