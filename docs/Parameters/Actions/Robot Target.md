@@ -38,3 +38,11 @@ Contains the data of a **Robot Target** declaration.
 **Cast <u>to</u>** a **Point parameter:** Cast to the Point parameter. This is point defines the coordinates of the target position in the work object coordinate system. 
 
 **Cast <u>to</u>** an **[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) parameter:** Cast to the External Joint Position parameter that is definied for this Robot Target declaration.
+
+## **Transformation methods**
+
+This parameter does not support transformation methods.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.

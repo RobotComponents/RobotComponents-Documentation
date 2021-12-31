@@ -20,3 +20,11 @@ Actions can be constructed by using [Code Generation]({{ site.baseurl }}{% link 
 ## **Deconstructors**
 
 Actions can be deconstructed by using [Deconstruct]({{site.baseurl }}{% link docs/Deconstruct/index.md %}) components.
+
+## **Transformation methods**
+
+This parameter does not support transformation methods.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.

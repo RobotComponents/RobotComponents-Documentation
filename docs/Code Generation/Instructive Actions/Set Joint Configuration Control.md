@@ -23,4 +23,4 @@ has_toc: false
 
 ## **Usage**
 
-[**Code Generation**]({{ site.baseurl }}{% link docs/Code Generation/index.md %})**:** Plug the output paramter of this component into the Actions input parameter of the [RAPID Generator]({{ site.baseurl }}{% link docs/Code Generation/RAPID Generator.md %}) component to add an instruction to the RAPID program module that activates or deactivates joint configuration control.
+[**Code Generation**]({{ site.baseurl }}{% link docs/Code Generation/index.md %})**:** Plug the output parameter of this component into the Actions input parameter of the [RAPID Generator]({{ site.baseurl }}{% link docs/Code Generation/RAPID Generator.md %}) component to add an instruction to the RAPID program module that activates or deactivates joint configuration control.

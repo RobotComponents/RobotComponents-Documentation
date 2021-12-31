@@ -26,3 +26,11 @@ Contains the data of an **Set Joint Configuration Control** instruction.
 **Cast <u>to</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Cast to the generic [Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 
 
 **Cast <u>to</u>** a **Boolean parameter:** Cast to the primitive Boolean parameter. The boolean defines if the Joint Configuration Control is active.  
+
+## **Transformation methods**
+
+This parameter does not support transformation methods.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.

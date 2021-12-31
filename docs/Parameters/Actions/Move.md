@@ -56,3 +56,11 @@ Contains the data of a **Move** instruction.
 **Cast <u>to</u>** a **[Work Object]({{ site.baseurl }}{% link docs/Parameters/Definitions/Work Object.md %}) parameter:** Cast to the Work Object parameter that is definied for this move instruction.
 
 **Cast <u>to</u>** a **[Set Digital Output]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Digital Output.md %}) parameter:** Cast to the Set Digital Output parameter that is definied for this move instruction.
+
+## **Transformation methods**
+
+This parameter does not support transformation methods.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.

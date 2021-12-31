@@ -23,3 +23,11 @@ Contains the data of a **Code Line**.
 
 **Cast <u>to</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Cast to the generic [Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 
 
+## **Transformation methods**
+
+This parameter does not support transformation methods.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.
+

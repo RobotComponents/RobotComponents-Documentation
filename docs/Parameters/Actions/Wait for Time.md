@@ -26,3 +26,11 @@ Contains the data of a **Wait for Time** instruction.
 **Cast <u>to</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Cast to the generic [Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 
 
 **Cast <u>to</u>** a **Number parameter:** Cast to the primitive Number parameter. The number defines the wait time of the Wait for Time instruction.  
+
+## **Transformation methods**
+
+This parameter does not support transformation methods.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.

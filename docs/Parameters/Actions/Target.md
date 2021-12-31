@@ -40,3 +40,11 @@ Contains the data of a **Target** declaration.
 **Cast <u>to</u>** a **[Robot Target]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Target.md %}) parameter:** Cast to the Robot Target parameter. This is only possible if a Robot Target was used to construct the Target parameter.
 
 **Cast <u>to</u>** an **[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) parameter:** Cast to the External Joint Position parameter that is definied for this Target declaration.
+
+## **Transformation methods**
+
+This parameter does not support transformation methods.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.

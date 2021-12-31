@@ -28,3 +28,11 @@ Contains the data of a **Robot Tool**.
 **Cast <u>to</u>** a **Mesh parameter:** Cast to the Mesh parameter. Defines the joined Mesh of the defined Robot Tool.
 
 **Cast <u>to</u>** a **Plane parameter:** Cast to the Plane parameter. Defines the tool center plane of the Robot Tool.
+
+## **Transformation methods**
+
+Transformation methods are implemented for this parameter. It will transform all geometric properties of the {{page.title}}.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.

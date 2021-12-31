@@ -33,3 +33,11 @@ Contains the data of a **Zone Data** declaration.
 **Cast <u>from</u>** a **Text parameter:**  Constructs {{page.title}} parameter from a primitive Text parameter. Only text values are allowed that start with a `z` followed by a predefined zonedata number. Allowed predefined zonedata text values are `fine`, `z0`, `z1`, `z5`, `z10`, `z15`, `z20`, `z30`, `z40`, `z50`, `z60`, `z80`, `z100`, `z150` and `z200`.
 
 **Cast <u>to</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Cast to the generic [Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 
+
+## **Transformation methods**
+
+This parameter does not support transformation methods.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.

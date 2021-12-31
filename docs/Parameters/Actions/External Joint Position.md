@@ -30,3 +30,11 @@ Contains the data of a **External Joint Position** declaration.
 **Cast <u>from</u>** a **Text parameter:** Constructs an {{page.title}} parameter from a text. The user can define up to six external axis values as a text to construct an {{page.title}} parameter. For example, the text `1000, 500` will be casted to an {{page.title}} parameter with the first external axis value set to `1000` and the second external axis value set to `500`. All other external axis values inside this {{page.title}} parameter will be set to `9E9` (undefined / not connected). 
 
 **Cast <u>to</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Cast to the generic [Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 
+
+## **Transformation methods**
+
+This parameter does not support transformation methods.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.

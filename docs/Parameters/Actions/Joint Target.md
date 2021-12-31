@@ -36,3 +36,11 @@ Contains the data of a **Joint Target** declaration.
 **Cast <u>to</u>** a **[Robot Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Joint Position.md %}) parameter:** Cast to the Robot Joint Position parameter that is definied for this Joint Target declaration.
 
 **Cast <u>to</u>** an **[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) parameter:** Cast to the External Joint Position parameter that is definied for this Joint Target declaration.
+
+## **Transformation methods**
+
+This parameter does not support transformation methods.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.

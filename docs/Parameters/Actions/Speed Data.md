@@ -32,3 +32,11 @@ Contains the data of a **Speed Data** declaration.
 **Cast <u>from</u>** a **Text parameter:**  Constructs a {{page.title}} parameter from a primitive Text parameter. Only text values are allowed that start with a `v` followed by a predefined speeddata number. Allowed predefined speeddata text values are `v5`, `v10`, `v20`, `v30`, `v40`, `v50`, `v60`, `v80`, `v100`, `v150`, `v200`, `v300`, `v400`, `v500`, `v600`, `v800`, `v1000`, `v1500`, `v2000`, `v2500`, `v3000`, `v4000`, `v5000`, `v6000` and `v7000`.
 
 **Cast <u>to</u>** an **[Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter:** Cast to the generic [Action]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) parameter. 
+
+## **Transformation methods**
+
+This parameter does not support transformation methods.
+
+## **Morphing methods**
+
+This parameter does not support morphing methods.
