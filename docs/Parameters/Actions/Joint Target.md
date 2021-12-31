@@ -17,7 +17,7 @@ Contains the data of a **Joint Target** declaration.
 
 [**Joint Target**]({{ site.baseurl }}{% link docs/Code Generation/Declarative Actions/Joint Target.md %})
 
-## **Casting methods**
+## **Deconstructors**
 
 [**Deconstruct Joint Target**]({{ site.baseurl }}{% link docs/Deconstruct/Actions/Deconstruct Joint Target.md %})
 
