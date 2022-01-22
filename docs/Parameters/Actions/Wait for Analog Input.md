@@ -15,7 +15,7 @@ Contains the data of a **Wait for Analog Input** instruction.
 
 ## **Constructors**
 
-[**Wait for Analo Input**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Wait for Analog Input.md %})
+[**Wait for Analog Input**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Wait for Analog Input.md %})
 
 ## **Casting methods**
 

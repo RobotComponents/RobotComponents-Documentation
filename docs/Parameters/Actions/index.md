@@ -40,11 +40,7 @@ Action Parameter components are used to maintain and store Data of [Code Generat
 
 [**Move**]({{ site.baseurl }}{% link docs/Parameters/Actions/Move.md %})**:** Used to store the data of a **Move** instruction. 
 
-[**Wait for Time**]({{ site.baseurl }}{% link docs/Parameters/Actions/Wait for Time.md %})**:** Used to store the data of a **Wait for Time** instruction. 
-
-[**Wait for Analog Input**]({{ site.baseurl }}{% link docs/Parameters/Actions/Wait for Analog Input.md %})**:** Used to store the data of a **Wait for Analog Input** isntruction. 
-
-[**Wait for Digital Input**]({{ site.baseurl }}{% link docs/Parameters/Actions/Wait for Digital Input.md %})**:** Used to store the data of a **Wait for Digital Input** isntruction. 
+[**Override Robot Tool**]({{ site.baseurl }}{% link docs/Parameters/Actions/Override Robot Tool.md %})**:** Used to store the data of a **Override Robot Tool** instruction.
 
 [**Set Joint Configuration Control**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Joint Configuration Control.md %})**:** Used to store the data of a **Joint Configuration Control** instruction. 
 
@@ -54,7 +50,11 @@ Action Parameter components are used to maintain and store Data of [Code Generat
 
 [**Set Digital Output**]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Digital Output.md %})**:** Used to store the data of a **Set Digital Output** instruction. 
 
-[**Override Robot Tool**]({{ site.baseurl }}{% link docs/Parameters/Actions/Override Robot Tool.md %})**:** Used to store the data of a **Override Robot Tool** instruction. 
+[**Wait for Time**]({{ site.baseurl }}{% link docs/Parameters/Actions/Wait for Time.md %})**:** Used to store the data of a **Wait for Time** instruction. 
+
+[**Wait for Analog Input**]({{ site.baseurl }}{% link docs/Parameters/Actions/Wait for Analog Input.md %})**:** Used to store the data of a **Wait for Analog Input** isntruction. 
+
+[**Wait for Digital Input**]({{ site.baseurl }}{% link docs/Parameters/Actions/Wait for Digital Input.md %})**:** Used to store the data of a **Wait for Digital Input** isntruction. 
 
 ### **Multi Move Actions**
 
