@@ -43,9 +43,7 @@ Contains the data of a **Move** instruction.
 
 **Cast <u>to</u>** a **[Robot Target]({{ site.baseurl }}{% link docs/Parameters/Actions/Robot Target.md %}) parameter:** Cast to the Robot Target parameter that is definied for this move instruction. This is only possible if a Robot Target was used to construct the Move parameter.
 
-**Cast <u>to</u>** a **Plane parameter:** Cast to the Plane parameter. Defines the target plane in the world coordinate system. In case an External Axis is attached to the work object, the position and orientation  are defined for external axis values set to zero. 
-
-**Cast <u>to</u>** a **Point parameter:** Cast to the Point parameter. Defines the position of the target plane in the world coordinate system. In case an External Axis is attached to the work object, the position is defined for external axis values set to zero. 
+**Cast <u>to</u>** a **[External Joint Position]({{ site.baseurl }}{% link docs/Parameters/Actions/External Joint Position.md %}) parameter:** Cast to the External Joint Position parameter that is definied for the Target of this move instruction.
 
 **Cast <u>to</u>** a **[Speed Data]({{ site.baseurl }}{% link docs/Parameters/Actions/Speed Data.md %}) parameter:** Cast to the Speed Data parameter that is definied for this move instruction.
 
@@ -56,6 +54,10 @@ Contains the data of a **Move** instruction.
 **Cast <u>to</u>** a **[Work Object]({{ site.baseurl }}{% link docs/Parameters/Definitions/Work Object.md %}) parameter:** Cast to the Work Object parameter that is definied for this move instruction.
 
 **Cast <u>to</u>** a **[Set Digital Output]({{ site.baseurl }}{% link docs/Parameters/Actions/Set Digital Output.md %}) parameter:** Cast to the Set Digital Output parameter that is definied for this move instruction.
+
+**Cast <u>to</u>** a **Plane parameter:** Cast to the Plane parameter. Defines the target plane in the world coordinate system. In case an External Axis is attached to the work object, the position and orientation  are defined for external axis values set to zero. 
+
+**Cast <u>to</u>** a **Point parameter:** Cast to the Point parameter. Defines the position of the target plane in the world coordinate system. In case an External Axis is attached to the work object, the position is defined for external axis values set to zero. 
 
 ## **Transformation methods**
 

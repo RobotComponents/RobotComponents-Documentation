@@ -28,6 +28,8 @@ grand_parent: Robot Components Categories
 
 [**Set Linear Configuration Control**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Set Linear Configuration Control.md %})**:** Defines an instruction to set the linear configuration control of the robot for RAPID code generation.
 
+[**Wait for Analog Input**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Wait for Analog Input.md %})**:** Defines an instruction to wait for the signal of a Analog Input from the robot controller in RAPID code generation.
+
 [**Wait for Digital Input**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Wait for Digital Input.md %})**:** Defines an instruction to wait for the signal of a Digital Input from the robot controller in RAPID code generation.
 
 [**Wait for Time**]({{ site.baseurl }}{% link docs/Code Generation/Instructive Actions/Wait for Time.md %})**:** Defines an instruction to wait a given amount of time between two other robot instructions in RAPID code generation.
