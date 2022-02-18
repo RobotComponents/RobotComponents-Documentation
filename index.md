@@ -18,7 +18,7 @@ Robot Components is a plugin for intuitive robot programming for ABB robots insi
 - Efficient forward and inverse kinematics
 - Possibility to add your own custom code lines
 - Real-time connection with IRC5 controllers
-- [Robot Components API](robotcomponents.github.io/RobotComponents-API-Documentation/) to develop your custom components using either Python or C#
+- [Robot Components API](https://robotcomponents.github.io/RobotComponents-API-Documentation/index.html) to develop your custom components using either Python or C#
 
 # **Getting Started**
 
