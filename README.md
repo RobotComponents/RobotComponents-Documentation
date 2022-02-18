@@ -12,23 +12,24 @@ Pull request are welcome. If you want to build the site yourself, to test your c
 ## Getting started
 ### Installation
 
-Install Ruby (Ruby+Devkit 2.6.6-1 (x64)) from [here](https://rubyinstaller.org/downloads/).
+1) Install Ruby (Ruby+Devkit 2.6.6-1 (x64)) from [here](https://rubyinstaller.org/downloads/).
+2) Install [Bundler](https://bundler.io/) and [Jekyll](https://jekyllrb.com/).
+3) Open your cmd and type in:
 
-Install [Bundler](https://bundler.io/) and [Jekyll](https://jekyllrb.com/).
+    ```
+    $ gem install jekyll bundler
+    ```
+4) Navigate to your project folder and type in for installing the right bundler version:
 
-Open your cmd and type in:
-```
-$ gem install jekyll bundler
-```
-Navigate to your project folder and type in for installing the right bundler version:
-```
-$ gem install bundler --version '2.0.1'
-$ bundler
-```
-To start the local server and create some special jekyll files when the _config.yml is changed type in:
-```
-$ bundler exec jekyll serve
-```
+    ```
+    $ gem install bundler --version '2.0.1'
+    $ bundler
+    ```
+5) To start the local server and create some special jekyll files when the _config.yml is changed type in:
+
+    ```
+    $ bundler exec jekyll serve
+    ```
 Now you can open [http://localhost:4000/](http://localhost:4000/) in your browser and test the documentation.
 
 ### Usage
