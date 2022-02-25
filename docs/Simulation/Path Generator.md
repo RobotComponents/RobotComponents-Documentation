@@ -57,6 +57,12 @@ Through the right-click menu of the component the following variable output para
 
 **Error Messages (E):** Contains all the error and warning messages that were collected during the path generation. 
 
+## **Menu Items**
+
+Through the right-click menu of the component the following options are available:
+
+**Preview Robot Mesh:** Enables or disables the preview of the robot mesh.
+
 ## **Usage**
 
 [**Simulation**]({{ site.baseurl }}{% link docs/Simulation/index.md %})**:** Visualize the robot movement as animation in Rhino by using a slider with range 0.0 to 1.0 for the Animation Slider input parameter of this component.

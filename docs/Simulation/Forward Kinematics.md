@@ -29,6 +29,12 @@ Computes the position of the end-effector of a defined ABB robot based on a set 
 
 **External Axis Planes (EAP):** Contains a list with all posed external axis planes.
 
+## **Menu Items**
+
+Through the right-click menu of the component the following options are available:
+
+**Preview Robot Mesh:** Enables or disables the preview of the robot mesh.
+
 ## **Usage**
 
 [**Simulation**]({{ site.baseurl }}{% link docs/Simulation/index.md %})**:** 

@@ -20,13 +20,19 @@ Generates the RAPID program and system module for the robot controller.
 
 [**Actions**]({{ site.baseurl }}{% link docs/Parameters/Actions/Action.md %}) **(A):** Defines declarations and instructions for the RAPID program module based on a list of ordered actions. All available action components can be found in the category [Code Generation]({{ site.baseurl }}{% link docs/Code Generation/index.md %}).
 
+**Update (U):** Only if set to true, the RAPID program and system modules will be generated. To increase performance, only update when changes were made. It is recommended to toggle this input parameter with a button.  
+
+## **Variable Input Parameters**
+
+Through the right-click menu of the component the following variable input parameters can be added:
+
 **Program Name (PN):** Defines the RAPID program module name based on a text value. If unset, the default value will be `MainModule`.
 
 **System Name (SN):** Defines the RAPID system module name based on a text value. If unset, the default value will be `BASE`.
 
-**Custom System Code (CSC):** Additional custom code lines for the RAPID system module defined as a list of text values. 
+**Procedure Name (PN):** Defines the RAPID procedure name based on a text value. If unset, the default value will be `main`. 
 
-**Update (U):** Only if set to true, the RAPID program and system modules will be generated. To increase performance, only update when changes were made. It is recommended to toggle this input parameter with a button.  
+**Custom System Code (CSC):** Additional custom code lines for the RAPID system module defined as a list of text values. 
 
 ## **Output Parameters**
 
