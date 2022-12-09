@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Work Object
-nav_order: 6
+nav_order: 7
 parent: Definition Parameters
 grand_parent: Parameter Components
 ---

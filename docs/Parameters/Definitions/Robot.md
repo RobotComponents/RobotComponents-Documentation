@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Robot
-nav_order: 1
+nav_order: 2
 parent: Definition Parameters
 grand_parent: Parameter Components
 ---
@@ -22,6 +22,10 @@ Contains the data of a **Robot**.
 [**Deconstruct Robot**]({{ site.baseurl }}{% link docs/Deconstruct/Definitions/Deconstruct Robot.md %})
 
 ## **Casting methods**
+
+**Cast <u>from</u>** a **Mechanical Unit parameter:** Constructs an {{page.title}} parameter from a Mechanical Unit parameter. This is only possible if the {{page.title}} parameter was constructed from a Robot parameter.
+
+**Cast <u>to</u>** a **Mechanical Unit parameter:** Cast to the Mechanical Unit parameter.
 
 **Cast <u>to</u>** a **Robot Tool parameter:** Cast to the Robot Tool parameter. Defines the Robot Tool that is attached to the robot. 
 

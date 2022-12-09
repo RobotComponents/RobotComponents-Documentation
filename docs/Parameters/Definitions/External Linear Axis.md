@@ -23,7 +23,11 @@ Contains the data of an **External Linear Axis**.
 
 ## **Casting methods**
 
+**Cast <u>from</u>** a **Mechanical Unit parameter:** Constructs an {{page.title}} parameter from a Mechanical Unit parameter. This is only possible if the {{page.title}} parameter was constructed from a External Linear Axis parameter.
+
 **Cast <u>from</u>** an **External Axis parameter:** Constructs an {{page.title}} parameter from a generic External Axis parameter. This is only possible if the {{page.title}} parameter was constructed from an {{page.title}} parameter.
+
+**Cast <u>to</u>** a **Mechanical Unit parameter:** Cast to the Mechanical Unit parameter.
 
 **Cast <u>to</u>** a **Curve parameter:** Cast to the Curve parameter. This curves defines the movement direction of the External Linear Axis. The curve goes through the origin of the attachment plane and has a domain that is equal to the axis limit. The length of the domain is equal to the length of the curve. 
 

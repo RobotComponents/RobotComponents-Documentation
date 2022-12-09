@@ -19,11 +19,13 @@ Deconstructs a [Move]({{ site.baseurl }}{% link docs/Parameters/Actions/Move.md 
 
 ## **Output Parameters**
 
+**Movement Type (MT):** Contains information on the movement type of the deconstructed move component.
+
 [**Target**]({{ site.baseurl }}{% link docs/Parameters/Actions/Target.md %}) **(T):** Contains the target of the deconstructed move component.
 
 [**Speed Data**]({{ site.baseurl }}{% link docs/Parameters/Actions/Speed Data.md %}) **(SD):** Contains the [Speed Data]({{ site.baseurl }}{% link docs/Parameters/Actions/Speed Data.md %}) of the deconstructed move component.
 
-**Movement Type (MT):** Contains information on the movement type of the deconstructed move component.
+**Time (TI):** Contains information on the movement time of the deconstructed move component in seconds. If the value is positive, this overwrites the defined speeddata value to obtain the desired movement time.
 
 [**Zone Data**]({{ site.baseurl }}{% link docs/Parameters/Actions/Zone Data.md %}) **(ZD):** Contains the [Zone Data]({{ site.baseurl }}{% link docs/Parameters/Actions/Zone Data.md %}) of the deconstructed move component.
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Robot Tool from Planes
+title: Robot Tool
 nav_order: 3
 parent: Definition Components
 grand_parent: Robot Components Categories

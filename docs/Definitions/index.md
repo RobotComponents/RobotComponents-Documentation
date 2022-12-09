@@ -18,9 +18,7 @@ Definition components are used for [Code Generation]({{ site.baseurl }}{% link d
 
 [**Robot Presets**]({{ site.baseurl }}{% link docs/Definitions/Robot Presets.md %})**:** A collection of predefined ABB robot components.
 
-[**Robot Tool from Planes**]({{ site.baseurl }}{% link docs/Definitions/Robot Tool from Planes.md %})**:** Defines a robot tool based on attachment and end-effector planes.
-
-[**Robot Tool from Quaternions**]({{ site.baseurl }}{% link docs/Definitions/Robot Tool from Quaternions.md %})**:** Defines a robot tool based on quaternion values.
+[**Robot Tool**]({{ site.baseurl }}{% link docs/Definitions/Robot Tool.md %})**:** Defines a robot tool based on attachment and end-effector planes.
 
 [**External Linear Axis**]({{ site.baseurl }}{% link docs/Definitions/External Linear Axis.md %})**:** Defines a custom external linear axis.
 

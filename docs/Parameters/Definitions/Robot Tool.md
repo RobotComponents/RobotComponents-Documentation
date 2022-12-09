@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Robot Tool
-nav_order: 2
+nav_order: 6
 parent: Definition Parameters
 grand_parent: Parameter Components
 ---
@@ -15,9 +15,7 @@ Contains the data of a **Robot Tool**.
 
 ## **Constructors**
 
-[**Robot Tool from Planes**]({{ site.baseurl }}{% link docs/Definitions/Robot Tool from Planes.md %})
-
-[**Robot Tool from Quaternions**]({{ site.baseurl }}{% link docs/Definitions/Robot Tool from Quaternions.md %})
+[**Robot Tool**]({{ site.baseurl }}{% link docs/Definitions/Robot Tool.md %})
 
 ## **Deconstructors**
 

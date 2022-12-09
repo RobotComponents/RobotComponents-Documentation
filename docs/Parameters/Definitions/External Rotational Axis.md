@@ -23,8 +23,12 @@ Contains the data of an **External Rotational Axis**.
 
 ## **Casting methods**
 
+**Cast <u>from</u>** a **Mechanical Unit parameter:** Constructs an {{page.title}} parameter from a Mechanical Unit parameter. This is only possible if the {{page.title}} parameter was constructed from a External Rotational Axis parameter.
+
 **Cast <u>from</u>** an **External Axis parameter:** Constructs an {{page.title}} parameter from 
 External Axis parameter. This is only possible if the {{page.title}} parameter was constructed from an {{page.title}} parameter.
+
+**Cast <u>to</u>** a **Mechanical Unit parameter:** Cast to the Mechanical Unit parameter.
 
 **Cast <u>to</u>** a **Plane parameter:** Cast to the Plane parameter. Defines the position and orientation of the attachment plane of the {{page.title}}. The plane is given in for an external joint position of 0.
 
