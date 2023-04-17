@@ -53,7 +53,7 @@ aux_links:
     - "//github.com/RobotComponents/RobotComponents-Documentation"
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "This documentation website is generated for Robot Components v1.5 - Copyright &copy; 2018-2023"
+footer_content: "This documentation website is generated for Robot Components v1.5 | Copyright &copy; 2018-2023"
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
