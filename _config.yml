@@ -53,9 +53,8 @@ aux_links:
     - "//github.com/RobotComponents/RobotComponents-Documentation"
 
 # Footer content appears at the bottom of every page's main content
-footer_content: |+ 
+footer_content: |
 This documentation website is generated for Robot Components v1.5
-
 Copyright &copy; 2018-2023 The Robot Components authors and / or their affiliations
 
 # Color scheme currently only supports "dark" or nil (default)
