@@ -44,15 +44,12 @@ Robot Components is an open source project initiated by the chair of [Experiment
 We forked the theme from [Just The Docs](https://github.com/pmarsceill/just-the-docs). The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT). See below for the license of the content of the documentation website. 
 
 ## License
-
-Robot Components
-
 Copyright (c) 2018-2023 [The Robot Components authors and / or their affiliations](https://github.com/RobotComponents/RobotComponents/blob/master/AUTHORS.md)
 
-Robot Components is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License version 3.0 as published by the Free Software Foundation. 
+Robot Components is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0 as published by the Free Software Foundation. 
 
-Robot Components is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+Robot Components is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU Lesser General Public License along with Robot Components; If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License along with Robot Components; If not, see <http://www.gnu.org/licenses/>.
 
-@license LGPL-3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>
+@license GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.html>
