@@ -1,13 +1,11 @@
 # Robot Components Documentation
 
 [![License](https://img.shields.io/github/license/RobotComponents/RobotComponents-Documentation)]()
-[![Closed Issues](https://img.shields.io/github/issues-raw/RobotComponents/RobotComponents-Documentation)]()
-[![Open Issues](https://img.shields.io/github/issues-closed-raw/RobotComponents/RobotComponents-Documentation)]()
 <a href="https://doi.org/10.5281/zenodo.5773814"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5773814.svg" alt="DOI"></a>
 
 This repo contains the content of [robotcomponents.github.io/RobotComponents-Documentation/](https://robotcomponents.github.io/RobotComponents-Documentation/). The documentation page is built on [Just The Docs](https://github.com/pmarsceill/just-the-docs). 
 
-Pull request are welcome. If you want to build the site yourself, to test your changes before opening a pull request, then please check out the getting started guide below. 
+Pull requests are welcome. If you want to build the site yourself, to test your changes before opening a pull request, then please check out the getting started guide below. 
 
 ## Getting started
 ### Installation
@@ -39,12 +37,12 @@ Now you can open [http://localhost:4000/](http://localhost:4000/) in your browse
 ## Credits
 ![EDEK_logo](https://github.com/RobotComponents/RobotComponents-Documentation/blob/master/181101_EDEK-LOGO-01.png)
 
-Robot Components is an open source project initiated by the chair of [Experimental and Digital Design and Construction of the University of Kassel](https://www.uni-kassel.de/fb06/institute/architektur/fachgebiete/experimentelles-und-digitales-entwerfen-und-konstruieren/home). The technical development is executed by the developers and contributors who are listed [here](https://github.com/RobotComponents/RobotComponents-Documentation/blob/master/AUTHORS.md).
+Robot Components is an open-source project that was initiated by the chair of [Experimental and Digital Design and Construction of the University of Kassel](https://www.uni-kassel.de/fb06/institute/architektur/fachgebiete/experimentelles-und-digitales-entwerfen-und-konstruieren/home). The technical development is executed by the developers and contributors who are listed [here](https://github.com/RobotComponents/RobotComponents-Documentation/blob/master/AUTHORS.md).
 
 We forked the theme from [Just The Docs](https://github.com/pmarsceill/just-the-docs). The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT). See below for the license of the content of the documentation website. 
 
 ## License
-Copyright (c) 2018-2023 [The Robot Components authors and / or their affiliations](https://github.com/RobotComponents/RobotComponents/blob/master/AUTHORS.md)
+Copyright (c) 2018-2023 [The Robot Components authors and/or their affiliations](https://github.com/RobotComponents/RobotComponents/blob/master/AUTHORS.md)
 
 Robot Components is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0 as published by the Free Software Foundation. 
 
