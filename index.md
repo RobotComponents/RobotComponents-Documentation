@@ -61,8 +61,7 @@ We would like to acknowledge [Jose Luis Garcia del Castillo](https://github.com/
 
 # **License**
 
-Copyright (c) 2018-2020 EDEK Uni Kassel
-
+Copyright (c) 2018-2020 EDEK Uni Kassel\
 Copyright (c) 2020-2024 Arjen Deetman
 
 Robot Components is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0 as published by the Free Software Foundation. 
